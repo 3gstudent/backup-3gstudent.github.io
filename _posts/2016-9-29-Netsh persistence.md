@@ -175,12 +175,12 @@ https://github.com/outflankbv/NetshHelperBeacon
 
 如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-9-29/2-1.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-9-29/2-1.png)
 
 
 如下图，注册表同步创建键值
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-9-29/2-2.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-9-29/2-2.png)
 
 位置：```HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NetSh```
 
@@ -202,7 +202,7 @@ helper dll添加成功后，每次调用netsh，均会加载c:\test\netshtest.dl
 
 如图，运行netsh命令，加载c:\test\netshtest.dll，弹出计算器
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-9-29/2-3.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-9-29/2-3.png)
 
 
 验证：
@@ -211,7 +211,7 @@ helper dll添加成功后，每次调用netsh，均会加载c:\test\netshtest.dl
 
 如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-9-29/3-1.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-9-29/3-1.png)
 
 
 
@@ -219,7 +219,7 @@ helper dll添加成功后，每次调用netsh，均会加载c:\test\netshtest.dl
 
 如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-9-29/3-2.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-9-29/3-2.png)
 
 
 
