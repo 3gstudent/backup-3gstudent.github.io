@@ -25,7 +25,7 @@ poweshell代码如下：
 
 `Get-WmiObject -Namespace ROOT\CIMV2 -Class Win32_OperatingSystem`
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-16/2-1.PNG)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-16/2-1.PNG)
 
 换成wmic.exe的命令为：
 
@@ -33,7 +33,7 @@ poweshell代码如下：
 
 回显如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-16/2-2.PNG)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-16/2-2.PNG)
 
 **注：**
 
@@ -45,7 +45,7 @@ poweshell代码如下：
 
 如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-16/2-3.PNG)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-16/2-3.PNG)
 
 依此格式，其他通过powershell调用wmi查询的方法均可用wmic实现，例如：
 
@@ -83,11 +83,11 @@ powershell代码如下：
 
 注册表内容如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-16/2-4.PNG)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-16/2-4.PNG)
 
 命令返回的结果如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-16/2-5.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-16/2-5.png)
 
 **注：**
 
@@ -99,7 +99,7 @@ powershell代码如下：
 
 返回结果如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-16/2-7.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-16/2-7.png)
 
 
 获取指定值的字符串数据值：
@@ -108,7 +108,7 @@ powershell代码如下：
 
 返回结果如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-16/2-8.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-16/2-8.png)
 
 创建子项:
 
@@ -116,7 +116,7 @@ powershell代码如下：
 
 返回结果如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-16/2-9.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-16/2-9.png)
 
 **注：**
 
@@ -128,7 +128,7 @@ powershell代码如下：
 
 返回结果如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-16/3-1.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-16/3-1.png)
 
 **注：**
 如果一个命名值不存在，则新建；如果存在，则为修改
@@ -170,7 +170,7 @@ powershell代码如下：
 
 返回结果如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-16/3-2.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-16/3-2.png)
 
 ### 2、查看当前进程
 
@@ -290,7 +290,7 @@ Matt Nelson @enigma0x3
 
 如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-16/3-3.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-16/3-3.png)
 
 
 接下来，如果在注册表`HKCU\Software\Classes\mscfile\shell\open\command`中添加payload，就可以在启动mmc.exe之前执行预设的payload
