@@ -50,7 +50,7 @@ C:\Windows\Microsoft.Net\Framework\v4.0.30319\msbuild.exe test.csproj
 ```
 
 在cmd下会输出显示当前时间，如图
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-9-20/2-1.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-9-20/2-1.png)
 
 
 
@@ -91,7 +91,7 @@ C:\Windows\Microsoft.Net\Framework\v4.0.30319\msbuild.exe hello.csproj
 
 如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-9-20/2-2.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-9-20/2-2.png)
 
 
 
@@ -147,7 +147,7 @@ cmd输出helloworld
 
 如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-9-20/2-3.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-9-20/2-3.png)
 
 
 
@@ -161,7 +161,7 @@ https://gist.github.com/subTee/6b236083da2fd6ddff216e434f257614
 
 如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-9-20/3-1.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-9-20/3-1.png)
 
 
 标记1TaskName可修改，但两个位置的名称需要对应
@@ -180,7 +180,7 @@ https://gist.github.com/subTee/6b236083da2fd6ddff216e434f257614
 
 如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-9-20/3-2.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-9-20/3-2.png)
 
 
 标记5为固定格式，定义为`public class ClassExample :  Task, ITask`
@@ -189,7 +189,7 @@ https://gist.github.com/subTee/6b236083da2fd6ddff216e434f257614
 
 实际测试POC如图,成功执行powershell命令
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-9-20/3-3.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-9-20/3-3.png)
 
 
 
@@ -199,7 +199,7 @@ Casey分享的POC地址如下：
 
 https://gist.github.com/subTee/ca477b4d19c885bec05ce238cbad6371
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-9-20/3-4.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-9-20/3-4.png)
 
 但是上传的文件被截断，导致部分代码无法查看，于是尝试自己实现
 
@@ -221,7 +221,7 @@ C:\Windows\Microsoft.NET\Framework\v4.0.30319\msbuild.exe aa
 
 报错，如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-9-20/4-1.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-9-20/4-1.png)
 
 
 **解决方法：**
@@ -236,7 +236,7 @@ C:\Windows\Microsoft.NET\Framework64\v4.0.30319\msbuild.exe aa
 
 加载成功，如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-9-20/4-2.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-9-20/4-2.png)
 
 
 
@@ -271,7 +271,7 @@ C:\Windows\Microsoft.NET\Framework\v4.0.30319\msbuild.exe SimpleTasks.csproj
 
 如图，成功执行shellcode弹出计算器
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-9-20/4-3.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-9-20/4-3.png)
 
 
 
@@ -281,7 +281,7 @@ https://github.com/3gstudent/msbuild-inline-task/blob/master/executes%20x64%20sh
 
 如图，成功执行64位shellcode
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-9-20/4-4.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-9-20/4-4.png)
 
 
 
@@ -295,7 +295,7 @@ https://github.com/3gstudent/msbuild-inline-task/blob/master/executes%20shellcod
 
 如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-9-20/5-1.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-9-20/5-1.png)
 
 
 
