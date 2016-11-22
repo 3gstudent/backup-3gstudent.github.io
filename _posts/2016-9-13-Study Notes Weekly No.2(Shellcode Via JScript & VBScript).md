@@ -76,7 +76,7 @@ res = DX.MessageBoxW(0, "Hello, world!", "Test", 4);        // Call the function
 
 注册前，js脚本执行失败，如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-9-13/2-1.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-9-13/2-1.png)
 
 
 注册组件，执行
@@ -87,7 +87,7 @@ regsvr32 /i dynwrapx.dll
 
 再次执行js脚本，成功弹框，如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-9-13/2-2.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-9-13/2-2.png)
 
 
 成功调用win32 API
@@ -101,7 +101,7 @@ C:\Windows\SysWow64\cscript.exe a.js
 
 如图,默认64位cscript.exe无法调用COM组件，换成32位，执行成功
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-9-13/2-3.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-9-13/2-3.png)
 
 
 
@@ -125,7 +125,7 @@ generate -t csharp
 
 如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-9-13/3-1.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-9-13/3-1.png)
 
 获得shellcode
 
@@ -162,7 +162,7 @@ byte[] buf = new byte[193] {
 https://gist.github.com/subTee/ca6ab8ec75ec38c213da580cd0de30fe
 
 代码比较简洁，在此不做详细介绍，直接替换其中的shellcode，正常执行，如图
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-9-13/3-2.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-9-13/3-2.png)
 
 
 **注：**
@@ -217,7 +217,7 @@ db220ef1a2e8/Dropper.Sct scrobj.dll
 
 实际测试如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-9-13/3-5.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-9-13/3-5.png)
 
 
 ## 0x05 补充
@@ -232,7 +232,7 @@ http://www.minner.ru/html/Dynwrapx.html
 
 64位dll注册成功后，js脚本可直接运行，如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-9-13/3-3.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-9-13/3-3.png)
 
 
 **注：**
@@ -244,7 +244,7 @@ http://www.minner.ru/html/Dynwrapx.html
 `new ActiveXObject("DynamicWrapperX")`改为`new ActiveXObject("DynamicWrapperX.2")`
 
 如图
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-9-13/3-4.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-9-13/3-4.png)
 
 
 
@@ -273,7 +273,7 @@ http://www.nirsoft.net/utils/registered_dll_view.html
 
 如图，通过查看已注册的COM控件，找到dynwrapx.dll
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-9-13/4-1.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-9-13/4-1.png)
 
 手动卸载组件，即可限制该方法的运用。
 
