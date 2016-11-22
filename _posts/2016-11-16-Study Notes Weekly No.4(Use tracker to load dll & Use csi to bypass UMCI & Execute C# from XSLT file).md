@@ -1,3 +1,8 @@
+---
+layout: post
+title: Study Notes Weekly No.4(Use tracker to load dll & Use csi to bypass UMCI & Execute C# from XSLT file)
+---
+
 
 **About:**
 
