@@ -1,4 +1,7 @@
-
+---
+layout: post
+title: 隐写技巧——利用JPEG文件格式隐藏payload
+---
 
 ## 0x00 前言
 ---
