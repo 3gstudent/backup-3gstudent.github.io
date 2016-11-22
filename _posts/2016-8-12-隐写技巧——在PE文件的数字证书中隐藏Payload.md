@@ -19,7 +19,7 @@ https://www.blackhat.com/docs/us-16/materials/us-16-Nipravsky-Certificate-Bypass
 
 ## 0x02 PE文件格式和数字签名格式
 ---
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-12/1.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-12/1.png)
 
 
 > 图1引用自Windows Authenticode Portable Executable Signature Format
@@ -88,7 +88,7 @@ LordPE
 
 使用`CFF Explorer`查看dll结构，如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-12/3-1.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-12/3-1.png)
 
 可获得如下信息：
 
@@ -108,7 +108,7 @@ Certificate Table的前四字节保存长度，大小应该为14640 bytes（1292
 
 如图，前四字节为30390000,转换成实际长度为00003930H,即14640 bytes
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-12/3-2.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-12/3-2.png)
 
 ### 2、修改Certificate Size in Certificate Table
 
@@ -126,27 +126,27 @@ New Size = Old Size + Payload Size
 
 对应偏移地址138000H-138003的数据修改为3A390000,如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-12/3-3.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-12/3-3.png)
 
 
 ### 3、定位Certificate Size in Optional Header
 
 使用`CFF Explorer`查看dll结构，选择Nt Headers-Optional Header-Data Directories [x],找到Security Directory Size项，如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-12/3-4.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-12/3-4.png)
 
 
 ### 4、修改Certificate Size in Optional Header
 
 00003930修改为0000393A，如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-12/3-5.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-12/3-5.png)
 
 保存文件，查看文件信息，签名失效（因为还没有添加payload）
 
 如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-12/3-6.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-12/3-6.png)
 
 
 ### 5、添加payload
@@ -155,28 +155,28 @@ New Size = Old Size + Payload Size
 
 如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-12/3-7.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-12/3-7.png)
 
 保存后，签名成功识别，如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-12/3-8.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-12/3-8.png)
 
 
 ### 6、修改PE文件校验和
 
 使用`LordPE`打开PE文件，如图，原文件的校验和为0013E00E
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-12/3-9.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-12/3-9.png)
 
 点击"?"对其更新，如图，新的校验和为00142672
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-12/3-10.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-12/3-10.png)
 
 使用`CFF Explorer`打开PE文件，选择Nt Headers-Optional Header，找到CheckSum项
 
 原校验和为0013E00E，如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-12/3-11.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-12/3-11.png)
 
 修改为00142672，保存为ntdll(AddPayload).dll
 
@@ -196,11 +196,11 @@ New Size = Old Size + Payload Size
 
 如图，偏移地址2000H（8192）
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-12/3-12.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-12/3-12.png)
 
 跳到偏移地址2000H,查看前四字节，如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-12/3-13.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-12/3-13.png)
 
 Certificate Size为00001c50H
 
@@ -212,14 +212,14 @@ Certificate Size为00001c50H
 
 修改为5A1C0000，如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-12/3-14.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-12/3-14.png)
 
 
 ### 3、定位Certificate Size in Optional Header
 
 如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-12/3-15.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-12/3-15.png)
 
 
 ### 4、修改Certificate Size in Optional Header
@@ -232,7 +232,7 @@ Certificate Size为00001c50H
 
 如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-12/3-16.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-12/3-16.png)
 
 
 ### 6、修改PE文件校验和
@@ -275,14 +275,14 @@ newntdll.dll：新生成的文件
 
 如图，多了6个'00'，补齐长度
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-12/4-1.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-12/4-1.png)
 
 
 2.未修改PE文件校验和
 
 如图，PE文件校验和实际应该为00142684
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-12/4-2.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-12/4-2.png)
 
 ### 2、Joakim Schicht的实现方法
 
@@ -294,7 +294,7 @@ http://reboot.pro/files/file/85-digitalsignaturetweaker/
 
 界面如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-12/4-3.PNG)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-12/4-3.PNG)
 
 ## 0x06 小结
 ---
