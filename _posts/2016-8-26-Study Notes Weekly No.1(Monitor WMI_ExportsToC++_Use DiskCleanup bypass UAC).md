@@ -58,7 +58,7 @@ Powershell v3.0
 
 如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-26//2-1.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-26//2-1.png)
 
 
 
@@ -95,7 +95,7 @@ wmic /NAMESPACE:"\\root\subscription" PATH __FilterToConsumerBinding CREATE Filt
 
 找到事件ID为8的事件，查看详细信息，如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-26/2-2.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-26/2-2.png)
 
 
 记录了如下信息：
@@ -147,7 +147,7 @@ Command Executed: C:\Windows\System32\notepad.exe
 
 如图，能够查看防御者留下的监控代码，那么当然可以通过命令行来删除监控，而更重要的是查看和删除操作不会被记录到日志中
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-26/2-3.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-26/2-3.png)
 
 
 通过powershell实现的删除代码如下：
@@ -239,7 +239,7 @@ c:\Windows\system32\dimsjob.dll
 
 下载工程并编译，直接运行会报错，如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-26/3-1.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-26/3-1.png)
 
 
 **解决方法：**
@@ -250,7 +250,7 @@ c:\Windows\system32\dimsjob.dll
 
 如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-26/3-2.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-26/3-2.png)
 
 打开原dll：
 
@@ -281,7 +281,7 @@ BOOL WINAPI DllMain(HINSTANCE hInst,DWORD reason,LPVOID)
 
 如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-26/3-3.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-26/3-3.png)
 
 
 
@@ -336,12 +336,12 @@ Invoke-ScheduledTaskComHandlerUserTask -Command "c:\test\testexport.dll" -Verbos
 
 如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-26/3-4.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-26/3-4.png)
 
 
 使用Process Explorer查看进程taskhost.exe，成功加载新的dll，如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-26/3-5.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-26/3-5.png)
 
 
 **注：**
@@ -397,27 +397,27 @@ KB3173428(无法手动卸载)
 
 如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-26/4-1.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-26/4-1.png)
 
 
 cleanmgr.exe创建临时目录
 
 如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-26/4-2.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-26/4-2.png)
 
 切换到临时目录查看复制过来的dll
 
 如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-26/4-3.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-26/4-3.png)
 
 
 high权限运行的DismHost.exe
 
 如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-26/4-4.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-26/4-4.png)
 
 
 **2、**通过POC脚本启动计划任务并测试
