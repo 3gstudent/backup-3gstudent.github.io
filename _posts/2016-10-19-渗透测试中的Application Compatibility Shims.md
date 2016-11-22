@@ -1,3 +1,9 @@
+---
+layout: post
+title: 渗透测试中的Application Compatibility Shims
+---
+
+
 ## 0x00 前言
 ---
 
