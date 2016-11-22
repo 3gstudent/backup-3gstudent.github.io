@@ -346,7 +346,9 @@ http://www.impulseadventure.com/photo/jpeg-snoop.html
 
 相比于png文件，由于jpeg文件没有对图像数据的校验位，所以在jpeg文件中添加payload简单了很多
 
-下载JPEG图片解析并执行payload的方法不再介绍(可参照https://3gstudent.github.io/3gstudent.github.io/%E9%9A%90%E5%86%99%E6%8A%80%E5%B7%A7-%E5%88%A9%E7%94%A8PNG%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F%E9%9A%90%E8%97%8FPayload/)
+下载JPEG图片解析并执行payload的方法不再介绍
+
+(可参照https://3gstudent.github.io/3gstudent.github.io/%E9%9A%90%E5%86%99%E6%8A%80%E5%B7%A7-%E5%88%A9%E7%94%A8PNG%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F%E9%9A%90%E8%97%8FPayload/)
 
 ## 0x06 小结
 ---
