@@ -68,21 +68,35 @@ Github:  https://github.com/3gstudent
 
  [Joomla 3.4.4-3.6.3 Account Creation &Privilege Escalation测试记录](https://3gstudent.github.io/3gstudent.github.io/Joomla-3.4.4-3.6.3-Account-Creation-&Privilege-Escalation%E6%B5%8B%E8%AF%95%E8%AE%B0%E5%BD%95/)
  
-- Netsh persistence
-- Study Notes of WMI Persistence using wmic.exe
-- Study Notes Weekly No.1(Monitor WMI & ExportsToC++ & Use DiskCleanup bypass UAC)
-- Study Notes Weekly No.2(Shellcode Via JScript & VBScript)
-- Study Notes Weekly No.3(Use odbcconf to load dll & Get-Exports & ETW USB Keylogger)
-- Study Notes Weekly No.4(Use tracker to load dll & Use csi to bypass UMCI & Execute C# from XSLT file)
-- Use MSBuild To Do More
-- Userland registry hijacking
-- 故障诊断平台在渗透测试中的应用技巧
-- 渗透测试中的Application Compatibility Shims
-- 渗透测试中的Volume Shadow Copy
-- 隐写技巧——在PE文件的数字证书中隐藏Payload
-- 隐写技巧——PNG文件中的LSB隐写
-- 隐写技巧——利用JPEG文件格式隐藏payload
-- 隐写技巧——利用PNG文件格式隐藏Payload
+ [Netsh persistence](https://3gstudent.github.io/3gstudent.github.io/Netsh-persistence/)
+ 
+ [Study Notes of WMI Persistence using wmic.exe](https://3gstudent.github.io/3gstudent.github.io/Study-Notes-of-WMI-Persistence-using-wmic.exe/)
+ 
+ [Study Notes Weekly No.1(Monitor WMI & ExportsToC++ & Use DiskCleanup bypass UAC)](https://3gstudent.github.io/3gstudent.github.io/Study-Notes-Weekly-No.1(Monitor-WMI_ExportsToC++_Use-DiskCleanup-bypass-UAC)/)
+ 
+ [Study Notes Weekly No.2(Shellcode Via JScript & VBScript)](https://3gstudent.github.io/3gstudent.github.io/Study-Notes-Weekly-No.2(Shellcode-Via-JScript-&-VBScript)/)
+ 
+ [Study Notes Weekly No.3(Use odbcconf to load dll & Get-Exports & ETW USB Keylogger)](https://3gstudent.github.io/3gstudent.github.io/Study-Notes-Weekly-No.3(Use-odbcconf-to-load-dll-&-Get-Exports-&-ETW-USB-Keylogger)/)
+
+ Study Notes Weekly No.4(Use tracker to load dll & Use csi to bypass UMCI & Execute C# from XSLT file)
+ 
+ [Use MSBuild To Do More](https://3gstudent.github.io/3gstudent.github.io/Use-MSBuild-To-Do-More/)
+
+ [Userland registry hijacking](https://3gstudent.github.io/3gstudent.github.io/Userland-registry-hijacking/) 
+
+ [故障诊断平台在渗透测试中的应用技巧](https://3gstudent.github.io/3gstudent.github.io/%E6%95%85%E9%9A%9C%E8%AF%8A%E6%96%AD%E5%B9%B3%E5%8F%B0%E5%9C%A8%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8%E6%8A%80%E5%B7%A7/) 
+
+ [渗透测试中的Application Compatibility Shims](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B8%AD%E7%9A%84Application-Compatibility-Shims/) 
+
+ [渗透测试中的Volume Shadow Copy](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B8%AD%E7%9A%84Volume-Shadow-Copy/) 
+
+ [隐写技巧——在PE文件的数字证书中隐藏Payload](https://3gstudent.github.io/3gstudent.github.io/%E9%9A%90%E5%86%99%E6%8A%80%E5%B7%A7-%E5%9C%A8PE%E6%96%87%E4%BB%B6%E7%9A%84%E6%95%B0%E5%AD%97%E8%AF%81%E4%B9%A6%E4%B8%AD%E9%9A%90%E8%97%8FPayload/)
+
+ [隐写技巧——PNG文件中的LSB隐写](https://3gstudent.github.io/3gstudent.github.io/%E9%9A%90%E5%86%99%E6%8A%80%E5%B7%A7-PNG%E6%96%87%E4%BB%B6%E4%B8%AD%E7%9A%84LSB%E9%9A%90%E5%86%99/)
+
+ 利用JPEG文件格式隐藏payload
+ 
+ [利用PNG文件格式隐藏Payload](https://3gstudent.github.io/3gstudent.github.io/%E9%9A%90%E5%86%99%E6%8A%80%E5%B7%A7-%E5%88%A9%E7%94%A8PNG%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F%E9%9A%90%E8%97%8FPayload/) 
 
 ---
 
