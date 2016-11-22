@@ -28,7 +28,7 @@ title: Userland registry hijacking
 
 如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-22/1-1.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-22/1-1.png)
 
 **注：**
 
@@ -38,7 +38,7 @@ title: Userland registry hijacking
 
 如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-22/1-2.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-22/1-2.png)
 
 **注：**
 
@@ -46,7 +46,7 @@ title: Userland registry hijacking
 
 如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-22/1-3.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-22/1-3.png)
 
 新建HKEY_CURRENT_USER\Software\Classes\mscfile\shell\open\command\1，默认名称的数据设为1，然而HKEY_CLASSES_ROOT\mscfile\shell\open\command并不会新建子项1
 
@@ -77,12 +77,12 @@ https://github.com/enigma0x3/Misc-PowerShell-Stuff/blob/master/Get-ScheduledTask
 
 通过计划任务面板查看的信息不完全，计划任务面板的打开方式为：我的电脑-右键-管理，找到计划任务，如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-22/1-4.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-22/1-4.png)
 
 
 ps脚本获取的部分对应关系如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-22/1-5.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-22/1-5.png)
 
 可获得每个计划任务对应注册表键值的位置和启动的dll
 
@@ -131,13 +131,13 @@ https://github.com/enigma0x3/MessageBox
 
 此时查看HKEY_CLASSES_ROOT\CLSID\{58fb76b9-ac85-4e55-ac04-427593b1d060}\InprocServer32，默认值被修改为c:\test\MessageBox32.dll，如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-22/2-0.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-22/2-0.png)
 
 注销用户，重新登录，MessageBox32.dll被加载，弹框
 
 但是在Scheduled Task面板的日志中会提示DLL中出错(0x800401F9)，如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-22/2-1.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-22/2-1.png)
 
 猜测是导出函数的问题导致dll加载报错，使用dumpbin查看计划任务UserTask对应的原dll的导出函数，执行：
 
@@ -148,7 +148,7 @@ UserTask对应的原dll的绝对路径为C:\Windows\system32\dimsjob.dll
 
 获得dimsjob.dll的导出函数表，如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-22/2-2.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-22/2-2.png)
 
 所以需要为dll添加新的导出函数：
 
@@ -163,13 +163,13 @@ UserTask对应的原dll的绝对路径为C:\Windows\system32\dimsjob.dll
 
 添加成功后，dumpbin查看结果如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-22/2-3.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-22/2-3.png)
 
 替换旧的MessageBox32.dll，注销用户，重新登录，新的MessageBox32.dll被加载，弹框
 
 查看Scheduled Task面板的日志，问题解决，操作成功完成，如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-22/2-4.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-22/2-4.png)
 
 以上操作可通过powershell自动实现，修改UserTask的代码如下：
 
@@ -209,7 +209,7 @@ Invoke-ScheduledTaskComHandlerUserTask -Command "C:\test\testmsg.dll" -Verbose
 
 在运行后，当用户重新登录后，加载dll，实际演示如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-22/2-5.gif)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-22/2-5.gif)
 
 依次执行DLL_PROCESS_ATTACH()和DllGetClassObject(),由于DllGetClassObject()仅作弹框，所以之后会显示taskhost.exe报错
 
@@ -240,7 +240,7 @@ sigcheck.exe -m c:\windows\system32\eventvwr.exe
 
 返回结果如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-22/3-1.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-22/3-1.png)
 
 从level="highestAvailable"得知eventvwr.exe的权限为高权限
 
@@ -250,7 +250,7 @@ sigcheck.exe -m c:\windows\system32\eventvwr.exe
 
 查看文件图标，如果带有UAC标志，那么一定是高权限的程序，如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-22/3-2.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-22/3-2.png)
 
 
 ### 2、使用Process Monitor查看进程调用关系
@@ -261,11 +261,11 @@ sigcheck.exe -m c:\windows\system32\eventvwr.exe
 
 Process Monitor选择Tools-Process Tree，找到eventvwr.exe，右键-Go To Event，如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-22/3-3.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-22/3-3.png)
 
 仔细查看进程调用关系，如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-22/3-4.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-22/3-4.png)
 
 找到如下信息：
 
@@ -285,7 +285,7 @@ Process Monitor选择Tools-Process Tree，找到eventvwr.exe，右键-Go To Even
 
 使用Process Monitor查看进程调用关系，如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-22/3-5.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-22/3-5.png)
 
 此时对键值HKCU\Software\Classes\mscfile\shell\open\command的查询结果为SUCCESS
 
@@ -293,14 +293,14 @@ Process Monitor选择Tools-Process Tree，找到eventvwr.exe，右键-Go To Even
 
 calc.exe的权限为high，如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-22/3-6.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-22/3-6.png)
 
 
 ### 4、更多结论
 
 修改HKCU\Software\Classes\mscfile\shell\open\command后，会劫持所有.msc文件的运行，如gpedit.msc,如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-8-22/2-6.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-8-22/2-6.png)
 
 按照这个方法，我对system32下的所有高权限exe进行了测试，尚未发现根据同样的方法利用command键值实现的UACBypass，但是其他键值仍值得测试。
 
