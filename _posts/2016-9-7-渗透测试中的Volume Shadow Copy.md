@@ -68,7 +68,7 @@ vssadmin系统自带
 
 如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-9-7/2-1.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-9-7/2-1.png)
 
 
 
@@ -80,7 +80,7 @@ wmic /NAMESPACE:"\\root\CIMV2" PATH Win32_ShadowCopy GET /all /FORMAT:list
 
 如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-9-7/2-2.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-9-7/2-2.png)
 
 
 提取出关键的信息DeviceObject、ID和InstallDate，对应wmic命令如下：
@@ -91,7 +91,7 @@ wmic /NAMESPACE:"\\root\CIMV2" PATH Win32_ShadowCopy GET DeviceObject,ID,Install
 
 如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-9-7/2-3.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-9-7/2-3.png)
 
 
 **注：**
@@ -120,8 +120,8 @@ mklink /d c:\testvsc \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy4\
 
 如图，成功创建
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-9-7/2-4.png)
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-9-7/2-5.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-9-7/2-4.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-9-7/2-5.png)
 
 
 
@@ -137,7 +137,7 @@ mklink /d c:\testvsc \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy4\
 
 执行后弹框，如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-9-7/2-6.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-9-7/2-6.png)
 
 
 ### 1. 创建卷影镜像
@@ -149,9 +149,9 @@ vshadow.exe -p c:\
 
 如图，为C盘创建卷影镜像，DeviceName为`\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy5`，ID为{10f63e0b-e47d-4121-969f-87fa458c5043}
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-9-7/3-1.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-9-7/3-1.png)
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-9-7/3-2.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-9-7/3-2.png)
 
 
 ### 2. 创建符号链接
@@ -164,14 +164,14 @@ mklink /d c:\vscfiletest \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy5\
 创建文件夹c:\vscfiletest，执行其中的测试文件Win32Project1.exe
 如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-9-7/3-3.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-9-7/3-3.png)
 
 
 使用Process Explorer查看Win32Project1.exe，路径显示为c:\vscfiletest\test\Win32Project1.exe
 
 如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-9-7/3-4.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-9-7/3-4.png)
 
 
 ### 3. 删除符号链接
@@ -207,7 +207,7 @@ vssadmin delete shadows /shadow={10f63e0b-e47d-4121-969f-87fa458c5043} /quiet
 
 如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-9-7/3-5.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-9-7/3-5.png)
 
 
 **补充：**
@@ -221,7 +221,7 @@ vssadmin delete shadows /all /quiet
 
 如图
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/_posts/2016-9-7/3-6.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2016-9-7/3-6.png)
 
 
 
