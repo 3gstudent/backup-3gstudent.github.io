@@ -12,6 +12,7 @@ Application Compatibility是一个框架，主要用来解决应用程序在新�
 
 ## 0x01 简介
 ---
+
 ### Shim：
 
 相当于是在应用程序和Windows API之间的逻辑层。
