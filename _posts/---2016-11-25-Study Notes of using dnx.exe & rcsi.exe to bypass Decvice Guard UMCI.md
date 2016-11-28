@@ -397,7 +397,7 @@ rcsi.exe在Win10上运行同样需要支持文件
 ## 0x04 防御
 ---
 
-参照Matt Graeber的方法，更新Device Guard Bypass MitigationRules，可分别拦截利用WinDbg/CDB、csi.exe、dnx.exe和rcsi.exe的代码执行
+参照Matt Graeber的方法，更新Device Guard Bypass Mitigation Rules，可分别拦截利用WinDbg/CDB、csi.exe、dnx.exe和rcsi.exe的代码执行
 
 
 参考地址如下：
