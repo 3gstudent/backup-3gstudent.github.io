@@ -161,13 +161,14 @@ http://sdb.tools/files/paper.pdf
 
 **usage:** 
 
+```
  -? - print this help text.
  -p - Allow SDBs containing patches.
  -q - Quiet mode: prompts are auto-accepted.
  -u - Uninstall.
  -g {guid} - GUID of file (uninstall only).
  -n "name" - Internal name of file (uninstall only). 
-
+```
 
 **卸载：**
 
