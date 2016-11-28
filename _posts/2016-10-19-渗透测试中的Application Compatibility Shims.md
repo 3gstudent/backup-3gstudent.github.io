@@ -207,6 +207,7 @@ https://github.com/evil-e/sdb-explorer
 
 **usage:** 
 
+```
 Print full sdb tree
   sdb-explorer.exe -t filename.sdb 
 
@@ -231,7 +232,7 @@ Register sdb file
 
 Display usage
   sdb-explorer.exe -h
-
+```
 
 演示如图
 
@@ -281,12 +282,14 @@ https://blogs.msdn.microsoft.com/heaths/2007/11/03/shim-database-to-xml/
 
 **usage:** 
 
+```
 sdb2xml sdb [-out report] [-base64 | -extract] [-?]
 
   sdb          Path to the shim database to process.
   -base64      Base-64 encode data in the XML report.
   -extract     Extract binary data to current or report directory.
   -out report  Path to the XML file to generate; otherwise, output to console.
+```
 
 如图，使用sdb2xml查看test1.sdb文件中的数据
 
@@ -301,6 +304,7 @@ Alex Ionesceu
 
 **usage:** 
 
+```
 cdd.exe [-s][-e][-l][-f][-p][-d kernel-mode database file][-a usermode database file]
 
  -s Show shims
@@ -310,6 +314,7 @@ cdd.exe [-s][-e][-l][-f][-p][-d kernel-mode database file][-a usermode database 
  -p Show patches
  -d Use Blocked Driver Database from this path
  -a Use Application Compatibility Database from this path 
+```
 
 **参考地址：**
 
@@ -333,6 +338,7 @@ http://blog.kalmbach-software.de/2010/02/22/the-shim-database/
 
 **Usage:**  
 
+```
 sdb.exe [-noids] [-match] [PathToShimDatabse] [PathToFileName]
 
  -noids  Will prevent the output of the TagIds
@@ -342,7 +348,7 @@ sdb.exe [-noids] [-match] [PathToShimDatabse] [PathToFileName]
 
 NOTE: If no shim database path is provided,
       the default database will be used.
-
+```
 
 从.sdb文件提取出xml格式的数据，演示如图
 
