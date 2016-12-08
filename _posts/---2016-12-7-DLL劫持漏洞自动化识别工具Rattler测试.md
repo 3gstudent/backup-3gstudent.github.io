@@ -13,7 +13,8 @@ title: DLL劫持漏洞自动化识别工具Rattler测试
 **注：**
 
 ```
-Explorer Suite安装包内包含CFF Explorer，免费，常用来编辑PE文件格式，最后更新于2012年11月18日，是比较小众的一款工具。对于分析PE文件格式，建议使用作者另一款更专业的工具：Cerbero Profiler
+Explorer Suite安装包内包含CFF Explorer，免费，常用来编辑PE文件格式，最后更新于2012年11月18日，是比较小众的一款工具。
+对于分析PE文件格式，建议使用作者另一款更专业的工具：Cerbero Profiler
 ```
 
 ----------
