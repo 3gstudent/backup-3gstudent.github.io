@@ -66,6 +66,10 @@ Github:  https://github.com/3gstudent
 
 ### Recent Posts
 
+
+-
+ DLL劫持漏洞自动化识别工具Rattler测试
+
 - 
 [Joomla 3.4.4-3.6.3 Account Creation &Privilege Escalation测试记录](https://3gstudent.github.io/3gstudent.github.io/Joomla-3.4.4-3.6.3-Account-Creation-&Privilege-Escalation%E6%B5%8B%E8%AF%95%E8%AE%B0%E5%BD%95/)
  
