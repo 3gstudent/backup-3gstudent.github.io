@@ -97,7 +97,7 @@ Github:  https://github.com/3gstudent
  [Userland registry hijacking](https://3gstudent.github.io/3gstudent.github.io/Userland-registry-hijacking/) 
 
 - 
- War3地图“漏洞”分析介绍
+ [War3地图“漏洞”分析介绍](https://3gstudent.github.io/3gstudent.github.io/War3%E5%9C%B0%E5%9B%BE-%E6%BC%8F%E6%B4%9E-%E5%88%86%E6%9E%90%E4%BB%8B%E7%BB%8D/)
  
 - 
  [故障诊断平台在渗透测试中的应用技巧](https://3gstudent.github.io/3gstudent.github.io/%E6%95%85%E9%9A%9C%E8%AF%8A%E6%96%AD%E5%B9%B3%E5%8F%B0%E5%9C%A8%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8%E6%8A%80%E5%B7%A7/) 
@@ -115,7 +115,7 @@ Github:  https://github.com/3gstudent
  [隐写技巧——PNG文件中的LSB隐写](https://3gstudent.github.io/3gstudent.github.io/%E9%9A%90%E5%86%99%E6%8A%80%E5%B7%A7-PNG%E6%96%87%E4%BB%B6%E4%B8%AD%E7%9A%84LSB%E9%9A%90%E5%86%99/)
 
 - 
- 利用JPEG文件格式隐藏payload
+ [利用JPEG文件格式隐藏payload](https://3gstudent.github.io/3gstudent.github.io/%E9%9A%90%E5%86%99%E6%8A%80%E5%B7%A7-%E5%88%A9%E7%94%A8JPEG%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F%E9%9A%90%E8%97%8Fpayload/)
  
 - 
  [利用PNG文件格式隐藏Payload](https://3gstudent.github.io/3gstudent.github.io/%E9%9A%90%E5%86%99%E6%8A%80%E5%B7%A7-%E5%88%A9%E7%94%A8PNG%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F%E9%9A%90%E8%97%8FPayload/) 
