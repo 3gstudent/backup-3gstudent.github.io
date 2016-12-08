@@ -3,7 +3,7 @@ layout: post
 title: DLL劫持漏洞自动化识别工具Rattler测试
 ---
 
-## 0x01 前言
+## 0x00 前言
 ---
 
 最近，来自SensePost的Chris Le Roy开源了一款工具：`Rattler`，可用来自动识别DLL是否存在预加载漏洞(也可以理解为DLL劫持漏洞，文中该名词均采用DLL劫持漏洞)。虽然DLL劫持漏洞已不再是新技术，可追溯到2010年，但是我对自动化很是感兴趣，于是对此做了进一步研究。
@@ -25,7 +25,7 @@ https://sensepost.com/blog/2016/rattleridentifying-and-exploiting-dll-preloading
 Chris Le Roy在BSides Cape Town上也介绍了Rattler，简介如下：
 http://www.bsidescapetown.co.za/speaker/chris-le-roy/
 
-## 0x02 简介
+## 0x01 简介
 ---
 
 ### DLL劫持漏洞根源
@@ -86,7 +86,9 @@ KnownDLLs注册表项下包含一系列常见的系统dll，如usp10.dll、lpk.d
 **注：**
 
 ```
-如果创建注册表项`HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\ExcludeFromKnownDlls`并指定具体dll名称，可以使KnownDLLs列表中同名的dll保护失效
+如果创建注册表项
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\ExcludeFromKnownDlls
+并指定具体dll名称，可以使KnownDLLs列表中同名的dll保护失效
 修改后需要重启才能生效
 ```
 
@@ -124,7 +126,7 @@ http://www.freebuf.com/articles/78807.html
 ```
 
 
-## 0x03 利用实例
+## 0x02 利用实例
 ---
 
 接下来编写一个存在DLL劫持漏洞的实例，演示如何利用
@@ -177,7 +179,7 @@ int main()
 
 
 
-## 0x04 实际利用
+## 0x03 实际利用
 ---
 
 本节通过实例介绍如何使用Process Monitor查找程序中存在的DLL劫持漏洞，测试实例为Chris Le Roy在介绍Rattler的博客中提到过的`NDP461-KB3102438-Web.exe`
@@ -223,7 +225,7 @@ https://msdn.microsoft.com/library/ff919712
 **注：**
 
 ```
-设置Exclude Result is SUCCESS后会只显示`NAME NOT FOUND`项，也就是只查看未成功加载的dll项，即KnownDLLs的列表中不包含的dll名称，可用于查找存在漏洞的dll路径
+设置Exclude Result is SUCCESS后会只显示NAME NOT FOUND项，也就是只查看未成功加载的dll项，即KnownDLLs的列表中不包含的dll名称，可用于查找存在漏洞的dll路径
 ```
 
 如图
@@ -255,7 +257,7 @@ https://msdn.microsoft.com/library/ff919712
 
 
 
-## 0x05 程序自动化实现
+## 0x04 程序自动化实现
 ---
 
 通过Process Monitor查看DLL劫持漏洞是比较直接的方法，但是对于较大的程序，加载的DLL数目很多，手动查找很不现实，费事费力，所以如果能够通过程序实现上述过程，自动查找并利用，就可以大大提高效率，这就是Rattler所解决的问题
@@ -315,7 +317,7 @@ Rattler.exe NDP461-KB3102438-Web.exe 1
 
 
 
-## 0x06 验证测试
+## 0x05 验证测试
 ---
 
 掌握该方法后，测试其他程序，例如CFF Explorer的安装包`Explorer Suite`
@@ -345,7 +347,7 @@ http://www.ntcore.com/exsuite.php
 
 
 
-## 0x07 防御
+## 0x06 防御
 ---
 
 ### 1、开发者需要注意的问题：
@@ -370,7 +372,7 @@ https://support.microsoft.com/zh-cn/kb/2533623
 - 对于“不可信”的程序，建议使用Process Monitor或者Rattler检查是否存在DLL劫持漏洞
 
 
-## 0x08 小结
+## 0x07 小结
 ---
 
 我在对DLL劫持漏洞原理的研究过程中，走了一小段弯路，某些资料提到
