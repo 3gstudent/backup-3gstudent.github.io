@@ -15,7 +15,7 @@ Drops:    三好学生
 
 Twitter:  3gstudent
 
-Github:  https://github.com/3gstudent
+Github:   3gstudent
 
 ---
 
