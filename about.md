@@ -121,6 +121,9 @@ Github:   3gstudent
  [渗透测试中的Volume Shadow Copy](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B8%AD%E7%9A%84Volume-Shadow-Copy/) 
 
 - 
+ 渗透技巧——快捷方式文件的参数隐藏技巧
+
+- 
  [隐写技巧——在PE文件的数字证书中隐藏Payload](https://3gstudent.github.io/3gstudent.github.io/%E9%9A%90%E5%86%99%E6%8A%80%E5%B7%A7-%E5%9C%A8PE%E6%96%87%E4%BB%B6%E7%9A%84%E6%95%B0%E5%AD%97%E8%AF%81%E4%B9%A6%E4%B8%AD%E9%9A%90%E8%97%8FPayload/)
 
 - 
