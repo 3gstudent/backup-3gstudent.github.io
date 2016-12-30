@@ -76,7 +76,7 @@ Github:   3gstudent
  [Netsh persistence](https://3gstudent.github.io/3gstudent.github.io/Netsh-persistence/)
 
 - 
- Powershell tricks::Hide Process by kd.exe
+ [Powershell tricks::Hide Process by kd.exe](https://3gstudent.github.io/3gstudent.github.io/Powershell-tricks-Hide-Process-by-kd.exe/)
  
 - 
  Study Notes of using dnx.exe / rcsi.exe to bypass Decvice Guard UMCI
