@@ -21,9 +21,11 @@ Explorer Suite安装包内包含CFF Explorer，免费，常用来编辑PE文件�
 
 
 Chris Le Roy介绍Rattler的博客地址：
+
 https://sensepost.com/blog/2016/rattleridentifying-and-exploiting-dll-preloading-vulnerabilities/
 
 Chris Le Roy在BSides Cape Town上也介绍了Rattler，简介如下：
+
 http://www.bsidescapetown.co.za/speaker/chris-le-roy/
 
 ## 0x01 简介
@@ -54,19 +56,29 @@ HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\SafeDllSearc
 如果SafeDllSearchMode开启，程序会依次从以下位置查找DLL文件：
 
 The directory from which the application loaded
+
 The system directory
+
 The 16-bit system directory
+
 The Windows directory
+
 The current directory
+
 The directories that are listed in the PATH environment variable
 
 如果关闭，则从以下位置查找DLL文件：
 
 The directory from which the application loaded
+
 The current directory
+
 The system directory
+
 The 16-bit system directory
+
 The Windows directory
+
 The directories that are listed in the PATH environment variable
 
 详细内容见：
