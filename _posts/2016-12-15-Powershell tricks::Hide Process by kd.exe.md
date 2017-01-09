@@ -133,17 +133,17 @@ kd -kl -y "srv*c:\symbols*http://msdl.microsoft.com/download/symbols" -c "dt nt!
 
 1. p->prior->next=p->next
 
-Flink->Blink=Blink
+	Flink->Blink=Blink
 
 2. p->next->prior=p->prior
 
-Blink->Flink = Flink
+	Blink->Flink = Flink
 
 3. free(p)
 
-Blink =dwSelfEPROCESS
+	Blink =dwSelfEPROCESS
 
-Flink = dwSelfEPROCESS
+	Flink = dwSelfEPROCESS
 
 接下来实例介绍如何通过kd.exe隐藏进程，也就是双链表的断链
 
