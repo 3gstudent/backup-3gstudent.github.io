@@ -109,10 +109,15 @@ kd -kl -y "srv*c:\symbols*http://msdl.microsoft.com/download/symbols" -c "dt nt!
 
 
 >  void DDeleteNode(DListNode *p)
+>  
 >       {//在带头结点的双链表中，删除结点*p，设*p为非终端结点
+>  
 >           p->prior->next=p->next;//① （使p的前一个结点的后驱直接指向 原来的p的后驱）
+>  
 >           p->next->prior=p->prior;//② （使p的后一个结点的前驱 直接为原来p的前一个结点）
+>  
 >           free(p);//③ （释放p的内存）
+>  
 >       }
 
 
@@ -127,11 +132,17 @@ kd -kl -y "srv*c:\symbols*http://msdl.microsoft.com/download/symbols" -c "dt nt!
 对应双链表的删除需要做如下操作：
 
 1. p->prior->next=p->next
+
 Flink->Blink=Blink
+
 2. p->next->prior=p->prior
+
 Blink->Flink = Flink
+
 3. free(p)
+
 Blink =dwSelfEPROCESS
+
 Flink = dwSelfEPROCESS
 
 接下来实例介绍如何通过kd.exe隐藏进程，也就是双链表的断链
