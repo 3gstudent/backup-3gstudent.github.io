@@ -115,7 +115,8 @@ Github:   3gstudent
  [渗透测试中的Application Compatibility Shims](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B8%AD%E7%9A%84Application-Compatibility-Shims/) 
 
 - 
- 渗透测试中的ClickOnce
+ [渗透测试中的ClickOnce]
+ (https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B8%AD%E7%9A%84ClickOnce/)
 
 - 
  渗透测试中的msiexec
