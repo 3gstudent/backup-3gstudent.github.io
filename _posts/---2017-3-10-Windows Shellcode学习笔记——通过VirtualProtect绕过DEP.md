@@ -160,16 +160,21 @@ strcpy在执行时遇到0x00会提前截断,为便于测试shellcode，将strcpy
 
 shellcode起始地址为0x00403020
 
-```PUSH 1  
-POP ECX ```
+```
+PUSH 1  
+POP ECX 
+```
+
 对应的机器码为`0x0059016A`
 
 将返回地址覆盖为shellcode起始地址
 
 shellcode实现如下操作：
 
-```PUSH 1
-POP ECX```
+```
+PUSH 1
+POP ECX
+```
 
 其他位用0x90填充
 
