@@ -117,6 +117,9 @@ Github:   3gstudent
  Windows Shellcode学习笔记——栈溢出中对jmp esp的利用与优化
  
 - 
+ Windows Shellcode学习笔记——通过VirtualProtect绕过DEP
+ 
+- 
  [故障诊断平台在渗透测试中的应用技巧](https://3gstudent.github.io/3gstudent.github.io/%E6%95%85%E9%9A%9C%E8%AF%8A%E6%96%AD%E5%B9%B3%E5%8F%B0%E5%9C%A8%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8%E6%8A%80%E5%B7%A7/) 
 
 - 
