@@ -82,6 +82,9 @@ Github:   3gstudent
  [Study Notes of using dnx.exe / rcsi.exe to bypass Decvice Guard UMCI](https://3gstudent.github.io/3gstudent.github.io/Study-Notes-of-using-dnx.exe-&-rcsi.exe-to-bypass-Decvice-Guard-UMCI/)
 
 - 
+ Study Notes of using sdclt.exe to bypass UAC
+
+- 
  [Study Notes of WMI Persistence using wmic.exe](https://3gstudent.github.io/3gstudent.github.io/Study-Notes-of-WMI-Persistence-using-wmic.exe/)
  
 - 
