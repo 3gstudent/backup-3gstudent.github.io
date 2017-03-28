@@ -193,7 +193,7 @@ New-ItemProperty -path "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image
 
 **2、将测试dll复制到system32下**
 
-`copy DoubleAgentDll.dll c：\windows\system32\DoubleAgentDll.dll`
+`copy DoubleAgentDll.dll c:\windows\system32\DoubleAgentDll.dll`
 
 
 **3、再次启动notepad.exe，弹框**
