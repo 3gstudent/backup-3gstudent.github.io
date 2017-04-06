@@ -11,7 +11,7 @@ More to learn
 
 ### Contact me
 
-Drops:    三好学生
+Drops:     三好学生
 
 Twitter:  [3gstudent](https://twitter.com/3gstudent)
 
