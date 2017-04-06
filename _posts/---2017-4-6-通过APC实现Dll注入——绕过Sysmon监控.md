@@ -308,9 +308,13 @@ https://gist.github.com/subTee/cf3e1b06cf58fcc9e0255190d30c2d38
 **参考资料：**
 
 http://subt0x10.blogspot.com/2017/01/shellcode-injection-via-queueuserapc.html
+
 https://www.darkoperator.com/blog/2014/8/8/sysinternals-sysmon
+
 http://www.freebuf.com/sectool/122779.html
+
 http://www.cnblogs.com/uAreKongqi/p/6012353.html
+
 http://blogs.microsoft.co.il/pavely/2017/03/14/injecting-a-dll-without-a-remote-thread/
 
 ---
