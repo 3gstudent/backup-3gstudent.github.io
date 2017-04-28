@@ -75,6 +75,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
 -  
  [Netsh persistence](https://3gstudent.github.io/3gstudent.github.io/Netsh-persistence/)
 
+-  
+ NSA DanderSpiritz测试指南——木马生成与测试
+
 - 
  [Powershell tricks::Hide Process by kd.exe](https://3gstudent.github.io/3gstudent.github.io/Powershell-tricks-Hide-Process-by-kd.exe/)
  
