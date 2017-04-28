@@ -135,7 +135,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
  利用globalAPIhooks在Win7系统下隐藏进程
 
 - 
- 内网安全——利用NSA Smbtouch批量检测内网 
+ [内网安全——利用NSA Smbtouch批量检测内网](https://3gstudent.github.io/3gstudent.github.io/%E5%86%85%E7%BD%91%E5%AE%89%E5%85%A8-%E5%88%A9%E7%94%A8NSA-Smbtouch%E6%89%B9%E9%87%8F%E6%A3%80%E6%B5%8B%E5%86%85%E7%BD%91/)
  
 - 
  [渗透测试中的Application Compatibility Shims](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B8%AD%E7%9A%84Application-Compatibility-Shims/) 
