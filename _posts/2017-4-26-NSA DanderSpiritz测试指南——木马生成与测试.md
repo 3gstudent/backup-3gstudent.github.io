@@ -291,7 +291,7 @@ https://github.com/3gstudent/Inject-dll-by-APC/blob/master/test.cpp
 
 被注入的程序需要管理员权限，否则会因为权限问题无法打开监听端口
 
-给出另二种dll加载的测试方法：通过Application Compatibility Shims
+给出另一种dll加载的测试方法：通过Application Compatibility Shims
 
 可参考以下链接：
 
