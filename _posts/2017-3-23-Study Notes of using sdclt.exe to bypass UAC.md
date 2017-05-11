@@ -41,7 +41,7 @@ https://technet.microsoft.com/en-us/sysinternals/bb897441.aspx
 
 level="requireAdministrator"
 
-true代表可自动提示权限
+true代表可自动提升权限
 
 在Win7环境下，同样使用Sigcheck查看sdclt.exe
 
