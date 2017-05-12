@@ -199,6 +199,10 @@ https://raw.githubusercontent.com/3gstudent/BlogPic/master/2017-5-10/2.gif
 
 ![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2017-5-10/5-1.png)
 
+**注：**
+
+Win10 Build 14393及之前版本均存在这个问题
+
 **结论3：**
 
 使用cab压缩文件，接着拖动文件保存，能够绕过Windows Attachment Manager
