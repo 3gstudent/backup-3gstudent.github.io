@@ -201,7 +201,7 @@ https://raw.githubusercontent.com/3gstudent/BlogPic/master/2017-5-10/2.gif
 
 **注：**
 
-Win10 Build 14393及之前版本均存在这个问题
+Win10 Build 14393(1607)及之前版本均存在这个问题,Win10 Build 15063(1703)已经修复该问题
 
 **结论3：**
 
@@ -275,11 +275,11 @@ https://raw.githubusercontent.com/3gstudent/BlogPic/master/2017-5-10/1.gif
 
 **结论4：**
 
-在某些特殊情况下，ADS会清除，导致能够绕过Windows Attachment Manager
+在某些特殊情况下(Win10 Build 14393(1607)之前的版本)，ADS会清除，导致能够绕过Windows Attachment Manager
 
 **注：**
 
-经实际测试，Win10Build 14393修复了该问题
+Win10 Build 10586存在该问题，Win10 Build 14393(1607)修复了该问题
 
 
 
