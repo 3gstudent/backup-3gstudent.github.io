@@ -304,7 +304,7 @@ Win7系统不存在以上问题，原因：
 - 如果将文件复制到另一操作系统，原文件的ADS不会保存
 - 相比于rar和zip格式，使用cab格式压缩lnk文件更为合适
 - lnk文件欺骗性更高
-- 在尝试绕过Windows Attachment Manager时发现的这个有趣问题，尚待解决
+- Win10 Build 15063(1703)已经修复以上bug
 
 ---
 
