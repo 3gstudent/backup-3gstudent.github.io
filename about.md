@@ -73,7 +73,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [DLL劫持漏洞自动化识别工具Rattler测试](https://3gstudent.github.io/3gstudent.github.io/DLL%E5%8A%AB%E6%8C%81%E6%BC%8F%E6%B4%9E%E8%87%AA%E5%8A%A8%E5%8C%96%E8%AF%86%E5%88%AB%E5%B7%A5%E5%85%B7Rattler%E6%B5%8B%E8%AF%95/)
 
 - 
- Hidden Alternative Data Streams的进阶利用技巧
+ [Hidden Alternative Data Streams的进阶利用技巧](https://3gstudent.github.io/3gstudent.github.io/Hidden-Alternative-Data-Streams%E7%9A%84%E8%BF%9B%E9%98%B6%E5%88%A9%E7%94%A8%E6%8A%80%E5%B7%A7/)
  
 - 
  [Joomla 3.4.4-3.6.3 Account Creation &Privilege Escalation测试记录](https://3gstudent.github.io/3gstudent.github.io/Joomla-3.4.4-3.6.3-Account-Creation-&Privilege-Escalation%E6%B5%8B%E8%AF%95%E8%AE%B0%E5%BD%95/)
