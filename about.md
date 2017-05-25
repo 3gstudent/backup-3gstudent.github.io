@@ -96,6 +96,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
 - 
  [Study Notes of WMI Persistence using wmic.exe](https://3gstudent.github.io/3gstudent.github.io/Study-Notes-of-WMI-Persistence-using-wmic.exe/)
  
+-   
+ Study Notes of using BGInfo to bypass Application Whitelisting
+ 
 -  
  Study Notes of using SilentCleanup to bypass UAC
  
