@@ -117,7 +117,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [Use MSBuild To Do More](https://3gstudent.github.io/3gstudent.github.io/Use-MSBuild-To-Do-More/)
 
 - 
- Use Waitfor.exe to maintain persistence
+ [Use Waitfor.exe to maintain persistence](https://3gstudent.github.io/3gstudent.github.io/Use-Waitfor.exe-to-maintain-persistence/)
  
 - 
  [Userland registry hijacking](https://3gstudent.github.io/3gstudent.github.io/Userland-registry-hijacking/) 
