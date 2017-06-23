@@ -174,6 +174,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [渗透测试中的Volume Shadow Copy](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B8%AD%E7%9A%84Volume-Shadow-Copy/) 
 
 - 
+ 渗透技巧——Windows日志的删除与绕过
+ 
+- 
  [渗透技巧——程序的降权启动](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E7%A8%8B%E5%BA%8F%E7%9A%84%E9%99%8D%E6%9D%83%E5%90%AF%E5%8A%A8/)
 
 - 
