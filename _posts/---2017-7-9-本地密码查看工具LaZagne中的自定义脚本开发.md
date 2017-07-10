@@ -41,6 +41,7 @@ python版本：2.7
 
 `
 C:\Python27\Scripts\easy_install.exe pyasn1
+
 C:\Python27\Scripts\easy_install.exe psutil
 `
 
