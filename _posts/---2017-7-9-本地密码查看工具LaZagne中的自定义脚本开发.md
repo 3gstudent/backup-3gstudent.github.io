@@ -270,7 +270,7 @@ https://sourceforge.net/projects/pywin32/files/pywin32/
 
 ![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2017-7-9/2-2.png)
 
-**方法2：**下载源码安装
+**方法2：** 下载源码安装
 
 **源码下载地址：**
 
