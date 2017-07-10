@@ -40,8 +40,9 @@ python版本：2.7
 **安装第三方扩展包：**
 
 `
-C:\Python27\Scripts\easy_install.exe pyasn1
+C:\Python27\Scripts\easy_install.exe pyasn1`
 
+`
 C:\Python27\Scripts\easy_install.exe psutil
 `
 
