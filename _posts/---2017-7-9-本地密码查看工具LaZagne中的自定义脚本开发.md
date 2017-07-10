@@ -96,6 +96,9 @@ Chrome保存密码的文件路径为：
 
 `
 C:\Users\1\Local Settings\Application Data\Google\Chrome\User Data\
+`
+
+`
 C:\Users\1\AppData\Local\Google\Chrome\User Data\
 `
 
@@ -103,6 +106,9 @@ C:\Users\1\AppData\Local\Google\Chrome\User Data\
 
 `
 C:\Users\1\Local Settings\Application Data\360Chrome\Chrome\User Data\
+`
+
+`
 C:\Users\1\AppData\Local\360Chrome\Chrome\User Data\
 `
 
@@ -158,12 +164,15 @@ https://github.com/3gstudent/LaZagne/blob/master/Windows/lazagne/config/manageMo
 Line12修改为`options = {'command': '-360cse', 'action': 'store_true', 'dest': '360CSE', 'help': 'cse'}`
 
 **注：**
+
 'command'不能同chrome的-c重复
+
 'dest'表示显示导出浏览器密码的标题
 
 (3)
 
 Line22修改为360路径`\Local Settings\Application Data\360Chrome\Chrome\User Data\`
+
 Line23修改为360路径`\AppData\Local\360Chrome\Chrome\User Data\`
 
 完整代码如下：
