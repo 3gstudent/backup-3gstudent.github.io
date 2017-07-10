@@ -203,7 +203,7 @@ https://github.com/AlessandroZ/LaZagne/releases/
 
 但是如果想扩展功能，例如添加导出360极速浏览器密码的功能，就需要找到自己编译的方法
 
-方法如下：
+使用py2exe的方法如下：
 
 **1、下载py2exe**
 
