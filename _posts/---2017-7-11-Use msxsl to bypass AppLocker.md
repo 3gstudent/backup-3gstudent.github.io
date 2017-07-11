@@ -92,9 +92,11 @@ script.xml:
 
 ![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2017-7-11/2-2.png)
 
-开启Applocker，添加规则拦截js脚本的执行，但是使用msxsl仍然能够执行JScript代码，如下图
+开启Applocker，添加规则拦截js脚本的执行，如下图
 
 ![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2017-7-11/2-3.png)
+
+但是使用msxsl仍然能够执行JScript代码
 
 在之前的文章《利用JS加载.Net程序》介绍过利用JScript脚本加载.Net程序的方法，结合本文，可以得出推论：
 
