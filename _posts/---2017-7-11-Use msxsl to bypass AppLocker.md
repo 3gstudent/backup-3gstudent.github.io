@@ -3,7 +3,7 @@ layout: post
 title: Use msxsl to bypass AppLocker
 ---
 
-##0x00 前言
+## 0x00 前言
 ---
 
 Casey Smith@subTee在twitter分享的一个技巧，使用包含微软签名的msxsl.exe能够执行JScript代码，从而实现对Applocker的绕过。
