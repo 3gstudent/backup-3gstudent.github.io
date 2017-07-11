@@ -159,7 +159,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [利用globalAPIhooks在Win7系统下隐藏进程](https://3gstudent.github.io/3gstudent.github.io/%E5%88%A9%E7%94%A8globalAPIhooks%E5%9C%A8Win7%E7%B3%BB%E7%BB%9F%E4%B8%8B%E9%9A%90%E8%97%8F%E8%BF%9B%E7%A8%8B/)
 
 - 
- 利用JS/Vbs加载.Net程序
+ [利用JS/Vbs加载.Net程序](https://3gstudent.github.io/3gstudent.github.io/%E5%88%A9%E7%94%A8JS%E5%8A%A0%E8%BD%BD.Net%E7%A8%8B%E5%BA%8F/)
  
 - 
  [内网安全——利用NSA Smbtouch批量检测内网](https://3gstudent.github.io/3gstudent.github.io/%E5%86%85%E7%BD%91%E5%AE%89%E5%85%A8-%E5%88%A9%E7%94%A8NSA-Smbtouch%E6%89%B9%E9%87%8F%E6%A3%80%E6%B5%8B%E5%86%85%E7%BD%91/)
