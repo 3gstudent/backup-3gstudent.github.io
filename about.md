@@ -25,6 +25,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 - Bypass McAfee Application Control——Code Execution
 - Bypass McAfee Application Control——Write&Read Protection
 - Bypass Windows AppLocker
+- Code Execution of Regsvr32.exe
 - CPL文件利用介绍
 - JavaScript Backdoor
 - JavaScript Phishing
