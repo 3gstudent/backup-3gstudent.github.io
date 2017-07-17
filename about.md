@@ -118,7 +118,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [Use MSBuild To Do More](https://3gstudent.github.io/3gstudent.github.io/Use-MSBuild-To-Do-More/)
 
 - 
- Use msxsl to bypass AppLocker
+ [Use msxsl to bypass AppLocker](https://3gstudent.github.io/3gstudent.github.io/Use-msxsl-to-bypass-AppLocker/)
  
 - 
  [Use AppDomainManager to maintain persistence](https://3gstudent.github.io/3gstudent.github.io/Use-AppDomainManager-to-maintain-persistence/)
