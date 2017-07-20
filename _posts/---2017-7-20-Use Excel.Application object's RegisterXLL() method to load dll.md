@@ -170,6 +170,21 @@ cmd执行：
 
 ![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2017-7-20/2-2.png)
 
+**注：**
+
+选择保存在Recent目录是为了提高隐蔽性
+
+保存在Recent目录，通过explorer.exe无法查看下载的dll，详情如下图
+
+![Alt text](https://raw.githubusercontent.com/3gstudent/ExcelDllLoader/master/1.gif)
+
+但在cmd下能够查看下载的dll，详情如下图
+
+![Alt text](https://raw.githubusercontent.com/3gstudent/ExcelDllLoader/master/3.png)
+
+在其他目录不存在这个问题，详情如下图
+
+![Alt text](https://raw.githubusercontent.com/3gstudent/ExcelDllLoader/master/2.gif)
 
 为保证js和rundll32利用代码格式对应，原js代码作相应优化，最终代码为：
 
