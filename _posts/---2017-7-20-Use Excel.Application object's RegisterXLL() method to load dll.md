@@ -128,7 +128,7 @@ else
 
 **2、从Github下载dll文件并保存至Recent目录**
 
-**方式1：**使用Msxml2.XMLHTTP
+**方式1:**使用Msxml2.XMLHTTP
 
 ```
 var sGet=new ActiveXObject("ADODB.Stream");
@@ -143,7 +143,7 @@ sGet.SaveToFile((WScript.CreateObject("WScript.Shell").SpecialFolders("Recent")+
 ```
 
 
-**方式2：**使用WinHttp.WinHttpRequest.5.1
+**方式2:**使用WinHttp.WinHttpRequest.5.1
 
 ```
 h=new ActiveXObject("WinHttp.WinHttpRequest.5.1");
