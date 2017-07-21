@@ -367,11 +367,11 @@ End Sub
 
 Office2010对应的键值为：
 
-`HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Excel\Options`
+`HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\PowerPoint`
 
 Office2013对应的键值为：
 
-`HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Excel\Options`
+`HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\PowerPoint`
 
 新建项AddIns，新建子项calc（对应calc.ppa）
 
