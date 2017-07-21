@@ -501,21 +501,7 @@ Word WLL依然能够执行
 
 ### 2、Excel
 
-Excel XLL：
-
-能绕过以下设置：
-
-- 禁用所有加载项
-- 禁用所有控件
-- 禁用所有宏
-
-**防御方法：**
-
-删除信任位置：
-
-`C:\Users\a\AppData\Roaming\Microsoft\AddIns`
-
-Excel VBA add-ins:
+Excel XLL和Excel VBA add-ins:
 
 **防御方法：**
 
