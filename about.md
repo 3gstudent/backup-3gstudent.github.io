@@ -85,6 +85,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
 -  
  [NSA DanderSpiritz测试指南——木马生成与测试](https://3gstudent.github.io/3gstudent.github.io/NSA-DanderSpiritz%E6%B5%8B%E8%AF%95%E6%8C%87%E5%8D%97-%E6%9C%A8%E9%A9%AC%E7%94%9F%E6%88%90%E4%B8%8E%E6%B5%8B%E8%AF%95/)
 
+-  
+ Office Persistence on x64 operating system
+
 - 
  [Powershell tricks::Hide Process by kd.exe](https://3gstudent.github.io/3gstudent.github.io/Powershell-tricks-Hide-Process-by-kd.exe/)
  
