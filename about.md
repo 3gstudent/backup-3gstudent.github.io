@@ -130,7 +130,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
  Use Excel.Application object's RegisterXLL() method to load dll
  
 - 
- Use Office to maintain persistence
+ [Use Office to maintain persistence](https://3gstudent.github.io/3gstudent.github.io/Use-Office-to-maintain-persistence/)
  
 - 
  [Use Waitfor.exe to maintain persistence](https://3gstudent.github.io/3gstudent.github.io/Use-Waitfor.exe-to-maintain-persistence/)
