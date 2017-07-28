@@ -80,7 +80,7 @@ delete是为了清除下载文件的缓存
 
 《渗透测试中的certutil.exe》
 
-### 3、、操作注册表
+### 3、操作注册表
 
 注册表路径：`HKEY_CURRENT_USER\Software\Classes\CLSID\`
 
