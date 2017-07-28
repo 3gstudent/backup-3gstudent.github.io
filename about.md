@@ -124,11 +124,14 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [Use msxsl to bypass AppLocker](https://3gstudent.github.io/3gstudent.github.io/Use-msxsl-to-bypass-AppLocker/)
  
 - 
+ [Use Excel.Application object's RegisterXLL() method to load dll](https://3gstudent.github.io/3gstudent.github.io/Use-Excel.Application-object's-RegisterXLL()-method-to-load-dll/)
+ 
+- 
  [Use AppDomainManager to maintain persistence](https://3gstudent.github.io/3gstudent.github.io/Use-AppDomainManager-to-maintain-persistence/)
 
 - 
- [Use Excel.Application object's RegisterXLL() method to load dll](https://3gstudent.github.io/3gstudent.github.io/Use-Excel.Application-object's-RegisterXLL()-method-to-load-dll/)
- 
+ Use CLR to maintain persistence
+
 - 
  [Use Office to maintain persistence](https://3gstudent.github.io/3gstudent.github.io/Use-Office-to-maintain-persistence/)
  
