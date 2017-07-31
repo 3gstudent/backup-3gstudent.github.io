@@ -77,13 +77,13 @@ eg：
 
 **清除下载文件副本方法：**
 
-**方法1：**直接删除缓存目录对应文件
+**方法1：** 直接删除缓存目录对应文件
 
 如下图
 
 ![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2017-7-26/2-1.png)
 
-**方法2：**命令行:
+**方法2：** 命令行:
 
 `certutil.exe -urlcache -split -f https://raw.githubusercontent.com/3gstudent/test/master/msg.dll delete`
 
