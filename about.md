@@ -193,7 +193,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [渗透测试中的Application Verifier(DoubleAgent利用介绍)](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B8%AD%E7%9A%84Application-Verifier(DoubleAgent%E5%88%A9%E7%94%A8%E4%BB%8B%E7%BB%8D)/)
 
 - 
- 渗透测试中的certutil
+ [渗透测试中的certutil](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B8%AD%E7%9A%84certutil.exe/)
 
 - 
  [渗透测试中的ClickOnce](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B8%AD%E7%9A%84ClickOnce/)
