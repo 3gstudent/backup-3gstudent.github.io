@@ -136,6 +136,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  Use CLR to maintain persistence
 
 - 
+ Use COM Object hijacking to maintain persistence
+
+- 
  Use msdtc to maintain persistence
 
 - 
