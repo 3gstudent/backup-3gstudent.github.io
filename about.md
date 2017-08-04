@@ -19,7 +19,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Previous Posts on Drops ( Incomplete List )
+### Previous Posts on Drops
 
 - A dirty way of tricking users to bypass UAC
 - Bypass McAfee Application Control——Code Execution
