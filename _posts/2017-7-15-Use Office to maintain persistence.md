@@ -60,7 +60,7 @@ BOOL APIENTRY DllMain( HANDLE hModule,
 编译成msg.dll，作如下设置减小编译文件体积：
 
 - Build：release
-- 添加代码：#pragma comment(linker, "/OPT:nowin98 ")
+- 添加代码：#pragma comment(linker,"/OPT:nowin98")
 - 工程设置->Win32 Release->C/C++->Code Generation->Use run-time library:->Multithreaded DLL
 
 经过优化，dll大小为3kb
