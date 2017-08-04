@@ -10,6 +10,7 @@ More to learn
 
 [+] 100 posts done  :D
 
+![](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/images/wow.jpeg "https://3gstudent.github.io/about/")
 
 ### Contact me
 
