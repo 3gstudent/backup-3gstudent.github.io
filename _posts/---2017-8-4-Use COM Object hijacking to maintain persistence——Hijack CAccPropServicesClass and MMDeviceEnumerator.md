@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Use COM Object hijacking to maintain persistence
+title: Use COM Object hijacking to maintain persistence——Hijack CAccPropServicesClass and MMDeviceEnumerator
 ---
 
 
