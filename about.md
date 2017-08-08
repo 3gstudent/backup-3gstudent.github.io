@@ -142,6 +142,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  Use COM Object hijacking to maintain persistence——Hijack CAccPropServicesClass and MMDeviceEnumerator
 
 - 
+ Use COM Object hijacking to maintain persistence——Hijack explorer.exe
+ 
+- 
  Use msdtc to maintain persistence
 
 - 
