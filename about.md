@@ -145,6 +145,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  Use COM Object hijacking to maintain persistence——Hijack explorer.exe
  
 - 
+ Use Logon Scripts to maintain persistence 
+ 
+- 
  Use msdtc to maintain persistence
 
 - 
