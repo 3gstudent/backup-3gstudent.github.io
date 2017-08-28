@@ -130,7 +130,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [Use Excel.Application object's RegisterXLL() method to load dll](https://3gstudent.github.io/3gstudent.github.io/Use-Excel.Application-object's-RegisterXLL()-method-to-load-dll/)
  
 - 
- Use xwizard.exe to load dll
+ [Use xwizard.exe to load dll](https://3gstudent.github.io/3gstudent.github.io/Use-xwizard.exe-to-load-dll/)
  
 - 
  [Use AppDomainManager to maintain persistence](https://3gstudent.github.io/3gstudent.github.io/Use-AppDomainManager-to-maintain-persistence/)
