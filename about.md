@@ -148,7 +148,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
  Use Logon Scripts to maintain persistence 
  
 - 
- Use msdtc to maintain persistence
+ [Use msdtc to maintain persistence](https://3gstudent.github.io/3gstudent.github.io/Use-msdtc-to-maintain-persistence/)
 
 - 
  [Use Office to maintain persistence](https://3gstudent.github.io/3gstudent.github.io/Use-Office-to-maintain-persistence/)
