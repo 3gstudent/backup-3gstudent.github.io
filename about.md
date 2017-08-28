@@ -136,7 +136,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [Use AppDomainManager to maintain persistence](https://3gstudent.github.io/3gstudent.github.io/Use-AppDomainManager-to-maintain-persistence/)
 
 - 
- Use CLR to maintain persistence
+ [Use CLR to maintain persistence](https://3gstudent.github.io/3gstudent.github.io/Use-CLR-to-maintain-persistence/)
 
 - 
  Use COM Object hijacking to maintain persistence——Hijack CAccPropServicesClass and MMDeviceEnumerator
