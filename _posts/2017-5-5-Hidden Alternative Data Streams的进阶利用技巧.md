@@ -271,6 +271,10 @@ putty.exe成功执行,进程名为`...:putty.exe`
 经测试，系统目前支持的文件名称为COM1至COM9
 必须有前缀`\\.\`，否则提示系统找不到指定文件
 
+**补充：**
+
+特殊名称`nul`也有同样效果,该方法由Ridter测试得出
+
 命令如下：
 
 `type putty.exe > \\.\C:\test\ads\COM1:putty.exe`
