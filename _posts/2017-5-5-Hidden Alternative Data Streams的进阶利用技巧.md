@@ -283,7 +283,7 @@ putty.exe成功执行,进程名为`...:putty.exe`
 
 **注：**
 
-执行`wmic process call create c:\test\ads\COM1:putty.exe`不会执行程序
+*执行`wmic process call create c:\test\ads\COM1:putty.exe`不会执行程序*
 
 
 putty.exe成功执行,进程名为COM1:putty.exe
