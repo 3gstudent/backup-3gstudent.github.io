@@ -246,13 +246,13 @@ Write-host [+] All done.
 ## 0x06 实际测试
 ---
 
-###　1、手动创建服务Test
+### 1、手动创建服务Test
 
 ```
 sc create Test type= own binpath= c:\test\test.exe
 ```
 
-###　2、编译生成exe
+### 2、编译生成exe
 
 ```
 using System.ServiceProcess;
@@ -279,7 +279,7 @@ C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe test.cs
 
 生成test.exe
 
-###　3、启动服务
+### 3、启动服务
 
 ```
 sc start Test
@@ -289,7 +289,7 @@ sc start Test
 
 ![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2017-9-7/3-1.png)
 
-###　4、替换test.exe
+### 4、替换test.exe
 
 在实际情况，如果没有获得管理员权限，那么无法启动和停止服务
 
@@ -305,7 +305,7 @@ rename test.exe test2.exe
 
 ![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2017-9-7/3-2.png)
 
-###　5、重启服务
+### 5、重启服务
 
 ```
 sc stop Test
@@ -314,7 +314,7 @@ sc start Test
 
 当然，该操作需要管理员权限
 
-###　6、psexec的-i参数使用技巧
+### 6、psexec的-i参数使用技巧
 
 由于服务启动的exe为system权限，默认为session 0，而用户界面为session 1，所以看不到启动的exe界面
 
@@ -351,7 +351,7 @@ namespace Demo
 
 ![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2017-9-7/3-3.png)
 
-###　7、使用powershell脚本扫描
+### 7、使用powershell脚本扫描
 
 如下图，标记出服务命令和可供替换的路径，便于进行替换
 
