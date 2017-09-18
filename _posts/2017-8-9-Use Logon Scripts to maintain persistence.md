@@ -8,6 +8,10 @@ title: Use Logon Scripts to maintain persistence
 
 依旧是对后门利用方法做介绍，本次介绍的是使用Logon Scripts的方法。然而我在研究过程中发现了一个特别的用法，脚本优先于杀毒软件执行，能够绕过杀毒软件对敏感操作的拦截，本文将要具体介绍这个技巧。
 
+**注:**
+
+有些杀毒软件是可以做到优先于Logon Scripts启动的
+
 ## 0x01 简介
 ---
 
