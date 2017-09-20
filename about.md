@@ -257,6 +257,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [隐写技巧——利用PNG文件格式隐藏Payload](https://3gstudent.github.io/3gstudent.github.io/%E9%9A%90%E5%86%99%E6%8A%80%E5%B7%A7-%E5%88%A9%E7%94%A8PNG%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F%E9%9A%90%E8%97%8FPayload/) 
 
 - 
+ 域渗透——利用DCOM在远程系统执行程序
+
+- 
  [32位程序对64位进程的远程注入实现](https://3gstudent.github.io/3gstudent.github.io/32%E4%BD%8D%E7%A8%8B%E5%BA%8F%E5%AF%B964%E4%BD%8D%E8%BF%9B%E7%A8%8B%E7%9A%84%E8%BF%9C%E7%A8%8B%E6%B3%A8%E5%85%A5%E5%AE%9E%E7%8E%B0/)
 
 
