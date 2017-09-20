@@ -125,6 +125,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [Study Notes Weekly No.4(Use tracker to load dll & Use csi to bypass UMCI & Execute C# from XSLT file)](https://3gstudent.github.io/3gstudent.github.io/Study-Notes-Weekly-No.4(Use-tracker-to-load-dll-&-Use-csi-to-bypass-UMCI-&-Execute-C-from-XSLT-file)/)
 
 - 
+ Use CLR to bypass UAC
+ 
+- 
  [Use Excel.Application object's RegisterXLL() method to load dll](https://3gstudent.github.io/3gstudent.github.io/Use-Excel.Application-object's-RegisterXLL()-method-to-load-dll/)
  
 - 
@@ -135,7 +138,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
   
 - 
  [Use powershell to find a writable windows service](https://3gstudent.github.io/3gstudent.github.io/Use-powershell-to-find-a-writable-windows-service/)
- 
+  
 - 
  [Use xwizard.exe to load dll](https://3gstudent.github.io/3gstudent.github.io/Use-xwizard.exe-to-load-dll/)
  
@@ -162,10 +165,10 @@ Github:   [3gstudent](https://github.com/3gstudent)
  
 - 
  [Use Waitfor.exe to maintain persistence](https://3gstudent.github.io/3gstudent.github.io/Use-Waitfor.exe-to-maintain-persistence/)
- 
+
 - 
  [Userland registry hijacking](https://3gstudent.github.io/3gstudent.github.io/Userland-registry-hijacking/) 
- 
+
 - 
  [War3地图“漏洞”分析介绍](https://3gstudent.github.io/3gstudent.github.io/War3%E5%9C%B0%E5%9B%BE-%E6%BC%8F%E6%B4%9E-%E5%88%86%E6%9E%90%E4%BB%8B%E7%BB%8D/)
  
