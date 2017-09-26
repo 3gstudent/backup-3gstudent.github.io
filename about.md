@@ -263,6 +263,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  域渗透——利用DCOM在远程系统执行程序
 
 - 
+ 域渗透——利用SYSVOL还原组策略中保存的密码
+
+- 
  [32位程序对64位进程的远程注入实现](https://3gstudent.github.io/3gstudent.github.io/32%E4%BD%8D%E7%A8%8B%E5%BA%8F%E5%AF%B964%E4%BD%8D%E8%BF%9B%E7%A8%8B%E7%9A%84%E8%BF%9C%E7%A8%8B%E6%B3%A8%E5%85%A5%E5%AE%9E%E7%8E%B0/)
 
 
