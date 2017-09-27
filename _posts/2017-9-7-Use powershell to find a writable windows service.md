@@ -103,6 +103,10 @@ Didier Stevens在博客中说他朋友找到了一个可写的Windows服务，�
 
 但是，sc这个命令不能直接在ps里面运行，ps会把它当作set-content的别名
 
+**注：**
+
+可通过使用sc.exe在ps里面运行sc命名,例如`sc.exe qc eventlog`
+
 **解决方法：**
 
 调用WMI来实现，代码如下：
