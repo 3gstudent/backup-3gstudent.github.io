@@ -105,7 +105,7 @@ Didier Stevens在博客中说他朋友找到了一个可写的Windows服务，�
 
 **注：**
 
-可通过使用sc.exe在ps里面运行sc命名,例如`sc.exe qc eventlog`
+可通过使用sc.exe在ps里面运行sc命令,例如`sc.exe qc eventlog`
 
 **解决方法：**
 
