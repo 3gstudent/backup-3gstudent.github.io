@@ -29,7 +29,7 @@ https://www.blackhat.com/docs/us-16/materials/us-16-Nipravsky-Certificate-Bypass
 
 - 计算PE文件hash
 - 根据hash生成数字证书
-- 数字证书添加在文件末尾，这部分称作`Certificate Table`
+- 数字签名添加在文件末尾，这部分称作`Certificate Table`
 
 **计算文件hash的步骤：**
 
