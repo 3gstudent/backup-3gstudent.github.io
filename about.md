@@ -12,7 +12,7 @@ More to learn
 
 ![](https://raw.githubusercontent.com/3gstudent/3gstudent.github.io/master/images/wow.jpeg)
 
-### Contact me
+### Contact
 
 Drops:    三好学生
 
