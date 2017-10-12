@@ -236,7 +236,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [渗透测试中的Volume Shadow Copy](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B8%AD%E7%9A%84Volume-Shadow-Copy/) 
 
 - 
- 渗透技巧——PE文件的签名伪造与签名验证劫持
+ 渗透技巧——Authenticode签名伪造与签名验证劫持
  
 - 
  渗透技巧——Token窃取与利用
