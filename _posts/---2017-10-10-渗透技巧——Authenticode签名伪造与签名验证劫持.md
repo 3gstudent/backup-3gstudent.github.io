@@ -1,12 +1,12 @@
 ---
 layout: post
-title: 渗透技巧——PE文件的签名伪造与签名验证劫持
+title: 渗透技巧——Authenticode签名伪造与签名验证劫持
 ---
 
 ## 0x00 前言
 ---
 
-在上一篇文章[《CAT文件数字签名使用技巧》](https://3gstudent.github.io/3gstudent.github.io/CAT%E6%96%87%E4%BB%B6%E6%95%B0%E5%AD%97%E7%AD%BE%E5%90%8D%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/)介绍了证书签名的基础知识，Windows系统下向文件签名有两种方法：添加在文件末尾(Authenticode)和CAT文件(catalog)，本文将介绍Authenticode签名的相关利用技巧——PE文件的签名伪造与签名验证劫持
+在上一篇文章[《CAT文件数字签名使用技巧》](https://3gstudent.github.io/3gstudent.github.io/CAT%E6%96%87%E4%BB%B6%E6%95%B0%E5%AD%97%E7%AD%BE%E5%90%8D%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/)介绍了证书签名的基础知识，Windows系统下向文件签名有两种方法：添加在文件末尾(Authenticode)和CAT文件(catalog)，本文将介绍Authenticode签名的相关利用技巧——Authenticode签名伪造与签名验证劫持
 
 **注：**
 
@@ -29,8 +29,6 @@ https://drive.google.com/file/d/0B-K55rLoulAfNms1aW1rbXF1Tmc/view
 
 ## 0x02 PE文件的签名伪造
 ---
-
-本文介绍的签名伪造指的是添加在文件末尾的数字签名(Authenticode)
 
 Authenticode的详细说明文档可参考：
 
@@ -383,7 +381,7 @@ BOOL WINAPI test1()
 ## 0x06 小结
 ---
 
-本文介绍了Authenticode签名的相关利用技巧——PE文件的签名伪造与签名验证劫持，下一篇文章将要介绍catalog签名的利用技巧。
+本文介绍了Authenticode签名的相关利用技巧——签名伪造与签名验证劫持，下一篇文章将要介绍catalog签名的利用技巧。
 
 最后感谢Matt Graeber的分享。
 
