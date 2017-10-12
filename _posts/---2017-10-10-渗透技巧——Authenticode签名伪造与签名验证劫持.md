@@ -381,7 +381,7 @@ BOOL WINAPI test1()
 ## 0x06 小结
 ---
 
-本文介绍了Authenticode签名的相关利用技巧——签名伪造与签名验证劫持，下一篇文章将要介绍catalog签名的利用技巧。
+本文介绍了Authenticode签名的相关利用技巧——PE文件的签名伪造与签名验证劫持，下一篇文章将要介绍catalog签名的利用技巧。
 
 最后感谢Matt Graeber的分享。
 
