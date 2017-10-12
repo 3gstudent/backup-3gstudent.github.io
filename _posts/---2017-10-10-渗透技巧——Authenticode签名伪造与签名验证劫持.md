@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 渗透技巧——Authenticode签名伪造与签名验证劫持
+title: Authenticode签名伪造——PE文件的签名伪造与签名验证劫持
 ---
 
 ## 0x00 前言
@@ -381,7 +381,7 @@ BOOL WINAPI test1()
 ## 0x06 小结
 ---
 
-本文介绍了Authenticode签名的相关利用技巧——PE文件的签名伪造与签名验证劫持，下一篇文章将要介绍catalog签名的利用技巧。
+本文介绍了Authenticode签名的相关利用技巧——PE文件的签名伪造与签名验证劫持，下一篇文章将继续介绍Authenticode签名的伪造技巧——针对文件类型的签名伪造。
 
 最后感谢Matt Graeber的分享。
 
