@@ -77,6 +77,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  Authenticode签名伪造——PE文件的签名伪造与签名验证劫持
 
 - 
+ Authenticode签名伪造——针对文件类型的签名伪造
+ 
+- 
  [CAT文件数字签名使用技巧](https://3gstudent.github.io/3gstudent.github.io/CAT%E6%96%87%E4%BB%B6%E6%95%B0%E5%AD%97%E7%AD%BE%E5%90%8D%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/)
  
 - 
