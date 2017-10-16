@@ -271,9 +271,19 @@ putty.exe成功执行,进程名为`...:putty.exe`
 经测试，系统目前支持的文件名称为COM1至COM9
 必须有前缀`\\.\`，否则提示系统找不到指定文件
 
-**补充：**
+**补充1：**
 
 特殊名称`nul`也有同样效果,该方法由Evi1cg测试得出
+
+**补充2：**
+
+其他特殊文件格式也可以隐藏ADS，包括如下格式的后缀名：
+
+CON、AUX、PRN、LPT1、LPT2、LPT3、LPT4、LPT5、LPT6、LPT7、LPT8、LPT9
+
+eg：
+
+`type putty.exe > \\.\C:\test\ads\LPT4:putty.exe`
 
 命令如下：
 
