@@ -285,6 +285,10 @@ eg：
 
 `type putty.exe > \\.\C:\test\ads\LPT4:putty.exe`
 
+**补充3：**
+
+也可以使用前缀`\\?\`，具有相同效果
+
 命令如下：
 
 `type putty.exe > \\.\C:\test\ads\COM1:putty.exe`
