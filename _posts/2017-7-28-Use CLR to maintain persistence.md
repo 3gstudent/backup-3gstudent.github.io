@@ -78,7 +78,7 @@ delete是为了清除下载文件的缓存
 
 更多关于使用certutil.exe下载文件的利用细节可参考文章：
 
-《渗透测试中的certutil.exe》
+[《渗透测试中的certutil.exe》](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B8%AD%E7%9A%84certutil.exe/)
 
 ### 3、操作注册表
 
