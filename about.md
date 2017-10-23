@@ -74,13 +74,13 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [An interesting way of bypassing Windows Attachment Manager](https://3gstudent.github.io/3gstudent.github.io/An-interesting-way-of-bypassing-Windows-Attachment-Manager/)
 
 - 
- Authenticode签名伪造——PE文件的签名伪造与签名验证劫持
+ [Authenticode签名伪造——PE文件的签名伪造与签名验证劫持](https://3gstudent.github.io/3gstudent.github.io/Authenticode%E7%AD%BE%E5%90%8D%E4%BC%AA%E9%80%A0-PE%E6%96%87%E4%BB%B6%E7%9A%84%E7%AD%BE%E5%90%8D%E4%BC%AA%E9%80%A0%E4%B8%8E%E7%AD%BE%E5%90%8D%E9%AA%8C%E8%AF%81%E5%8A%AB%E6%8C%81/)
 
 - 
- Authenticode签名伪造——针对文件类型的签名伪造
+ [Authenticode签名伪造——针对文件类型的签名伪造](https://3gstudent.github.io/3gstudent.github.io/Authenticode%E7%AD%BE%E5%90%8D%E4%BC%AA%E9%80%A0-%E9%92%88%E5%AF%B9%E6%96%87%E4%BB%B6%E7%B1%BB%E5%9E%8B%E7%9A%84%E7%AD%BE%E5%90%8D%E4%BC%AA%E9%80%A0/)
  
 - 
- Catalog签名伪造——Long UNC文件名欺骗
+ [Catalog签名伪造——Long UNC文件名欺骗](https://3gstudent.github.io/3gstudent.github.io/Catalog%E7%AD%BE%E5%90%8D%E4%BC%AA%E9%80%A0-Long-UNC%E6%96%87%E4%BB%B6%E5%90%8D%E6%AC%BA%E9%AA%97/)
  
 - 
  [CAT文件数字签名使用技巧](https://3gstudent.github.io/3gstudent.github.io/CAT%E6%96%87%E4%BB%B6%E6%95%B0%E5%AD%97%E7%AD%BE%E5%90%8D%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/)
