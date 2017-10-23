@@ -252,6 +252,15 @@ https://github.com/3gstudent/CLR-Injection
 
 本文介绍了通过CLR劫持.Net程序的后门，特点是无需管理员权限，并能够劫持所有.Net程序。更重要的是,系统默认会调用.net程序,导致后门自动触发。
 
+## 0x07 补充(20171023)
+
+Stefan Kanthak发现了这种利用方法，并且公开的时间比我要早，地址如下：
+
+http://seclists.org/fulldisclosure/2017/Jul/11
+
+并且，他利用CLR还实现了UAC绕过(这个思路我是后来从clem@clavoillotte的博客学到的)，该方法我也做了研究并写了一篇研究心得，地址如下：
+
+[Use CLR to bypass UAC](https://3gstudent.github.io/3gstudent.github.io/Use-CLR-to-bypass-UAC/)
 
 ---
 
