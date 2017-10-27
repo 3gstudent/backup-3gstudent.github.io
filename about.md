@@ -68,7 +68,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(69/72)
+### Recent Posts(69/73)
 
 - 
  [An interesting way of bypassing Windows Attachment Manager](https://3gstudent.github.io/3gstudent.github.io/An-interesting-way-of-bypassing-Windows-Attachment-Manager/)
@@ -216,6 +216,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 - 
  利用BDF向EXE文件植入后门
+
+- 
+ 利用BDF向DLL文件植入后门
 
 - 
  [利用globalAPIhooks在Win7系统下隐藏进程](https://3gstudent.github.io/3gstudent.github.io/%E5%88%A9%E7%94%A8globalAPIhooks%E5%9C%A8Win7%E7%B3%BB%E7%BB%9F%E4%B8%8B%E9%9A%90%E8%97%8F%E8%BF%9B%E7%A8%8B/)
