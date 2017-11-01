@@ -97,6 +97,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
 - 
  [Joomla 3.4.4-3.6.3 Account Creation &Privilege Escalation测试记录](https://3gstudent.github.io/3gstudent.github.io/Joomla-3.4.4-3.6.3-Account-Creation-&Privilege-Escalation%E6%B5%8B%E8%AF%95%E8%AE%B0%E5%BD%95/)
  
+- 
+ Linux下的密码Hash——加密方式与破解方法的技术整理
+ 
 -  
  [Netsh persistence](https://3gstudent.github.io/3gstudent.github.io/Netsh-persistence/)
 
