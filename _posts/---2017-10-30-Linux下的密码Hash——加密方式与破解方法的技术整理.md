@@ -209,6 +209,15 @@ HCE分布式计算平台,需要积分才能使用
 
 目前暂不支持SHA-512
 
+### 4、mimipenguin
+
+下载地址：
+
+https://github.com/huntergregal/mimipenguin
+
+原理类似于mimikatz，通过内存导出明文密码
+
+
 ## 0x04 小结
 ---
 
