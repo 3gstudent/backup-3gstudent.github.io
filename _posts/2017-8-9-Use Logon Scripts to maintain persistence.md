@@ -28,7 +28,7 @@ http://www.hexacorn.com/blog/2014/11/14/beyond-good-ol-run-key-part-18/
 
 ### 简要介绍Logon Scripts的用法
 
-注册表路径：`HKCR\Environment\`
+注册表路径：`HKCU\Environment\`
 
 创建字符串键值： `UserInitMprLogonScript`
 
