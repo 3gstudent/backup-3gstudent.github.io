@@ -87,6 +87,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  
 - 
  [CIA Hive测试指南——源代码获取与简要分析 ](https://3gstudent.github.io/3gstudent.github.io/CIA-Hive%E6%B5%8B%E8%AF%95%E6%8C%87%E5%8D%97-%E6%BA%90%E4%BB%A3%E7%A0%81%E8%8E%B7%E5%8F%96%E4%B8%8E%E7%AE%80%E8%A6%81%E5%88%86%E6%9E%90/)
+
+- 
+ CIA Vault7 RDB中的Windows后门利用方法分析
  
 - 
  [DLL劫持漏洞自动化识别工具Rattler测试](https://3gstudent.github.io/3gstudent.github.io/DLL%E5%8A%AB%E6%8C%81%E6%BC%8F%E6%B4%9E%E8%87%AA%E5%8A%A8%E5%8C%96%E8%AF%86%E5%88%AB%E5%B7%A5%E5%85%B7Rattler%E6%B5%8B%E8%AF%95/)
