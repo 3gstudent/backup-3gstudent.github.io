@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 渗透技巧——Windows系统的帐户隐藏
+title: Study Notes of RunPE: How to hide code behind a legit process
 ---
 
 
