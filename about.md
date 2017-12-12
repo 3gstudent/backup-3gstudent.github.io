@@ -68,7 +68,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(76/83)
+### Recent Posts(76/84)
 
 - 
  [An interesting way of bypassing Windows Attachment Manager](https://3gstudent.github.io/3gstudent.github.io/An-interesting-way-of-bypassing-Windows-Attachment-Manager/)
@@ -144,6 +144,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 - 
  [Study Notes Weekly No.4(Use tracker to load dll & Use csi to bypass UMCI & Execute C# from XSLT file)](https://3gstudent.github.io/3gstudent.github.io/Study-Notes-Weekly-No.4(Use-tracker-to-load-dll-&-Use-csi-to-bypass-UMCI-&-Execute-C-from-XSLT-file)/)
+
+- 
+ TeamViewer 13.0.5058中的权限漏洞测试
 
 - 
  [Use CLR to bypass UAC](https://3gstudent.github.io/3gstudent.github.io/Use-CLR-to-bypass-UAC/)
