@@ -52,6 +52,7 @@ C:\Python27\Scripts\easy_install.exe psutil
 
 `ImportError: No module named memorpy`
 
+~~
 经过搜索，并没有第三方扩展包memorpy，猜测是输入错误，正确的应该为`memory_profiler`
 
 **安装扩展包memory_profiler：**
@@ -71,7 +72,7 @@ Line14：`from memorpy import *`
 成功执行laZagne.py，如下图
 
 ![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2017-7-9/1-1.png)
-
+~~
 
 ## 0x03 开发脚本导出360极速浏览器密码
 ---
