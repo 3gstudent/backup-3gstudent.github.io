@@ -75,11 +75,11 @@ C:\Python27\Scripts\easy_install.exe psutil
 
 **注：**
 
-改成`memory_profiler`后虽然成功编译，但是运行memory模块时会报错，提示Process没有list方法(bug发现和修改方法来自于burnegg)
+改成`memory_profiler`后虽然成功编译，但是运行memory模块时会报错，提示Process没有list方法(bug发现和修改方法来自于[@burnegg](https://github.com/burnegg))
 
 修改思路：
 
-改成`memorpy`
+改回`memorpy`
 
 安装：
 
