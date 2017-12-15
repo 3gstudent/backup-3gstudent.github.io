@@ -52,24 +52,24 @@ C:\Python27\Scripts\easy_install.exe psutil
 
 `ImportError: No module named memorpy`
 
-~~
-经过搜索，并没有第三方扩展包memorpy，猜测是输入错误，正确的应该为`memory_profiler`
 
-**安装扩展包memory_profiler：**
+~~经过搜索，并没有第三方扩展包memorpy，猜测是输入错误，正确的应该为`memory_profiler`~~
 
-`C:\Python27\Scripts\easy_install.exe memory_profiler`
+~~**安装扩展包memory_profiler：**~~
 
-并且修改源文件：
+~~`C:\Python27\Scripts\easy_install.exe memory_profiler`~~
 
-路径为`\LaZagne-master\LaZagne-master\Windows\lazagne\softwares\memory\memorydump.py`
+~~并且修改源文件：~~
 
-Line14：`from memorpy import *`
+~~路径为`\LaZagne-master\LaZagne-master\Windows\lazagne\softwares\memory\memorydump.py`~~
 
-修改为
+~~Line14：`from memorpy import *`~~
 
-`from memory_profiler import *`
+~~修改为~~
 
-成功执行laZagne.py，如下图
+~~`from memory_profiler import *`~~
+
+~~成功执行laZagne.py，如下图~~
 
 ![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2017-7-9/1-1.png)
 ~~
