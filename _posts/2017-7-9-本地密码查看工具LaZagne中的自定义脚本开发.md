@@ -72,7 +72,20 @@ C:\Python27\Scripts\easy_install.exe psutil
 ~~成功执行laZagne.py，如下图~~
 
 ![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2017-7-9/1-1.png)
-~~
+
+**注：**
+
+改成`memory_profiler`后虽然成功编译，但是运行memory模块时会报错，提示Process没有list方法(bug发现和修改方法来自于burnegg)
+
+修改思路：
+
+改成`memorpy`
+
+安装：
+
+```
+C:\Python27\Scripts\pip.exe install https://github.com/n1nj4sec/memorpy/archive/master.zip
+```
 
 ## 0x03 开发脚本导出360极速浏览器密码
 ---
