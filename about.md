@@ -68,7 +68,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(78/85)
+### Recent Posts(78/86)
 
 - 
  [An interesting way of bypassing Windows Attachment Manager](https://3gstudent.github.io/3gstudent.github.io/An-interesting-way-of-bypassing-Windows-Attachment-Manager/)
@@ -117,6 +117,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 - 
  [Powershell tricks::Hide Process by kd.exe](https://3gstudent.github.io/3gstudent.github.io/Powershell-tricks-Hide-Process-by-kd.exe/)
+ 
+- 
+ Process Doppelganging利用介绍
  
 - 
  [Study Notes of using dnx.exe / rcsi.exe to bypass Decvice Guard UMCI](https://3gstudent.github.io/3gstudent.github.io/Study-Notes-of-using-dnx.exe-&-rcsi.exe-to-bypass-Decvice-Guard-UMCI/)
