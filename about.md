@@ -68,7 +68,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(78/86)
+### Recent Posts(80/87)
 
 - 
  [An interesting way of bypassing Windows Attachment Manager](https://3gstudent.github.io/3gstudent.github.io/An-interesting-way-of-bypassing-Windows-Attachment-Manager/)
@@ -283,6 +283,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
 - 
  [渗透技巧——Windows系统远程桌面的多用户登录](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Windows%E7%B3%BB%E7%BB%9F%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2%E7%9A%84%E5%A4%9A%E7%94%A8%E6%88%B7%E7%99%BB%E5%BD%95/)
  
+- 
+ 渗透技巧——Windows中Credential Manager的信息获取
+
 - 
  [渗透技巧——程序的降权启动](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E7%A8%8B%E5%BA%8F%E7%9A%84%E9%99%8D%E6%9D%83%E5%90%AF%E5%8A%A8/)
 
