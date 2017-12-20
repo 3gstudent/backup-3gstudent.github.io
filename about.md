@@ -149,7 +149,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [Study Notes Weekly No.4(Use tracker to load dll & Use csi to bypass UMCI & Execute C# from XSLT file)](https://3gstudent.github.io/3gstudent.github.io/Study-Notes-Weekly-No.4(Use-tracker-to-load-dll-&-Use-csi-to-bypass-UMCI-&-Execute-C-from-XSLT-file)/)
 
 - 
- TeamViewer 13.0.5058中的权限漏洞测试
+ [TeamViewer 13.0.5058中的权限漏洞测试](https://3gstudent.github.io/3gstudent.github.io/TeamViewer-13.0.5058%E4%B8%AD%E7%9A%84%E6%9D%83%E9%99%90%E6%BC%8F%E6%B4%9E%E6%B5%8B%E8%AF%95/)
 
 - 
  [Use CLR to bypass UAC](https://3gstudent.github.io/3gstudent.github.io/Use-CLR-to-bypass-UAC/)
@@ -326,7 +326,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [域渗透——利用DCOM在远程系统执行程序](https://3gstudent.github.io/3gstudent.github.io/%E5%9F%9F%E6%B8%97%E9%80%8F-%E5%88%A9%E7%94%A8DCOM%E5%9C%A8%E8%BF%9C%E7%A8%8B%E7%B3%BB%E7%BB%9F%E6%89%A7%E8%A1%8C%E7%A8%8B%E5%BA%8F/)
 
 - 
- 域渗透——利用SYSVOL还原组策略中保存的密码
+ [域渗透——利用SYSVOL还原组策略中保存的密码](https://3gstudent.github.io/3gstudent.github.io/%E5%9F%9F%E6%B8%97%E9%80%8F-%E5%88%A9%E7%94%A8SYSVOL%E8%BF%98%E5%8E%9F%E7%BB%84%E7%AD%96%E7%95%A5%E4%B8%AD%E4%BF%9D%E5%AD%98%E7%9A%84%E5%AF%86%E7%A0%81/)
 
 - 
  [32位程序对64位进程的远程注入实现](https://3gstudent.github.io/3gstudent.github.io/32%E4%BD%8D%E7%A8%8B%E5%BA%8F%E5%AF%B964%E4%BD%8D%E8%BF%9B%E7%A8%8B%E7%9A%84%E8%BF%9C%E7%A8%8B%E6%B3%A8%E5%85%A5%E5%AE%9E%E7%8E%B0/)
