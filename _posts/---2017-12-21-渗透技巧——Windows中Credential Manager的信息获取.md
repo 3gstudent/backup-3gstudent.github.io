@@ -118,7 +118,7 @@ IE浏览器的凭据类型默认为Generic Credentials
 
 ### 1、获得系统凭据的基本信息
 
-工具： vaultcmd(windows系统自带)
+#### 工具1： vaultcmd(windows系统自带)
 
 常用命令：
 
@@ -165,6 +165,11 @@ vaultcmd /listcreds:{4BF4C442-9B8A-41A0-B380-DD4A704DDB28}
 ```
 vaultcmd /listproperties:{4BF4C442-9B8A-41A0-B380-DD4A704DDB28}
 ```
+
+#### 工具2：cmdkey
+
+命令行输入`cmdkey /list`能够列举出系统中的Windows凭据
+
 
 ### 2、获得Domain Credentials的明文口令
 
