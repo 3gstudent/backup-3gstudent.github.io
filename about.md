@@ -68,7 +68,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(81/87)
+### Recent Posts(81/88)
 
 - 
  [An interesting way of bypassing Windows Attachment Manager](https://3gstudent.github.io/3gstudent.github.io/An-interesting-way-of-bypassing-Windows-Attachment-Manager/)
@@ -111,6 +111,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 -  
  [NSA DanderSpiritz测试指南——木马生成与测试](https://3gstudent.github.io/3gstudent.github.io/NSA-DanderSpiritz%E6%B5%8B%E8%AF%95%E6%8C%87%E5%8D%97-%E6%9C%A8%E9%A9%AC%E7%94%9F%E6%88%90%E4%B8%8E%E6%B5%8B%E8%AF%95/)
+
+-  
+ Invoke-PSImage利用分析
 
 -  
  [Office Persistence on x64 operating system](https://3gstudent.github.io/3gstudent.github.io/Office-Persistence-on-x64-operating-system/)
