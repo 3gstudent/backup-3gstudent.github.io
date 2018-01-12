@@ -258,7 +258,7 @@ hashcat -m 5600 a::192.168.62.130:a9ca793c440d165d:e1dd772ec6fd6152e49a15f27c52d
 ## 0x04 小结
 ---
 
-本文介绍了NTLM hash和Net-NTLM hash的区别，实际演示NTLM hash的加密方法和Net-NTLM hash的破解方法。如果破解不出明文密码，对于NTLM hash可使用Pass-The-Hash作进一步利用，那么对于Net-NTLM hash呢？下篇文章将会详细介绍。
+本文介绍了NTLM hash和Net-NTLM hash的区别，实际演示NTLM hash的加密方法和Net-NTLM hash的破解方法。如果破解不出明文密码，对于NTLM hash可使用Pass-The-Hash作进一步利用，那么对于Net-NTLM hash呢？
 
 
 
