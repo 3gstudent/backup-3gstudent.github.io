@@ -68,7 +68,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(87/94)
+### Recent Posts(87/95)
 
 - 
  [An interesting way of bypassing Windows Attachment Manager](https://3gstudent.github.io/3gstudent.github.io/An-interesting-way-of-bypassing-Windows-Attachment-Manager/)
@@ -312,6 +312,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 - 
  渗透技巧——利用netsh抓取连接文件服务器的NTLMv2 Hash
+ 
+- 
+ 渗透技巧——利用图标文件获取连接文件服务器的NTLMv2 Hash
  
 - 
  渗透技巧——利用tscon实现未授权登录远程桌面
