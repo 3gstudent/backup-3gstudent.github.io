@@ -304,6 +304,13 @@ for p in range(len(packets)):
 
 接着使用Hashcat进行破解即可
 
+**注：**
+
+解析pcap包的开源工具：
+
+https://github.com/DanMcInerney/net-creds
+
+但在解析ntlmv2的challenge时会出现bug
 
 ## 0x05 补充
 ---
