@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 渗透技巧——Windows下的剪贴板
+title: 渗透技巧——Windows下剪贴板的利用
 ---
 
 
