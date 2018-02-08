@@ -68,7 +68,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(97/100)
+### Recent Posts(97/101)
 
 - 
  [An interesting way of bypassing Windows Attachment Manager](https://3gstudent.github.io/3gstudent.github.io/An-interesting-way-of-bypassing-Windows-Attachment-Manager/)
@@ -336,6 +336,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  
 - 
  [渗透技巧——模拟IE浏览器下载文件](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E6%A8%A1%E6%8B%9FIE%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8B%E8%BD%BD%E6%96%87%E4%BB%B6/)
+ 
+- 
+ 渗透技巧——通过SAM数据库获得本地用户hash
  
 - 
  [渗透技巧——"隐藏"注册表的创建](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E9%9A%90%E8%97%8F-%E6%B3%A8%E5%86%8C%E8%A1%A8%E7%9A%84%E5%88%9B%E5%BB%BA/)
