@@ -191,11 +191,17 @@ dpapi::blob /in test.txt
 
 ### 1、能够定位Master Key file
 
+方法1:
+
 mimikatz命令：
 
 ```
 dpapi::blob /in:test.txt
 ```
+
+方法2：
+
+通过读取文件Preferred的前16字节获得对应的Master Key file
 
 ### 2、不需要用户明文口令也能离线导出Chrome浏览器中保存的密码
 
