@@ -157,6 +157,12 @@ https://github.com/johannwmeyer/quarkspwdump/blob/a68aa6330f37eb8d00055c73e6a4e3
 
 https://github.com/gentilkiwi/mimikatz/blob/master/mimikatz/modules/kuhl_m_lsadump.c#L219
 
+完整计算代码可参考：
+
+https://raw.githubusercontent.com/3gstudent/Writeup/master/getsyskey.cpp
+
+(Steal from http://www.zcgonvh.com/post/ntds_dit_pwd_dumper.html)
+
 
 ### 2、使用syskey解密HKLM\SAM
 
