@@ -68,7 +68,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(97/104)
+### Recent Posts(98/105)
 
 - 
  [An interesting way of bypassing Windows Attachment Manager](https://3gstudent.github.io/3gstudent.github.io/An-interesting-way-of-bypassing-Windows-Attachment-Manager/)
@@ -121,6 +121,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
 -  
  [Office Persistence on x64 operating system](https://3gstudent.github.io/3gstudent.github.io/Office-Persistence-on-x64-operating-system/)
 
+- 
+ Password Filter DLL在渗透测试中的应用
+ 
 - 
  [Powershell tricks::Hide Process by kd.exe](https://3gstudent.github.io/3gstudent.github.io/Powershell-tricks-Hide-Process-by-kd.exe/)
  
