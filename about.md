@@ -68,7 +68,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(105/108)
+### Recent Posts(105/109)
 
 - 
  [An interesting way of bypassing Windows Attachment Manager](https://3gstudent.github.io/3gstudent.github.io/An-interesting-way-of-bypassing-Windows-Attachment-Manager/)
@@ -237,6 +237,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  
 - 
  [故障诊断平台在渗透测试中的应用技巧](https://3gstudent.github.io/3gstudent.github.io/%E6%95%85%E9%9A%9C%E8%AF%8A%E6%96%AD%E5%B9%B3%E5%8F%B0%E5%9C%A8%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8%E6%8A%80%E5%B7%A7/) 
+
+- 
+ 关于利用rundll32执行程序的分析
 
 - 
  [傀儡进程的实现与检测](https://3gstudent.github.io/3gstudent.github.io/%E5%82%80%E5%84%A1%E8%BF%9B%E7%A8%8B%E7%9A%84%E5%AE%9E%E7%8E%B0%E4%B8%8E%E6%A3%80%E6%B5%8B/)
