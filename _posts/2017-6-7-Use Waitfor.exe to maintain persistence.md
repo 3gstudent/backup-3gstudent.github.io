@@ -69,12 +69,13 @@ https://github.com/3gstudent/Waitfor-Persistence
 
 **注：**
 
-只能接收来自同一域内主机的信号
+>Computers can only receive signals if they are in the same domain as the computer sending the signal.
 
+即同一网段的主机才能接收信号
 
 **主要用途：**
 
-实现域内主机同时执行命令
+实现同一网段内的主机同时执行命令
 
 
 ### 测试实例：
