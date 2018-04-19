@@ -68,7 +68,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(110/112)
+### Recent Posts(110/114)
 
 - 
  [An interesting way of bypassing Windows Attachment Manager](https://3gstudent.github.io/3gstudent.github.io/An-interesting-way-of-bypassing-Windows-Attachment-Manager/)
@@ -91,6 +91,12 @@ Github:   [3gstudent](https://github.com/3gstudent)
 - 
  [CIA Hive测试指南——源代码获取与简要分析 ](https://3gstudent.github.io/3gstudent.github.io/CIA-Hive%E6%B5%8B%E8%AF%95%E6%8C%87%E5%8D%97-%E6%BA%90%E4%BB%A3%E7%A0%81%E8%8E%B7%E5%8F%96%E4%B8%8E%E7%AE%80%E8%A6%81%E5%88%86%E6%9E%90/)
 
+- 
+ CIA Hive Beacon Infrastructure复现1——使用Apache mod_rewrite实现http流量分发
+
+- 
+ CIA Hive Beacon Infrastructure复现2——使用Apache mod_rewrite实现https流量分发
+ 
 - 
  [CIA Vault7 RDB中的Windows后门利用方法分析](https://3gstudent.github.io/3gstudent.github.io/CIA-Vault7-RDB%E4%B8%AD%E7%9A%84Windows%E5%90%8E%E9%97%A8%E5%88%A9%E7%94%A8%E6%96%B9%E6%B3%95%E5%88%86%E6%9E%90/)
  
