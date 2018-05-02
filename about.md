@@ -68,7 +68,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(110/117)
+### Recent Posts(111/117)
 
 - 
  [An interesting way of bypassing Windows Attachment Manager](https://3gstudent.github.io/3gstudent.github.io/An-interesting-way-of-bypassing-Windows-Attachment-Manager/)
@@ -335,7 +335,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [渗透技巧——Windows下剪贴板的利用](https://3gstudent.github.io/3gstudent.github.io/Windows%E4%B8%8B%E5%89%AA%E8%B4%B4%E6%9D%BF%E7%9A%84%E5%88%A9%E7%94%A8/)
  
 - 
- 渗透技巧——Windows远程协助的隐蔽执行
+ [渗透技巧——Windows远程协助的隐蔽执行](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Windows%E8%BF%9C%E7%A8%8B%E5%8D%8F%E5%8A%A9%E7%9A%84%E9%9A%90%E8%94%BD%E6%89%A7%E8%A1%8C/)
  
 - 
  渗透技巧——Windows帐户的RID Hijacking
