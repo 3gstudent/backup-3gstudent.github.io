@@ -206,10 +206,6 @@ https://github.com/Kevin-Robertson/Inveigh
 - `20000`表示只在Intranet区域自动登录，默认值
 - `30000`表示匿名登录
 
-**注：**
-
-重启IE后生效
-
 如果将客户端用户认证的登录方式修改为`Automatic logon with current user name and password`，那么客户端在访问任何需要登录验证的网站都会先使用本机的用户名和密码hash尝试登录
 
 
