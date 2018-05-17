@@ -240,7 +240,7 @@ cmd输入regedit，会执行regedit.com，而不是regedit.exe
 
 关于该利用方法的详情可参考文章：《A dirty way of tricking users to bypass UAC》
 
-### 替他利用方法(暂略)
+### 其他利用方法(暂略)
 
 ## 0x05 防御
 ---
