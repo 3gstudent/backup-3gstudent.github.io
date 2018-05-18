@@ -181,7 +181,13 @@ https://nullsec.us/rdp-sessions-with-xfreerdp-using-pth/
 
 https://twitter.com/egyp7/status/776053410231558148
 
-使用FreeRDP传入hash的方法待解决
+**补充：**
+
+包含pth功能的旧版FreeRDP的的下载地址：
+
+https://labs.portcullis.co.uk/download/FreeRDP-pth.tar.gz
+
+需要重新编译，支持pth参数
 
 ## 0x04 防御检测
 ---
@@ -197,7 +203,7 @@ http://www.microsoft.com/en-us/download/details.aspx?id=36036
 ## 0x05 小结
 ---
 
-本文对Pass the Hash with Remote Desktop的方法进行了分析，找到了其中的限制条件（**Server需要开启Restricted Admin mode，Client需要支持Restricted Admin mode**），对Restricted Admin mode的关键部分进行了说明，使用FreeRDP传入hash的方法待解决
+本文对Pass the Hash with Remote Desktop的方法进行了分析，找到了其中的限制条件（**Server需要开启Restricted Admin mode，Client需要支持Restricted Admin mode**），对Restricted Admin mode的关键部分进行了说明
 
 
 ---
