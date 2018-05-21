@@ -95,6 +95,27 @@ https://github.com/3gstudent/test/blob/master/IFileOperation.cpp
 
 实现了将`c:\6\ntwdblib.dll`复制到`c:\windows\system32`下
 
+**代码分析：**
+
+成功的前提是指定了该COM对象的属性(需要提升权限)
+
+官方文档地址：
+
+https://msdn.microsoft.com/en-us/library/bb775799.aspx
+
+代码位置：
+
+https://github.com/3gstudent/test/blob/master/IFileOperation.cpp#L14
+
+属性说明：
+
+- FOF_NOCONFIRMATION :不弹出确认框
+- FOF_SILENT:不弹框
+- FOFX_SHOWELEVATIONPROMPT:需要提升权限
+- FOFX_NOCOPYHOOKS:不使用copy hooks
+- FOFX_REQUIREELEVATION:默认需要提升权限
+- FOF_NOERRORUI:报错不弹框
+
 #### 实际测试：
 
 直接运行exe，会弹出UAC的确认框，提示权限不够，如果选择允许，能够实现文件复制
