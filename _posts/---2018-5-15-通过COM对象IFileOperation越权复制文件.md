@@ -211,7 +211,9 @@ https://github.com/FuzzySecurity/PowerShell-Suite/blob/ebbb8991a8a051b48c05ce676
 
 COM对象IFileOperation适用于Win7-Win10，所以越权复制的方法也是可用的
 
-基于这三种实现方法的利用有很多，在以后会慢慢介绍
+对于explorer.exe，加载高权限的COM对象不会弹出UAC的对话框。
+
+本文已经实现了模拟explorer.exe的方法，那么是否有其他可用的COM对象呢？又能完成哪些“提权操作呢”?留在以后会慢慢介绍
 
 ## 0x07 
 ---
