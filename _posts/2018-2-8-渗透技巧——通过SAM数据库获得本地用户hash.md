@@ -91,7 +91,7 @@ https://github.com/3gstudent/NinjaCopy
 #### (1) mimikatz
 
 ```
-lsadump::sam /sam:SystemBkup.hiv /system:SamBkup.hiv
+lsadump::sam /sam:SamBkup.hiv /system:SystemBkup.hiv
 ```
 
 如下图
