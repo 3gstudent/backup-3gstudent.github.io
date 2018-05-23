@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 通过COM对象越权关闭防火墙
+title: 通过COM组件NetFwPolicy2越权关闭防火墙
 ---
 
 
