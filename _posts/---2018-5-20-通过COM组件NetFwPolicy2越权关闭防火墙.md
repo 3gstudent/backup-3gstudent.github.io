@@ -139,7 +139,7 @@ https://msdn.microsoft.com/en-us/library/windows/desktop/aa365287
 原因如下：
 
 
->>[The Windows Firewall API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For Windows Vista and later, use of the Windows Firewall with Advanced Security API is recommended.]
+>[The Windows Firewall API is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. For Windows Vista and later, use of the Windows Firewall with Advanced Security API is recommended.]
 
 
 需要换用Windows Firewall with Advanced Security API，官方文档：
