@@ -7,26 +7,26 @@ title: 通过COM组件NetFwPolicy2越权关闭防火墙
 ## 0x00 前言
 ---
 
-在上篇文章《通过COM对象IFileOperation越权复制文件》介绍了通过COM对象IFileOperation越权复制文件的三种方法，我们得出一个推论：**对于explorer.exe(或是模拟成explorer.exe)，加载高权限的COM对象不会弹出UAC的对话框**
+在上篇文章《通过COM组件IFileOperation越权复制文件》介绍了通过COM组件IFileOperation越权复制文件的三种方法，我们得出一个推论：**对于explorer.exe(或是模拟成explorer.exe)，加载高权限的COM组件不会弹出UAC的对话框**
 
-那么，这个推论是否适用于其他COM对象呢？又有哪些COM对象可以利用呢？
+那么，这个推论是否适用于其他COM组件呢？又有哪些COM组件可以利用呢？
 
-本文将要通过COM对象越权关闭防火墙的方法，详细记录研究过程
+本文将要通过COM组件越权关闭防火墙的方法，详细记录研究过程
 
 
 ## 0x01 简介
 ---
 
-- 寻找可以高权限运行的COM对象
+- 寻找可以高权限运行的COM组件
 - 编写c++程序实现关闭防火墙
-- 添加代码以高权限运行COM对象
+- 添加代码以高权限运行COM组件
 - 添加代码模拟进程explorer.exe
 - 开源完整实现代码
 
-## 0x02 寻找可以高权限运行的COM对象
+## 0x02 寻找可以高权限运行的COM组件
 ---
 
-通过COM对象IFileOperation实现越权复制文件有一个前提： COM对象能够以高权限运行
+通过COM组件IFileOperation实现越权复制文件有一个前提： COM组件能够以高权限运行
 
 对于IFileOperation，它提供了一个参数(SetOperationFlags)可以指定启动的权限
 
@@ -34,18 +34,18 @@ title: 通过COM组件NetFwPolicy2越权关闭防火墙
 
 https://msdn.microsoft.com/en-us/library/bb775799.aspx
 
-为了找到其他可以高权限运行的COM对象，我们首要的是寻找能够以高权限运行COM对象的方法
+为了找到其他可以高权限运行的COM组件，我们首要的是寻找能够以高权限运行COM组件的方法
 
-经过查找，我找到了一个资料，利用COM Elevation Moniker能够以高权限运行COM对象
+经过查找，我找到了一个资料，利用COM Elevation Moniker能够以高权限运行COM组件
 
 官方文档：
 
 https://msdn.microsoft.com/en-us/library/windows/desktop/ms679687(v=vs.85).aspx
 
-通过学习官方文档，发现COM Elevation Moniker的使用对COM对象有如下要求：
+通过学习官方文档，发现COM Elevation Moniker的使用对COM组件有如下要求：
 
-1. 该COM对象被注册
-2. 注册位置在`HKEY_LOCAL_MACHINE`下，也就是说，需要以管理员权限注册这个COM对象才可以
+1. 该COM组件被注册
+2. 注册位置在`HKEY_LOCAL_MACHINE`下，也就是说，需要以管理员权限注册这个COM组件才可以
 3. 注册表`HKEY_LOCAL_MACHINE\Software\Classes\CLSID`下需要指定三项键值
    - {CLSID}, LocalizedString(REG_EXPAND_SZ):displayName
    - {CLSID}/Elevation,IconReference(REG_EXPAND_SZ):applicationIcon
@@ -55,13 +55,13 @@ https://msdn.microsoft.com/en-us/library/windows/desktop/ms679687(v=vs.85).aspx
 
 经过实际测试，以上三项缺一不可
 
-接下来，按照这个要求搜索注册表寻找可用的COM对象
+接下来，按照这个要求搜索注册表寻找可用的COM组件
 
 搜索位置：`HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID`
 
 搜索关键词：`Elevation`
 
-经过一段时间的搜索，我找到了一个可用的COM对象，位置：`HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{E2B3C97F-6AE1-41AC-817A-F6F92166D7DD}`
+经过一段时间的搜索，我找到了一个可用的COM组件，位置：`HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{E2B3C97F-6AE1-41AC-817A-F6F92166D7DD}`
 
 信息如下图
 
@@ -74,7 +74,7 @@ https://msdn.microsoft.com/en-us/library/windows/desktop/ms679687(v=vs.85).aspx
 
 满足COM Elevation Moniker的要求
 
-通过搜索名称“HNetCfg.FwPolicy2”发现这个COM对象同防火墙的操作有关
+通过搜索名称“HNetCfg.FwPolicy2”发现这个COM组件同防火墙的操作有关
 
 
 ## 0x03 编写c++程序实现关闭防火墙
@@ -151,12 +151,12 @@ https://msdn.microsoft.com/en-us/library/windows/desktop/aa366418
 
 https://msdn.microsoft.com/en-us/library/windows/desktop/dd339606
 
-发现新的COM对象为`NetFwPolicy2`
+发现新的COM组件为`NetFwPolicy2`
 
 实例代码已经很清楚，但为了配合后面会使用到的COM Elevation Moniker，在结构上需要做一些修改
 
 
-## 0x04 添加代码以高权限运行COM对象
+## 0x04 添加代码以高权限运行COM组件
 ---
 
 官方文档：
@@ -196,7 +196,7 @@ https://msdn.microsoft.com/en-us/library/windows/desktop/dd339606
 
 ![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2018-5-20/3-2.png)
 
-调用CoCreateInstance函数创建实例被单独写在了一个函数WFCOMInitialize中，如果我们在WFCOMInitialize中实现了COM Elevation Moniker申请高权限，但是在函数返回时无法传出修改的值`void **ppv`(函数返回值为hr)，也就是说即使在函数WFCOMInitialize中申请到了高权限，跳出函数WFCOMInitialize后，回到主函数，后面使用的COM对象依然是旧的低权限
+调用CoCreateInstance函数创建实例被单独写在了一个函数WFCOMInitialize中，如果我们在WFCOMInitialize中实现了COM Elevation Moniker申请高权限，但是在函数返回时无法传出修改的值`void **ppv`(函数返回值为hr)，也就是说即使在函数WFCOMInitialize中申请到了高权限，跳出函数WFCOMInitialize后，回到主函数，后面使用的COM组件依然是旧的低权限
 
 所以我们需要对实例代码作修改，将调用CoCreateInstance函数创建实例的代码提取出来，放在主函数中
 
@@ -204,20 +204,20 @@ https://msdn.microsoft.com/en-us/library/windows/desktop/dd339606
 ## 0x05 添加代码模拟进程explorer.exe
 ---
 
-这部分内容在之前的文章《通过COM对象IFileOperation越权复制文件》有过介绍，对应方法2，可供参考的代码：
+这部分内容在之前的文章《通过COM组件IFileOperation越权复制文件》有过介绍，对应方法2，可供参考的代码：
 
-https://raw.githubusercontent.com/3gstudent/test/master/MasqueradePEB.cpp
+https://github.com/3gstudent/Use-COM-objects-to-bypass-UAC/blob/master/MasqueradePEB.cpp
 
 修改当前进程的PEB结构，欺骗PSAPI，将当前进程模拟为explorer.exe
 
 完整代码已开源，地址如下：
 
-https://raw.githubusercontent.com/3gstudent/test/master/DisableFirewall.cpp
+https://github.com/3gstudent/Use-COM-objects-to-bypass-UAC/blob/master/DisableFirewall.cpp
 
 ## 0x06 小结
 ---
 
-本文介绍了通过COM对象越权关闭防火墙的思路和实现方法，验证了推论：对于explorer.exe(或是模拟成explorer.exe)，加载高权限的COM对象不会弹出UAC的对话框
+本文介绍了通过COM组件越权关闭防火墙的思路和实现方法，验证了推论：对于explorer.exe(或是模拟成explorer.exe)，加载高权限的COM组件不会弹出UAC的对话框
 
 
 ---
