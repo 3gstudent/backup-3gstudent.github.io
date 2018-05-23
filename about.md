@@ -413,6 +413,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  通过COM组件NetFwPolicy2越权关闭防火墙
  
 - 
+ 通过COM组件IARPUninstallStringLauncher绕过UAC
+ 
+- 
  [隐写技巧——在PE文件的数字证书中隐藏Payload](https://3gstudent.github.io/3gstudent.github.io/%E9%9A%90%E5%86%99%E6%8A%80%E5%B7%A7-%E5%9C%A8PE%E6%96%87%E4%BB%B6%E7%9A%84%E6%95%B0%E5%AD%97%E8%AF%81%E4%B9%A6%E4%B8%AD%E9%9A%90%E8%97%8FPayload/)
 
 - 
