@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 通过COM对象IFileOperation越权复制文件
+title: 通过COM组件IFileOperation越权复制文件
 ---
 
 
@@ -11,7 +11,7 @@ title: 通过COM对象IFileOperation越权复制文件
 
 但该功能在Win10下被取消，那么有没有更为通用的方法呢？
 
-本文将要介绍一个适用于Win7-Win10的方法——利用COM对象IFileOperation
+本文将要介绍一个适用于Win7-Win10的方法——利用COM组件IFileOperation
 
 ## 0x01 简介
 ---
@@ -34,7 +34,7 @@ ppt下载地址：
 https://github.com/FuzzySecurity/DefCon25/blob/master/DefCon25_UAC-0day-All-Day_v1.2.pdf
 
 
-利用COM对象IFileOperation越权复制文件的前提：
+利用COM组件IFileOperation越权复制文件的前提：
 
 - Win7以后的系统
 - 可信路径下的可信文件(例如explorer.exe，powershell.exe)
@@ -49,15 +49,15 @@ https://github.com/FuzzySecurity/DefCon25/blob/master/DefCon25_UAC-0day-All-Day_
 
 例如explorer.exe，在普通用户权限就可以对其进行dll注入
 
-### 2、修改PEB结构，欺骗PSAPI，调用COM对象IFileOperation
+### 2、修改PEB结构，欺骗PSAPI，调用COM组件IFileOperation
 
-COM对象通过Process Status API (PSAPI)读取进程PEB结构中的Commandline来识别它们正在运行的进程
+COM组件通过Process Status API (PSAPI)读取进程PEB结构中的Commandline来识别它们正在运行的进程
 
-如果将进程的Path改成可信文件(如explorer.exe)，就能够欺骗PSAPI，调用COM对象IFileOperation实现越权复制
+如果将进程的Path改成可信文件(如explorer.exe)，就能够欺骗PSAPI，调用COM组件IFileOperation实现越权复制
 
-### 3、通过可信文件直接调用COM对象IFileOperation
+### 3、通过可信文件直接调用COM组件IFileOperation
 
-例如powershell.exe为可信文件，并且能够直接调用COM对象IFileOperation
+例如powershell.exe为可信文件，并且能够直接调用COM组件IFileOperation
 
 ## 0x03 实现方法1：dll注入explorer.exe
 ---
@@ -65,7 +65,7 @@ COM对象通过Process Status API (PSAPI)读取进程PEB结构中的Commandline�
 具体实现分为如下两段：
 
 1. 将dll注入到进程explorer.exe
-2. dll实现调用COM对象IFileOperation复制文件
+2. dll实现调用COM组件IFileOperation复制文件
 
 github已经有一个完整的实现代码，因此可以参考该工程对其分析，工程地址：
 
@@ -77,7 +77,7 @@ https://github.com/hjc4869/UacBypass
 
 删除Line 58即可
 
-(2)工程UacBypass实现了调用COM对象IFileOperation复制文件
+(2)工程UacBypass实现了调用COM组件IFileOperation复制文件
 
 该工程编译后生成文件UacBypass.dll，实现了将同级目录下的ntwdblib.dll复制到`C:\windows\System32`下
 
@@ -86,18 +86,18 @@ https://github.com/hjc4869/UacBypass
 运行UacBypassTest.exe，将UacBypass.dll注入到进程explorer.exe，成功实现越权文件复制
 
 
-## 0x04 实现方法2：修改PEB结构，欺骗PSAPI，调用COM对象IFileOperation
+## 0x04 实现方法2：修改PEB结构，欺骗PSAPI，调用COM组件IFileOperation
 ---
 
 参考工程UacBypass，将dll转为exe，添加头文件，修复bug，可供参考的完整代码：
 
-https://github.com/3gstudent/test/blob/master/IFileOperation.cpp
+https://github.com/3gstudent/Use-COM-objects-to-bypass-UAC/blob/master/IFileOperation.cpp
 
 实现了将`c:\6\ntwdblib.dll`复制到`c:\windows\system32`下
 
 **代码分析：**
 
-成功的前提是指定了该COM对象的属性(需要提升权限)
+成功的前提是指定了该COM组件的属性(需要提升权限)
 
 官方文档地址：
 
@@ -105,7 +105,7 @@ https://msdn.microsoft.com/en-us/library/bb775799.aspx
 
 代码位置：
 
-https://github.com/3gstudent/test/blob/master/IFileOperation.cpp#L14
+https://github.com/3gstudent/Use-COM-objects-to-bypass-UAC/blob/master/IFileOperation.cpp#L14
 
 属性说明：
 
@@ -140,14 +140,14 @@ https://github.com/hfiref0x/UACME/blob/143ead4db6b57a84478c9883023fbe5d64ac277b/
 - 不使用ntdll.lib文件(安装DDK后包含)，改为通过ntdll获得NTAPI
 - 提取关键代码
 - 修复bug
-- 添加调用COM对象IFileOperation复制文件的功能
+- 添加调用COM组件IFileOperation复制文件的功能
 - ...
 
 更多细节可参考开源的代码，地址如下：
 
-https://raw.githubusercontent.com/3gstudent/test/master/MasqueradePEB.cpp
+https://github.com/3gstudent/Use-COM-objects-to-bypass-UAC/blob/master/MasqueradePEB.cpp
 
-代码实现了修改当前进程的PEB结构，欺骗PSAPI，将其识别为explorer.exe，接着调用COM对象IFileOperation实现文件复制
+代码实现了修改当前进程的PEB结构，欺骗PSAPI，将其识别为explorer.exe，接着调用COM组件IFileOperation实现文件复制
 
 #### 实际测试：
 
@@ -157,10 +157,10 @@ https://raw.githubusercontent.com/3gstudent/test/master/MasqueradePEB.cpp
 
 文件复制成功，并且没有弹出UAC的确认框，实现了越权复制文件
 
-## 0x05 实现方法3：通过powershell.exe调用COM对象IFileOperation
+## 0x05 实现方法3：通过powershell.exe调用COM组件IFileOperation
 ---
 
-先通过c#编译一个COM组件实现调用COM对象IFileOperation复制文件，接着通过powershell来调用这个COM组件
+先通过c#编译一个COM组件实现调用COM组件IFileOperation复制文件，接着通过powershell来调用这个COM组件
 
 ### 1、编写COM组件
 
@@ -176,7 +176,7 @@ Ruben Boonen(b33f@FuzzySecurity)参考的源工程：
 
 https://github.com/mlaily/MSDNMagazine2007-.NET-Matters-IFileOperation-in-Windows-Vista
 
-他在此基础上做了修改(修改类名等)，使得powershell能够直接调用COM对象，这个功能很棒
+他在此基础上做了修改(修改类名等)，使得powershell能够直接调用COM组件，这个功能很棒
 
 ### 2、通过powershell来调用这个COM组件
 
@@ -204,21 +204,21 @@ https://github.com/FuzzySecurity/PowerShell-Suite/blob/ebbb8991a8a051b48c05ce676
 
 #### 实际测试：
 
-执行powershell脚本，加载COM对象IFileOperation，由于powershell.exe为可信进程，所以不会弹出UAC的确认框，成功实现越权复制文件
+执行powershell脚本，加载COM组件IFileOperation，由于powershell.exe为可信进程，所以不会弹出UAC的确认框，成功实现越权复制文件
 
 ##0x06 利用分析
 ---
 
-COM对象IFileOperation适用于Win7-Win10，所以越权复制的方法也是可用的
+COM组件IFileOperation适用于Win7-Win10，所以越权复制的方法也是可用的
 
-对于explorer.exe，加载高权限的COM对象不会弹出UAC的对话框。
+对于explorer.exe，加载高权限的COM组件不会弹出UAC的对话框。
 
-本文已经实现了模拟explorer.exe的方法，那么是否有其他可用的COM对象呢？又能完成哪些“提权操作呢”?留在以后会慢慢介绍
+本文已经实现了模拟explorer.exe的方法，那么是否有其他可用的COM组件呢？又能完成哪些“提权操作呢”?留在以后会慢慢介绍
 
 ## 0x07 
 ---
 
-本文介绍了通过COM对象IFileOperation越权复制文件的三种方法，整理并开发了实现代码，可用于直接测试
+本文介绍了通过COM组件IFileOperation越权复制文件的三种方法，整理并开发了实现代码，可用于直接测试
 
 最后感谢Ruben Boonen(b33f@FuzzySecurity)在研究上对我的帮助
 
