@@ -1,4 +1,7 @@
-# Windows单条日志清除——程序实现删除evtx文件的单条日志记录
+---
+layout: post
+title: Windows单条日志清除——程序实现删除evtx文件的单条日志记录
+---
 
 ## 0x00 前言
 ---
