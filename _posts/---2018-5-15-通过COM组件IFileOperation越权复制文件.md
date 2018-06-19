@@ -206,7 +206,7 @@ https://github.com/FuzzySecurity/PowerShell-Suite/blob/ebbb8991a8a051b48c05ce676
 
 执行powershell脚本，加载COM组件IFileOperation，由于powershell.exe为可信进程，所以不会弹出UAC的确认框，成功实现越权复制文件
 
-##0x06 利用分析
+## 0x06 利用分析
 ---
 
 COM组件IFileOperation适用于Win7-Win10，所以越权复制的方法也是可用的
