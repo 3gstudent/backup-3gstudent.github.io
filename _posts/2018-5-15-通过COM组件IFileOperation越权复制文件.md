@@ -123,9 +123,9 @@ https://github.com/3gstudent/Use-COM-objects-to-bypass-UAC/blob/master/IFileOper
 
 接下来需要添加修改PEB结构的功能，为了欺骗PSAPI，共需要修改以下位置：
 
--_RTL_USER_PROCESS_PARAMETERS中的ImagePathName
--_LDR_DATA_TABLE_ENTRY中的FullDllName
--_LDR_DATA_TABLE_ENTRY中的BaseDllName
+- _RTL_USER_PROCESS_PARAMETERS中的ImagePathName
+- _LDR_DATA_TABLE_ENTRY中的FullDllName
+- _LDR_DATA_TABLE_ENTRY中的BaseDllName
 
 **注：**
 
