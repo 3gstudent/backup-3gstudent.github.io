@@ -71,7 +71,7 @@ LM hash的生成方法本文暂不介绍
 ## 0x03 Net-NTLM hash
 ---
 
-通过是指网络环境下NTLM认证中的hash
+通常是指网络环境下NTLM认证中的hash
 
 NTLM认证采用质询/应答（Challenge/Response）的消息交换模式，流程如下：
 
