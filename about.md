@@ -248,7 +248,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
  Windows单条日志清除（三）——通过解除文件占用删除当前系统单条日志记录
 
 - 
- Windows单条日志清除（四）——通过获取日志文件句柄删除当前系统单条日志记录
+ Windows单条日志清除（四）——通过注入获取日志文件句柄删除当前系统单条日志记录
 
 - 
  [Windows下的密码hash——NTLM hash和Net-NTLM hash介绍](https://3gstudent.github.io/3gstudent.github.io/Windows%E4%B8%8B%E7%9A%84%E5%AF%86%E7%A0%81hash-NTLM-hash%E5%92%8CNet-NTLM-hash%E4%BB%8B%E7%BB%8D/)
