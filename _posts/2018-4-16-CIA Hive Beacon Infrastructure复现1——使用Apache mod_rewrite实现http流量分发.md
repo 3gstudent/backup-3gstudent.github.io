@@ -316,7 +316,7 @@ curl -A "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (K
 ![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2018-4-16/3-3.png)
 
 
-####(2) Peferer
+#### (2) Peferer
 
 只针对特定来源的请求进行重定向
 
