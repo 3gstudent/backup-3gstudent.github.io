@@ -7,7 +7,7 @@ title: Windows XML Event Log (EVTX)单条日志清除（一）——删除思路
 ## 0x00 前言
 ---
 
-Windows单条日志清除系列文章的第一篇，侧重于介绍基础知识和删除单条日志的实现思路与实例
+Windows XML Event Log (EVTX)单条日志清除系列文章的第一篇，侧重于介绍evtx日志文件的基础知识和删除单条日志的实现思路与实例
 
 ## 0x01 简介
 ---
