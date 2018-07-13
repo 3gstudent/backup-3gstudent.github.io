@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Windows单条日志清除（一）——删除思路与实例
+title: Windows XML Event Log (EVTX)单条日志清除（一）——删除思路与实例
 ---
 
 
