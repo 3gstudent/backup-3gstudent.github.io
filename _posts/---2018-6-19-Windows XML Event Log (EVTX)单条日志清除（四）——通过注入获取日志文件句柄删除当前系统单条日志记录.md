@@ -86,7 +86,7 @@ https://github.com/processhacker/processhacker/blob/e2d793289dede80f6e3bda26d647
 
 完整实现代码已开源，下载地址如下：
 
-https://github.com/3gstudent/Eventlogedit-Evolution/blob/master/GetPIDandHandle.cpp
+https://github.com/3gstudent/Eventlogedit-Evolution/blob/master/GetPIDandHandle(evtx).cpp
 
 
 程序实现了根据输入的关键词进行搜索，获得对应的句柄名称和Handle值
