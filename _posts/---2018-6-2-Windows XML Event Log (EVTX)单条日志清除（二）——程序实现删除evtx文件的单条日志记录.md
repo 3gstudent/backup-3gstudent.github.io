@@ -235,11 +235,14 @@ https://github.com/libyal/libevtx/blob/master/documentation/Windows%20XML%20Even
 
 https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/DeleteRecordofFile.cpp
 
+代码实现了读取指定日志文件，删除特定单条日志，保存为新的日志文件
+
 **注：**
 
 在代码的实现细节上我参考了看雪上的Demo代码，地址如下：
 
 https://bbs.pediy.com/thread-219313.htm
+
 
 ## 0x06 小结
 ---
