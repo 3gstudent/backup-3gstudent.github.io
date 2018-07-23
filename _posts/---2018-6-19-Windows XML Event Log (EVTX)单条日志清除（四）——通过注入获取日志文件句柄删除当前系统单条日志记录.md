@@ -80,8 +80,7 @@ https://github.com/processhacker/processhacker/blob/e2d793289dede80f6e3bda26d647
 
 **注：**
 
-经测试，第三个方法只适用于Win8和更新版本的操作系统
-
+经测试，第三个方法只适用于Win7和更新版本的操作系统
 
 利用NtQuerySystemInformation查询SystemHandleInformation能够获得所有进程的句柄信息
 
