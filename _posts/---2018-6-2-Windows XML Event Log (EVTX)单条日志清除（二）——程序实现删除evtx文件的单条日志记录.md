@@ -233,7 +233,7 @@ https://github.com/libyal/libevtx/blob/master/documentation/Windows%20XML%20Even
 
 其他实现的细节见开源代码，地址如下：
 
-https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/DeleteRecordbyFile.cpp
+https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/DeleteRecordofFile.cpp
 
 **注：**
 
