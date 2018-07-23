@@ -17,7 +17,6 @@ Windows XML Event Log (EVTX)单条日志清除系列文章的第二篇，介绍�
 - 程序实现细节
 - 开源代码
 
-
 ## 0x02 对指定evtx文件单条日志的删除思路
 ---
 
@@ -118,7 +117,6 @@ memcpy(ChecksumBuf, (PBYTE)elfFilePtr, 120);
 crc32 = GetCRC32(ChecksumBuf, 120);
 ```
 
-
 ### 3、重新计算前一日志长度，共2个位置(偏移4和当前日志的最后4字节)
 
 通过搜索magic string `0x2A 0x2A 0x00 0x00`逐个定位Event Record
@@ -191,10 +189,8 @@ memcpy(ChecksumBuf+120, (PBYTE)currentChunk+128, 384);
 crc32 = GetCRC32(ChecksumBuf, 504);
 ```
 
-
 ## 0x04 删除最后一条日志
 ---
-
 
 删除最后一条日志在上篇文章《Windows XML Event Log (EVTX)单条日志清除（一）——删除思路与实例》做过实例演示，与删除中间日志的方法基本相同
 
@@ -231,23 +227,19 @@ https://github.com/libyal/libevtx/blob/master/documentation/Windows%20XML%20Even
 - Template definition Data size
 - Next template definition offset
 
-
 **注：**
 
 该方法同样适用于修改中间日志和最后一条日志，所以说，只要理解了日志格式，删除的方法不唯一
 
-
 其他实现的细节见开源代码，地址如下：
 
-https://github.com/3gstudent/Eventlogedit-Evolution
+https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/DeleteRecordbyFile.cpp
 
 **注：**
 
 在代码的实现细节上我参考了看雪上的Demo代码，地址如下：
 
 https://bbs.pediy.com/thread-219313.htm
-
-
 
 ## 0x06 小结
 ---
