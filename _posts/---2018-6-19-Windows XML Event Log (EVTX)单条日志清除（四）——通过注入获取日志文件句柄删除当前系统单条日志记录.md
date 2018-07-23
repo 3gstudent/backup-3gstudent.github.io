@@ -114,7 +114,7 @@ https://github.com/3gstudent/Inject-dll-by-APC/blob/master/NtCreateThreadEx%20%2
 
 **注:**
 
-注入成功后需要Free
+注入成功后需要FreeDll
 
 注入成功后，使用获得到的Handle值作为函数CreateFileMapping()的第一个参数，创建一个文件映射内核对象
 
@@ -132,16 +132,15 @@ https://github.com/3gstudent/Inject-dll-by-APC/blob/master/NtCreateThreadEx%20%2
 
 这里可以借助进程间的消息传递
 
-实现方法有多种，例如信号、管道、消息队列和共享内存
+实现方法有多种，例如信号、管道、消息队列和共享内存，甚至是读写文件
 
-由于在上一节使用了函数CreateFileMapping()创建一个文件映射内核对象，所以进程间消息传递也使用内存映射的方式
-
+由于在0x04部分使用了函数CreateFileMapping()创建一个文件映射内核对象，所以进程间消息传递也使用内存映射的方式
 
 创建一个共享内存，代码可参考：
 
 https://github.com/3gstudent/Eventlogedit-Evolution/blob/master/CreateFileMapping.cpp
 
-读取共享内存，代码可参考：
+读取指定共享内存，代码可参考：
 
 https://github.com/3gstudent/Eventlogedit-Evolution/blob/master/OpenFileMapping.cpp
 
