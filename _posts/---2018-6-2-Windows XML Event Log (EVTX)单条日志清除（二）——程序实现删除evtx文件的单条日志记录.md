@@ -148,7 +148,7 @@ PrevRecord->Size = NewSize
 使用NewSize替换NextRecord起始点前的4字节：
 
 ```
-*(PULONG)(NextRecord-4) = NewSize
+*(PULONG)((PBYTE)NextRecord-4) = NewSize
 ```
 
 ### 4、后续日志的Event record identifier依次减1
