@@ -270,6 +270,9 @@ int main(int argc, char *argv[])
 
 https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/DeleteRecordbyTerminateProcess.cpp
 
+代码实现了自动获得日志服务的进程，结束进程，修改指定的系统日志文件，修改成功后重新启动日志服务
+
+
 ## 0x06 其他细节
 ---
 
