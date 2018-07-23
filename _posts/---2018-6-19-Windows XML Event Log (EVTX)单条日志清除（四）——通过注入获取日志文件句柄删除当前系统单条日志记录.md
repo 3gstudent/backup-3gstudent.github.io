@@ -193,7 +193,7 @@ https://github.com/3gstudent/Homework-of-C-Language/blob/master/OpenFileMapping.
 
 在实际测试环境中，高版本的Windows系统不允许注入保护进程svchost.exe，那么该如何修改日志文件呢？
 
-下篇文章将会介绍解决方法。
+下篇文章将会介绍解决办法。
 
 ---
 
