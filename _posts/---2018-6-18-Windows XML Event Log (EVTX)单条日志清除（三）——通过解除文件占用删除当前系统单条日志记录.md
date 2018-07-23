@@ -268,7 +268,7 @@ int main(int argc, char *argv[])
 
 代码参考地址：
 
-https://github.com/3gstudent/Eventlogedit-Evolution
+https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/DeleteRecordbyTerminateProcess.cpp
 
 ## 0x06 其他细节
 ---
