@@ -80,9 +80,11 @@ https://github.com/processhacker/processhacker/blob/e2d793289dede80f6e3bda26d647
 
 **注：**
 
-经测试，第三个方法只适用于Win7和更新版本的操作系统
+经测试，第三个方法适用于Win7和更新版本的操作系统
 
 利用NtQuerySystemInformation查询SystemHandleInformation能够获得所有进程的句柄信息
+
+挑选出日志进程中的所有句柄
 
 接着通过NtDuplicateObject获取句柄的名称和具体的数值信息
 
@@ -91,7 +93,6 @@ https://github.com/processhacker/processhacker/blob/e2d793289dede80f6e3bda26d647
 完整实现代码已开源，下载地址如下：
 
 https://github.com/3gstudent/Homework-of-C-Language/blob/master/GetPIDandHandle(evtx).cpp
-
 
 代码实现了根据输入的关键词进行搜索，获得对应的句柄名称和Handle值
 
