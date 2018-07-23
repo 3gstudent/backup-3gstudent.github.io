@@ -78,6 +78,11 @@ https://github.com/processhacker/processhacker/blob/e2d793289dede80f6e3bda26d647
 
 于是，挑选第三个方法尝试实现
 
+**注：**
+
+经测试，第三个方法也是只适用于Win8和更新的操作系统
+
+
 利用NtQuerySystemInformation查询SystemHandleInformation能够获得所有进程的句柄信息
 
 接着通过NtDuplicateObject获取句柄的名称和具体的数值信息
