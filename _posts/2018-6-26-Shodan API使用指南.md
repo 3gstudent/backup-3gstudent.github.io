@@ -316,7 +316,7 @@ import json
 file_object = open("shodan_data.json", 'r')
 for line in file_object:
     data = json.loads(line)
-    print data["ip_str"]   
+    print (data["ip_str"])  
 file_object.close()
 ```
 
