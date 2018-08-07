@@ -25,6 +25,7 @@ https://blog.xpnsec.com/becoming-system/
 - 通过创建服务获得System权限的方法
 - 利用MSIExec获得System权限的方法
 - 利用token复制获得System权限的方法
+- 利用Capcom.sys获得System权限的方法
 
 ## 0x02 通过创建服务获得System权限
 ---
@@ -246,7 +247,37 @@ SelectMyParent的原理同xpn开源的代码(PROC_THREAD_ATTRIBUTE_PARENT_PROCES
 
 https://gist.github.com/xpn/a057a26ec81e736518ee50848b9c2cd6
 
-## 0x05 小结 
+## 0x05 利用Capcom.sys获得System权限的方法
+---
+
+Capcom.sys是游戏公司Capcom的《街头霸王5》中用来反作弊的驱动程序，带有Capcom公司的签名，存在漏洞可以执行内核代码
+
+下载地址：
+
+https://github.com/3gstudent/test/blob/master/Capcom.sys
+
+SHA1: `c1d5cf8c43e7679b782630e93f5e6420ca1749a7`
+
+适用于Win7x64
+
+1、在当前系统创建服务
+
+需要管理员权限
+
+```
+sc create Capcom type= kernel binPath= C:\test\Capcom.sys
+sc start Capcom
+```
+2、执行漏洞利用程序
+
+普通用户权限即可
+
+可供参考的的代码：
+
+https://github.com/tandasat/ExploitCapcom
+
+
+## 0x06 小结 
 ---
 
 本文对常用的System权限获取方法做了整理，最后感谢xpn的博客和他的开源代码。
