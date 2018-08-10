@@ -1,8 +1,8 @@
+
 ---
 layout: post
 title: Windows XML Event Log (EVTX)单条日志清除（五）——通过DuplicateHandle获取日志文件句柄删除当前系统单条日志记录
 ---
-
 
 ## 0x00 前言
 ---
