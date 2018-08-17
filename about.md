@@ -65,10 +65,13 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(133/136)
+### Recent Posts(133/137)
 
 - 
  [An interesting way of bypassing Windows Attachment Manager](https://3gstudent.github.io/3gstudent.github.io/An-interesting-way-of-bypassing-Windows-Attachment-Manager/)
+
+- 
+ AntiVirus Evasion Tool(avet)测试分析
 
 - 
  [AtomBombing利用分析](https://3gstudent.github.io/3gstudent.github.io/AtomBombing%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90/)
