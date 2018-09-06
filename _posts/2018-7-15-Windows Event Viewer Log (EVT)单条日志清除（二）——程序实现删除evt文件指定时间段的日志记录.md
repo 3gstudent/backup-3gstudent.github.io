@@ -9,7 +9,7 @@ title: Windows Event Viewer Log (EVT)单条日志清除（二）——程序实�
 
 Windows Event Viewer Log (EVT)单条日志清除系列文章的第二篇，介绍删除evt文件指定时间段日志记录的思路，解决在程序设计上需要考虑的多个问题，开源实现代码。
 
-##0x01 简介
+## 0x01 简介
 ---
 
 本文将要介绍以下内容：
