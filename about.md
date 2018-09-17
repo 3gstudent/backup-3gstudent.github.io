@@ -65,7 +65,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(135/139)
+### Recent Posts(135/140)
 
 - 
  [An interesting way of bypassing Windows Attachment Manager](https://3gstudent.github.io/3gstudent.github.io/An-interesting-way-of-bypassing-Windows-Attachment-Manager/)
@@ -348,6 +348,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  
 - 
  [渗透基础——选择一个合适的C2域名](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E5%9F%BA%E7%A1%80-%E9%80%89%E6%8B%A9%E4%B8%80%E4%B8%AA%E5%90%88%E9%80%82%E7%9A%84C2%E5%9F%9F%E5%90%8D/)
+ 
+- 
+ 渗透技巧——Windows Token九种权限的利用
  
 - 
  [渗透基础——Windows下计划任务的使用](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E5%9F%BA%E7%A1%80-Windows%E4%B8%8B%E8%AE%A1%E5%88%92%E4%BB%BB%E5%8A%A1%E7%9A%84%E4%BD%BF%E7%94%A8/)
