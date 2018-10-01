@@ -65,7 +65,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(137/143)
+### Recent Posts(137/144)
 
 - 
  [An interesting way of bypassing Windows Attachment Manager](https://3gstudent.github.io/3gstudent.github.io/An-interesting-way-of-bypassing-Windows-Attachment-Manager/)
@@ -99,6 +99,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  
 - 
  [CIA Vault7 RDB中的Windows后门利用方法分析](https://3gstudent.github.io/3gstudent.github.io/CIA-Vault7-RDB%E4%B8%AD%E7%9A%84Windows%E5%90%8E%E9%97%A8%E5%88%A9%E7%94%A8%E6%96%B9%E6%B3%95%E5%88%86%E6%9E%90/)
+ 
+- 
+ CVE-2017-8360(Keylogger in HP Audio Driver)利用分析
  
 - 
  [DLL劫持漏洞自动化识别工具Rattler测试](https://3gstudent.github.io/3gstudent.github.io/DLL%E5%8A%AB%E6%8C%81%E6%BC%8F%E6%B4%9E%E8%87%AA%E5%8A%A8%E5%8C%96%E8%AF%86%E5%88%AB%E5%B7%A5%E5%85%B7Rattler%E6%B5%8B%E8%AF%95/)
