@@ -431,7 +431,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [渗透技巧——利用PHP脚本从浏览器中获得Net-NTLM hash](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E5%88%A9%E7%94%A8PHP%E8%84%9A%E6%9C%AC%E4%BB%8E%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%AD%E8%8E%B7%E5%BE%97Net-NTLM-hash/)
  
 - 
- 渗透技巧——利用虚拟磁盘实现的“无文件”
+ [渗透技巧——利用虚拟磁盘实现的“无文件”](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E5%88%A9%E7%94%A8%E8%99%9A%E6%8B%9F%E7%A3%81%E7%9B%98%E5%AE%9E%E7%8E%B0%E7%9A%84-%E6%97%A0%E6%96%87%E4%BB%B6/)
  
 - 
  [渗透技巧——快捷方式文件的参数隐藏技巧](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E5%BF%AB%E6%8D%B7%E6%96%B9%E5%BC%8F%E6%96%87%E4%BB%B6%E7%9A%84%E5%8F%82%E6%95%B0%E9%9A%90%E8%97%8F%E6%8A%80%E5%B7%A7/)
