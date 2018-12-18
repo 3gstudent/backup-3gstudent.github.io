@@ -7,7 +7,7 @@ title: 渗透技巧——RecentFileCache.bcf和Amcache.hve单条记录的清除
 ## 0x00 前言
 ---
 
-在上篇文章《渗透技巧——Windows系统文件执行记录的获取与清除》对Windows主机(Win7及以上系统)常见文件执行记录的位置进行整理，尝试获取并清除单条记录，分析利用思路，总结防御方法。
+在上篇文章[《渗透技巧——Windows系统文件执行记录的获取与清除》](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Windows%E7%B3%BB%E7%BB%9F%E6%96%87%E4%BB%B6%E6%89%A7%E8%A1%8C%E8%AE%B0%E5%BD%95%E7%9A%84%E8%8E%B7%E5%8F%96%E4%B8%8E%E6%B8%85%E9%99%A4/)对Windows主机(Win7及以上系统)常见文件执行记录的位置进行整理，尝试获取并清除单条记录，分析利用思路，总结防御方法。
 
 本文作为后续，详细介绍RecentFileCache.bcf和Amcache.hve单条记录的清除方法
 
