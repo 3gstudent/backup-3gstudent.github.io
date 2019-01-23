@@ -65,7 +65,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(153/156)
+### Recent Posts(153/157)
 
 - 
  [An interesting way of bypassing Windows Attachment Manager](https://3gstudent.github.io/3gstudent.github.io/An-interesting-way-of-bypassing-Windows-Attachment-Manager/)
@@ -372,6 +372,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  
 - 
  渗透技巧——Windows下NTFS文件的时间属性
+ 
+- 
+ 渗透技巧——Windows下NTFS文件的USN Journal
  
 - 
  [渗透技巧——Windows下的Access Control List](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Windows%E4%B8%8B%E7%9A%84Access-Control-List/)
