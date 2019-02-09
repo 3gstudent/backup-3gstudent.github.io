@@ -65,7 +65,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(153/157)
+### Recent Posts(155/157)
 
 - 
  [An interesting way of bypassing Windows Attachment Manager](https://3gstudent.github.io/3gstudent.github.io/An-interesting-way-of-bypassing-Windows-Attachment-Manager/)
@@ -380,13 +380,13 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [渗透技巧——Windows下的Access Control List](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Windows%E4%B8%8B%E7%9A%84Access-Control-List/)
  
 - 
- 渗透技巧——Windows下的Remote Registry
+ [渗透技巧——Windows下的Remote Registry](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Windows%E4%B8%8B%E7%9A%84Remote-Registry/)
  
 - 
  [渗透基础——Windows下计划任务的使用](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E5%9F%BA%E7%A1%80-Windows%E4%B8%8B%E8%AE%A1%E5%88%92%E4%BB%BB%E5%8A%A1%E7%9A%84%E4%BD%BF%E7%94%A8/)
  
 - 
- 渗透技巧——Windows中net session的利用
+ [渗透技巧——Windows中net session的利用](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Windows%E4%B8%ADnet-session%E7%9A%84%E5%88%A9%E7%94%A8/)
  
 - 
  [渗透技巧——Junction Folders和Library Files的后门利用](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Junction-Folders%E5%92%8CLibrary-Files%E7%9A%84%E5%90%8E%E9%97%A8%E5%88%A9%E7%94%A8/)
