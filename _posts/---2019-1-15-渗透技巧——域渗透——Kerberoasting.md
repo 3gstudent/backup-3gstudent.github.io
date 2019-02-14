@@ -12,13 +12,21 @@ Kerberoasting是域渗透中经常使用的一项技术，本文将参考公开�
 参考资料：
 
 http://www.harmj0y.net/blog/powershell/kerberoasting-without-mimikatz/
+
 http://www.harmj0y.net/blog/redteaming/from-kekeo-to-rubeus/
+
 https://malicious.link/post/2016/kerberoast-pt1/
+
 https://malicious.link/post/2016/kerberoast-pt2/
+
 https://malicious.link/post/2016/kerberoast-pt3/
+
 https://adsecurity.org/?p=3458
+
 https://adsecurity.org/?page_id=183
+
 https://blog.netspi.com/faster-domain-escalation-using-ldap/
+
 https://social.technet.microsoft.com/wiki/contents/articles/717.service-principal-names-spns-setspn-syntax-setspn-exe.aspx
 
 ## 0x01 简介
