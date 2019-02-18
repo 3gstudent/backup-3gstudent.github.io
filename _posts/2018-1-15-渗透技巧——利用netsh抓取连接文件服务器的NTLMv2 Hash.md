@@ -179,10 +179,10 @@ for p in packets:
 
 程序开发思路：
 
-1.对目的端口进行判断，选出SMB协议的数据包
-2.筛选出NTLMv2 Response数据包
-3.通过当前数据包获得username、domain、HMAC-MD5和blob
-4.通过前一数据包获得Server challenge
+1. 对目的端口进行判断，选出SMB协议的数据包
+2. 筛选出NTLMv2 Response数据包
+3. 通过当前数据包获得username、domain、HMAC-MD5和blob
+4. 通过前一数据包获得Server challenge
 
 具体实现：
 
