@@ -285,6 +285,12 @@ eg：
 
 `type putty.exe > \\.\C:\test\ads\LPT4:putty.exe`
 
+**注：**
+
+更多特殊文件名称可参考：
+
+https://docs.microsoft.com/en-us/windows/desktop/FileIO/naming-a-file#naming-conventions
+
 **补充3：**
 
 也可以使用前缀`\\?\`，具有相同效果
