@@ -258,7 +258,7 @@ c:\Windows\system32\dimsjob.dll
 
 选择Convert-To C++ Wrapper，输入原dll的绝对路径：
 
-c:\Windows\system32\dimsjob.dll
+c:\\Windows\\system32\\dimsjob.dll
 
 自动生成可供使用的c++代码，如下：
 
@@ -268,10 +268,10 @@ c:\Windows\system32\dimsjob.dll
 
 using namespace std;
 
-#pragma comment (linker, "/export:DllCanUnloadNow=c:\windows\system32\dimsjob.DllCanUnloadNow,@1")
-#pragma comment (linker, "/export:DllGetClassObject=c:\windows\system32\dimsjob.DllGetClassObject,@2")
-#pragma comment (linker, "/export:DllRegisterServer=c:\windows\system32\dimsjob.DllRegisterServer,@3")
-#pragma comment (linker, "/export:DllUnregisterServer=c:\windows\system32\dimsjob.DllUnregisterServer,@4")
+#pragma comment (linker, "/export:DllCanUnloadNow=c:\\windows\\system32\\dimsjob.DllCanUnloadNow,@1")
+#pragma comment (linker, "/export:DllGetClassObject=c:\\windows\\system32\\dimsjob.DllGetClassObject,@2")
+#pragma comment (linker, "/export:DllRegisterServer=c:\\windows\\system32\\dimsjob.DllRegisterServer,@3")
+#pragma comment (linker, "/export:DllUnregisterServer=c:\\windows\\system32\\dimsjob.DllUnregisterServer,@4")
 
 BOOL WINAPI DllMain(HINSTANCE hInst,DWORD reason,LPVOID)
 {
