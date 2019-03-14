@@ -65,7 +65,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(158/160)
+### Recent Posts(158/161)
 
 - 
  [An interesting way of bypassing Windows Attachment Manager](https://3gstudent.github.io/3gstudent.github.io/An-interesting-way-of-bypassing-Windows-Attachment-Manager/)
@@ -321,6 +321,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  
 - 
  [利用wmic调用xsl文件的分析与利用](https://3gstudent.github.io/3gstudent.github.io/%E5%88%A9%E7%94%A8wmic%E8%B0%83%E7%94%A8xsl%E6%96%87%E4%BB%B6%E7%9A%84%E5%88%86%E6%9E%90%E4%B8%8E%E5%88%A9%E7%94%A8/)
+ 
+- 
+ 模拟可信目录的利用技巧扩展
  
 - 
  [内网安全——利用NSA Smbtouch批量检测内网](https://3gstudent.github.io/3gstudent.github.io/%E5%86%85%E7%BD%91%E5%AE%89%E5%85%A8-%E5%88%A9%E7%94%A8NSA-Smbtouch%E6%89%B9%E9%87%8F%E6%A3%80%E6%B5%8B%E5%86%85%E7%BD%91/)
