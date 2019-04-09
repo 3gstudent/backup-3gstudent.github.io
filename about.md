@@ -65,7 +65,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(159/162)
+### Recent Posts(160/162)
 
 - 
  [An interesting way of bypassing Windows Attachment Manager](https://3gstudent.github.io/3gstudent.github.io/An-interesting-way-of-bypassing-Windows-Attachment-Manager/)
@@ -512,7 +512,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [通过COM组件IARPUninstallStringLauncher绕过UAC](https://3gstudent.github.io/3gstudent.github.io/%E9%80%9A%E8%BF%87COM%E7%BB%84%E4%BB%B6IARPUninstallStringLauncher%E7%BB%95%E8%BF%87UAC/)
  
 - 
- 通过模拟可信目录绕过UAC的利用分析
+ [通过模拟可信目录绕过UAC的利用分析](https://3gstudent.github.io/3gstudent.github.io/%E9%80%9A%E8%BF%87%E6%A8%A1%E6%8B%9F%E5%8F%AF%E4%BF%A1%E7%9B%AE%E5%BD%95%E7%BB%95%E8%BF%87UAC%E7%9A%84%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90/)
  
 - 
  [隐写技巧——在PE文件的数字证书中隐藏Payload](https://3gstudent.github.io/3gstudent.github.io/%E9%9A%90%E5%86%99%E6%8A%80%E5%B7%A7-%E5%9C%A8PE%E6%96%87%E4%BB%B6%E7%9A%84%E6%95%B0%E5%AD%97%E8%AF%81%E4%B9%A6%E4%B8%AD%E9%9A%90%E8%97%8FPayload/)
