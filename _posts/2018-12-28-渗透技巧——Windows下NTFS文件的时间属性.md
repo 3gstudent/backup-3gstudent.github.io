@@ -59,7 +59,7 @@ MFTChangeTime记录MFT(Master File Table)的修改时间，如果文件属性变
 
 Master File Table中的`$STANDARD_INFORMATION`(偏移0x10)和`$FILE_NAME`(偏移0x30)包含完整的文件属性
 
-###3、Win7系统默认CreateTime和AccessTime保持一致
+### 3、Win7系统默认CreateTime和AccessTime保持一致
 
 Win7系统(以及更高版本)默认设置下，禁用了AccessTime的更新
 
