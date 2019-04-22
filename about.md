@@ -284,8 +284,11 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [本地密码查看工具LaZagne中的自定义脚本开发](https://3gstudent.github.io/3gstudent.github.io/%E6%9C%AC%E5%9C%B0%E5%AF%86%E7%A0%81%E6%9F%A5%E7%9C%8B%E5%B7%A5%E5%85%B7LaZagne%E4%B8%AD%E7%9A%84%E8%87%AA%E5%AE%9A%E4%B9%89%E8%84%9A%E6%9C%AC%E5%BC%80%E5%8F%91/)
  
 - 
- 对APT34泄露工具的分析——PoisonFrog和Glimpse
+ 对APT34泄露工具的分析——HighShell和HyperShell
  
+- 
+ 对APT34泄露工具的分析——PoisonFrog和Glimpse
+  
 - 
  [故障诊断平台在渗透测试中的应用技巧](https://3gstudent.github.io/3gstudent.github.io/%E6%95%85%E9%9A%9C%E8%AF%8A%E6%96%AD%E5%B9%B3%E5%8F%B0%E5%9C%A8%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8%E6%8A%80%E5%B7%A7/) 
 
