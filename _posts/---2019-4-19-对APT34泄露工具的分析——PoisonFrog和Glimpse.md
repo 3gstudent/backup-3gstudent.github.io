@@ -40,10 +40,6 @@ https://malware-research.org/apt34-hacking-tools-leak/amp/
 - hUpdater.ps1
 - UpdateTask.vbs
 
-**注：**
-
-%public%\Public默认为隐藏文件夹
-
 释放文件的具体功能如下：
 
 (1)dUpdater.ps1
