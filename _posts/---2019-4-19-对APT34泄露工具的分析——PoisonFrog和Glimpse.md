@@ -138,10 +138,6 @@ dns_main.ps1的功能如下：
 
 1. 创建文件夹%public%\Libraries
 
-**注：**
-
-%public%\Libraries默认为隐藏文件夹
-
 2. 判断文件%public%\Libraries\lock是否存在
 
 - 如果不存在，创建文件并写入当前powershell进程的pid
