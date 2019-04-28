@@ -65,7 +65,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(161/166)
+### Recent Posts(164/166)
 
 - 
  [An interesting way of bypassing Windows Attachment Manager](https://3gstudent.github.io/3gstudent.github.io/An-interesting-way-of-bypassing-Windows-Attachment-Manager/)
@@ -359,10 +359,10 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [渗透测试中的msiexec](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B8%AD%E7%9A%84msiexec/)
  
 - 
- 渗透测试中的Node.js——Downloader的实现
+ [渗透测试中的Node.js——Downloader的实现](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B8%AD%E7%9A%84Node.js-Downloader%E7%9A%84%E5%AE%9E%E7%8E%B0/)
  
 - 
- 渗透测试中的Node.js——利用C++插件隐藏真实代码
+ [渗透测试中的Node.js——利用C++插件隐藏真实代码](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B8%AD%E7%9A%84Node.js-%E5%88%A9%E7%94%A8C++%E6%8F%92%E4%BB%B6%E9%9A%90%E8%97%8F%E7%9C%9F%E5%AE%9E%E4%BB%A3%E7%A0%81/)
  
 - 
  [渗透测试中的Volume Shadow Copy](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B8%AD%E7%9A%84Volume-Shadow-Copy/) 
@@ -539,7 +539,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [隐写技巧——利用PNG文件格式隐藏Payload](https://3gstudent.github.io/3gstudent.github.io/%E9%9A%90%E5%86%99%E6%8A%80%E5%B7%A7-%E5%88%A9%E7%94%A8PNG%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F%E9%9A%90%E8%97%8FPayload/) 
 
 - 
- 域渗透——DNS记录的获取
+ [域渗透——DNS记录的获取](https://3gstudent.github.io/3gstudent.github.io/%E5%9F%9F%E6%B8%97%E9%80%8F-DNS%E8%AE%B0%E5%BD%95%E7%9A%84%E8%8E%B7%E5%8F%96/)
 
 - 
  [域渗透——Kerberoasting](https://3gstudent.github.io/3gstudent.github.io/%E5%9F%9F%E6%B8%97%E9%80%8F-Kerberoasting/)
