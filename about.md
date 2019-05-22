@@ -65,7 +65,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(166/168)
+### Recent Posts(167/170)
 
 - 
  [An interesting way of bypassing Windows Attachment Manager](https://3gstudent.github.io/3gstudent.github.io/An-interesting-way-of-bypassing-Windows-Attachment-Manager/)
@@ -150,6 +150,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  
 - 
  [Shodan API使用指南](https://3gstudent.github.io/3gstudent.github.io/Shodan-API%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/)
+ 
+- 
+ SILENTTRINITY利用分析
  
 - 
  [Study Notes of using dnx.exe / rcsi.exe to bypass Decvice Guard UMCI](https://3gstudent.github.io/3gstudent.github.io/Study-Notes-of-using-dnx.exe-&-rcsi.exe-to-bypass-Decvice-Guard-UMCI/)
@@ -462,6 +465,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 - 
  [渗透技巧——导出Chrome浏览器中保存的密码](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E5%AF%BC%E5%87%BAChrome%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%AD%E4%BF%9D%E5%AD%98%E7%9A%84%E5%AF%86%E7%A0%81/)
+ 
+- 
+ 渗透技巧——获得Powershell命令的历史记录
  
 - 
  [渗透技巧——获得Windows系统的远程桌面连接历史记录](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E8%8E%B7%E5%BE%97Windows%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2%E8%BF%9E%E6%8E%A5%E5%8E%86%E5%8F%B2%E8%AE%B0%E5%BD%95/)
