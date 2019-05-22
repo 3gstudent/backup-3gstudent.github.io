@@ -84,8 +84,7 @@ Juicy Potato支持指定任意本地端口，但是RPC一般默认为135端口�
 
 **注：**
 
-详细说明可参考之前的文章《渗透技巧——Windows Token九
-种权限的利用》
+详细说明可参考之前的文章[《渗透技巧——Windows Token九种权限的利用》](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Windows-Token%E4%B9%9D%E7%A7%8D%E6%9D%83%E9%99%90%E7%9A%84%E5%88%A9%E7%94%A8/)
 
 
 **利用的关键：**
