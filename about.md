@@ -65,7 +65,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(168/170)
+### Recent Posts(168/171)
 
 - 
  [An interesting way of bypassing Windows Attachment Manager](https://3gstudent.github.io/3gstudent.github.io/An-interesting-way-of-bypassing-Windows-Attachment-Manager/)
@@ -564,6 +564,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 - 
  [域渗透——利用DCOM在远程系统执行程序](https://3gstudent.github.io/3gstudent.github.io/%E5%9F%9F%E6%B8%97%E9%80%8F-%E5%88%A9%E7%94%A8DCOM%E5%9C%A8%E8%BF%9C%E7%A8%8B%E7%B3%BB%E7%BB%9F%E6%89%A7%E8%A1%8C%E7%A8%8B%E5%BA%8F/)
+
+- 
+ 域渗透——利用dnscmd在DNS服务器上实现远程加载Dll
 
 - 
  [域渗透——利用GPO中的计划任务实现远程执行](https://3gstudent.github.io/3gstudent.github.io/%E5%9F%9F%E6%B8%97%E9%80%8F-%E5%88%A9%E7%94%A8GPO%E4%B8%AD%E7%9A%84%E8%AE%A1%E5%88%92%E4%BB%BB%E5%8A%A1%E5%AE%9E%E7%8E%B0%E8%BF%9C%E7%A8%8B%E6%89%A7%E8%A1%8C/)
