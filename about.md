@@ -65,7 +65,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(168/171)
+### Recent Posts(168/172)
 
 - 
  [An interesting way of bypassing Windows Attachment Manager](https://3gstudent.github.io/3gstudent.github.io/An-interesting-way-of-bypassing-Windows-Attachment-Manager/)
@@ -213,6 +213,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 - 
  [Use COM Object hijacking to maintain persistence——Hijack explorer.exe](https://3gstudent.github.io/3gstudent.github.io/Use-COM-Object-hijacking-to-maintain-persistence-Hijack-explorer.exe/)
+ 
+- 
+ Use COM Object hijacking to maintain persistence——Hijack Outlook
  
 - 
  [Use Logon Scripts to maintain persistence ](https://3gstudent.github.io/3gstudent.github.io/Use-Logon-Scripts-to-maintain-persistence/)
