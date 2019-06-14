@@ -65,7 +65,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(168/172)
+### Recent Posts(171/172)
 
 - 
  [An interesting way of bypassing Windows Attachment Manager](https://3gstudent.github.io/3gstudent.github.io/An-interesting-way-of-bypassing-Windows-Attachment-Manager/)
@@ -152,7 +152,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [Shodan API使用指南](https://3gstudent.github.io/3gstudent.github.io/Shodan-API%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/)
  
 - 
- SILENTTRINITY利用分析
+ [SILENTTRINITY利用分析](https://3gstudent.github.io/3gstudent.github.io/SILENTTRINITY%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90/)
  
 - 
  [Study Notes of using dnx.exe / rcsi.exe to bypass Decvice Guard UMCI](https://3gstudent.github.io/3gstudent.github.io/Study-Notes-of-using-dnx.exe-&-rcsi.exe-to-bypass-Decvice-Guard-UMCI/)
@@ -470,7 +470,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [渗透技巧——导出Chrome浏览器中保存的密码](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E5%AF%BC%E5%87%BAChrome%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%AD%E4%BF%9D%E5%AD%98%E7%9A%84%E5%AF%86%E7%A0%81/)
  
 - 
- 渗透技巧——获得Powershell命令的历史记录
+ [渗透技巧——获得Powershell命令的历史记录](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E8%8E%B7%E5%BE%97Powershell%E5%91%BD%E4%BB%A4%E7%9A%84%E5%8E%86%E5%8F%B2%E8%AE%B0%E5%BD%95/)
  
 - 
  [渗透技巧——获得Windows系统的远程桌面连接历史记录](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E8%8E%B7%E5%BE%97Windows%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2%E8%BF%9E%E6%8E%A5%E5%8E%86%E5%8F%B2%E8%AE%B0%E5%BD%95/)
@@ -569,7 +569,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [域渗透——利用DCOM在远程系统执行程序](https://3gstudent.github.io/3gstudent.github.io/%E5%9F%9F%E6%B8%97%E9%80%8F-%E5%88%A9%E7%94%A8DCOM%E5%9C%A8%E8%BF%9C%E7%A8%8B%E7%B3%BB%E7%BB%9F%E6%89%A7%E8%A1%8C%E7%A8%8B%E5%BA%8F/)
 
 - 
- 域渗透——利用dnscmd在DNS服务器上实现远程加载Dll
+ [域渗透——利用dnscmd在DNS服务器上实现远程加载Dll](https://3gstudent.github.io/3gstudent.github.io/%E5%9F%9F%E6%B8%97%E9%80%8F-%E5%88%A9%E7%94%A8dnscmd%E5%9C%A8DNS%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E5%AE%9E%E7%8E%B0%E8%BF%9C%E7%A8%8B%E5%8A%A0%E8%BD%BDDll/)
 
 - 
  [域渗透——利用GPO中的计划任务实现远程执行](https://3gstudent.github.io/3gstudent.github.io/%E5%9F%9F%E6%B8%97%E9%80%8F-%E5%88%A9%E7%94%A8GPO%E4%B8%AD%E7%9A%84%E8%AE%A1%E5%88%92%E4%BB%BB%E5%8A%A1%E5%AE%9E%E7%8E%B0%E8%BF%9C%E7%A8%8B%E6%89%A7%E8%A1%8C/)
