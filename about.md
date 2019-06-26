@@ -65,7 +65,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(171/172)
+### Recent Posts(172/174)
 
 - 
  [An interesting way of bypassing Windows Attachment Manager](https://3gstudent.github.io/3gstudent.github.io/An-interesting-way-of-bypassing-Windows-Attachment-Manager/)
@@ -133,6 +133,12 @@ Github:   [3gstudent](https://github.com/3gstudent)
 -  
  [Invoke-PSImage利用分析](https://3gstudent.github.io/3gstudent.github.io/Invoke-PSImage%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90/)
 
+-  
+ Mimikatz中sekurlsa::wdigest的实现
+ 
+-  
+ Mimikatz中SSP的使用
+ 
 -  
  [Office Persistence on x64 operating system](https://3gstudent.github.io/3gstudent.github.io/Office-Persistence-on-x64-operating-system/)
 
@@ -215,7 +221,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [Use COM Object hijacking to maintain persistence——Hijack explorer.exe](https://3gstudent.github.io/3gstudent.github.io/Use-COM-Object-hijacking-to-maintain-persistence-Hijack-explorer.exe/)
  
 - 
- Use COM Object hijacking to maintain persistence——Hijack Outlook
+ [Use COM Object hijacking to maintain persistence——Hijack Outlook](https://3gstudent.github.io/3gstudent.github.io/Use-COM-Object-hijacking-to-maintain-persistence-Hijack-Outlook/)
  
 - 
  [Use Logon Scripts to maintain persistence ](https://3gstudent.github.io/3gstudent.github.io/Use-Logon-Scripts-to-maintain-persistence/)
