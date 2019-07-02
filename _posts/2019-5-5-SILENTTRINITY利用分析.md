@@ -160,7 +160,6 @@ msbuild.xml实现了将加密字符串做base64解码，解密出SILENTTRINITY�
 同样是将加密字符串做base64解码，解密出SILENTTRINITY，最终在内存中加载(Powershell实现)，关键代码如下：
 
 ```
-[Reflection.Assembly]::Load($bytes)
 $asm = [Reflection.Assembly]::Load($UncompressedFileBytes)
 $type = $asm.GetType("ST")
 $main = $type.GetMethod("Main")
