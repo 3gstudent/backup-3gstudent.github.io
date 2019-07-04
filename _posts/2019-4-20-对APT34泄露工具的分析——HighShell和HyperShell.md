@@ -162,7 +162,7 @@ HyperShell中的ExpiredPassword.aspx是一个添加了后门代码的文件，�
                 %>
 ```
 
-对应到我的测试环境，也就是Exchange2013，添加payload后的代码已上传至github：
+对应到我的测试环境，也就是Exchange2013，添加payload后并去掉验证环节的代码已上传至github：
 
 https://raw.githubusercontent.com/3gstudent/test/master/ExpiredPassword.aspx(2013)(HyperShell)
 
