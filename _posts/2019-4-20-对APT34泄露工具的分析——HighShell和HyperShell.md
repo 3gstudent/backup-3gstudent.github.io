@@ -166,15 +166,7 @@ HyperShell中的ExpiredPassword.aspx是一个添加了后门代码的文件，�
 
 https://raw.githubusercontent.com/3gstudent/test/master/ExpiredPassword.aspx(2013)(HyperShell)
 
-使用方法如下图
-
-![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2019-4-20/3-3.png)
-
-`New password`项对应登录webshell的验证口令，验证通过后会执行`Confirm new password`项的内容，权限为System
-
-泄露的文件中未提到webshell的验证口令，为了验证该后门，我们修改代码去掉登录webshell的验证环节即可
-
-
+`Confirm new password`项为传入要执行的命令，权限为System
 
 #### (2)HighShellLocal
 
