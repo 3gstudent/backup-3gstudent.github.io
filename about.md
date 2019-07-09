@@ -134,10 +134,10 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [Invoke-PSImage利用分析](https://3gstudent.github.io/3gstudent.github.io/Invoke-PSImage%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90/)
 
 -  
- Mimikatz中sekurlsa::wdigest的实现
+ [Mimikatz中sekurlsa::wdigest的实现](https://3gstudent.github.io/3gstudent.github.io/Mimikatz%E4%B8%ADsekurlsa-wdigest%E7%9A%84%E5%AE%9E%E7%8E%B0/)
  
 -  
- Mimikatz中SSP的使用
+ [Mimikatz中SSP的使用](https://3gstudent.github.io/3gstudent.github.io/Mimikatz%E4%B8%ADSSP%E7%9A%84%E4%BD%BF%E7%94%A8/)
  
 -  
  [Office Persistence on x64 operating system](https://3gstudent.github.io/3gstudent.github.io/Office-Persistence-on-x64-operating-system/)
