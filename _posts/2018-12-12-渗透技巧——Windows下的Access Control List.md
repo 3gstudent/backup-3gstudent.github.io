@@ -480,7 +480,7 @@ $TargetObject.PsBase.ObjectSecurity.RemoveAccessRule($ACE)
 $TargetObject.PsBase.CommitChanges()
 ```
 
-后续可以对GPO进行操作，添加计划任务，实现计划任务的远程执行，具体方法可参考之前的文章《域渗透——利用GPO中的计划任务实现远程执行》
+后续可以对GPO进行操作，添加计划任务，实现计划任务的远程执行，具体方法可参考之前的文章[《域渗透——利用GPO中的计划任务实现远程执行》](https://3gstudent.github.io/3gstudent.github.io/%E5%9F%9F%E6%B8%97%E9%80%8F-%E5%88%A9%E7%94%A8GPO%E4%B8%AD%E7%9A%84%E8%AE%A1%E5%88%92%E4%BB%BB%E5%8A%A1%E5%AE%9E%E7%8E%B0%E8%BF%9C%E7%A8%8B%E6%89%A7%E8%A1%8C/)
 
 ## 0x06 ACL检测
 ---
