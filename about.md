@@ -155,7 +155,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [Process Doppelganging利用介绍](https://3gstudent.github.io/3gstudent.github.io/Process-Doppelganging%E5%88%A9%E7%94%A8%E4%BB%8B%E7%BB%8D/)
  
 - 
- Shellcode生成工具Donut测试分析
+ [Shellcode生成工具Donut测试分析](https://3gstudent.github.io/3gstudent.github.io/Shellcode%E7%94%9F%E6%88%90%E5%B7%A5%E5%85%B7Donut%E6%B5%8B%E8%AF%95%E5%88%86%E6%9E%90/)
  
 - 
  [Shodan API使用指南](https://3gstudent.github.io/3gstudent.github.io/Shodan-API%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/)
@@ -302,7 +302,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [本地密码查看工具LaZagne中的自定义脚本开发](https://3gstudent.github.io/3gstudent.github.io/%E6%9C%AC%E5%9C%B0%E5%AF%86%E7%A0%81%E6%9F%A5%E7%9C%8B%E5%B7%A5%E5%85%B7LaZagne%E4%B8%AD%E7%9A%84%E8%87%AA%E5%AE%9A%E4%B9%89%E8%84%9A%E6%9C%AC%E5%BC%80%E5%8F%91/)
  
 - 
- 从内存加载.NET程序集(execute-assembly)的利用分析
+ [从内存加载.NET程序集(execute-assembly)的利用分析](https://3gstudent.github.io/3gstudent.github.io/%E4%BB%8E%E5%86%85%E5%AD%98%E5%8A%A0%E8%BD%BD.NET%E7%A8%8B%E5%BA%8F%E9%9B%86(execute-assembly)%E7%9A%84%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90/)
  
 - 
  [对APT34泄露工具的分析——HighShell和HyperShell](https://3gstudent.github.io/3gstudent.github.io/%E5%AF%B9APT34%E6%B3%84%E9%9C%B2%E5%B7%A5%E5%85%B7%E7%9A%84%E5%88%86%E6%9E%90-HighShell%E5%92%8CHyperShell/)
