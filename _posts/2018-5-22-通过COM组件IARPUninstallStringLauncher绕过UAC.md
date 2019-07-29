@@ -7,7 +7,7 @@ title: 通过COM组件IARPUninstallStringLauncher绕过UAC
 ## 0x00 前言
 ---
 
-在上篇文章《通过COM组件NetFwPolicy2越权关闭防火墙》验证结论：对于explorer.exe(或是模拟成explorer.exe)，加载高权限的COM组件不会弹出UAC的对话框。同时介绍了如何在注册表中寻找可以高权限运行的COM组件。
+在上篇文章[《通过COM组件NetFwPolicy2越权关闭防火墙》](https://3gstudent.github.io/3gstudent.github.io/%E9%80%9A%E8%BF%87COM%E7%BB%84%E4%BB%B6NetFwPolicy2%E8%B6%8A%E6%9D%83%E5%85%B3%E9%97%AD%E9%98%B2%E7%81%AB%E5%A2%99/)验证结论：对于explorer.exe(或是模拟成explorer.exe)，加载高权限的COM组件不会弹出UAC的对话框。同时介绍了如何在注册表中寻找可以高权限运行的COM组件。
 
 本次将要继续，介绍另一个可供使用的COM组件。
 
