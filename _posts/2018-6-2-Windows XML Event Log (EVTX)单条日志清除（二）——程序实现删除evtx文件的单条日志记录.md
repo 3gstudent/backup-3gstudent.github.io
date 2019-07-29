@@ -20,7 +20,7 @@ Windows XML Event Log (EVTX)单条日志清除系列文章的第二篇，介绍�
 ## 0x02 对指定evtx文件单条日志的删除思路
 ---
 
-在上篇文章《Windows XML Event Log (EVTX)单条日志清除（一）——删除思路与实例》介绍了evtx日志文件中删除单条日志的原理和一个实例，采用修改日志长度的方法实现日志删除
+在上篇文章[《Windows XML Event Log (EVTX)单条日志清除（一）——删除思路与实例》](https://3gstudent.github.io/3gstudent.github.io/Windows-XML-Event-Log-(EVTX)%E5%8D%95%E6%9D%A1%E6%97%A5%E5%BF%97%E6%B8%85%E9%99%A4-%E4%B8%80-%E5%88%A0%E9%99%A4%E6%80%9D%E8%B7%AF%E4%B8%8E%E5%AE%9E%E4%BE%8B/)介绍了evtx日志文件中删除单条日志的原理和一个实例，采用修改日志长度的方法实现日志删除
 
 实现思路如图
 
@@ -192,7 +192,7 @@ crc32 = GetCRC32(ChecksumBuf, 504);
 ## 0x04 删除最后一条日志
 ---
 
-删除最后一条日志在上篇文章《Windows XML Event Log (EVTX)单条日志清除（一）——删除思路与实例》做过实例演示，与删除中间日志的方法基本相同
+删除最后一条日志在上篇文章[《Windows XML Event Log (EVTX)单条日志清除（一）——删除思路与实例》](https://3gstudent.github.io/3gstudent.github.io/Windows-XML-Event-Log-(EVTX)%E5%8D%95%E6%9D%A1%E6%97%A5%E5%BF%97%E6%B8%85%E9%99%A4-%E4%B8%80-%E5%88%A0%E9%99%A4%E6%80%9D%E8%B7%AF%E4%B8%8E%E5%AE%9E%E4%BE%8B/)做过实例演示，与删除中间日志的方法基本相同
 
 区别如下：
 
