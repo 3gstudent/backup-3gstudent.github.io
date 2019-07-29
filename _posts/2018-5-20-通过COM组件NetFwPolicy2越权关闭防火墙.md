@@ -7,7 +7,7 @@ title: 通过COM组件NetFwPolicy2越权关闭防火墙
 ## 0x00 前言
 ---
 
-在上篇文章《通过COM组件IFileOperation越权复制文件》介绍了通过COM组件IFileOperation越权复制文件的三种方法，我们得出一个推论：**对于explorer.exe(或是模拟成explorer.exe)，加载高权限的COM组件不会弹出UAC的对话框**
+在上篇文章[《通过COM组件IFileOperation越权复制文件》](https://3gstudent.github.io/3gstudent.github.io/%E9%80%9A%E8%BF%87COM%E7%BB%84%E4%BB%B6IFileOperation%E8%B6%8A%E6%9D%83%E5%A4%8D%E5%88%B6%E6%96%87%E4%BB%B6/)介绍了通过COM组件IFileOperation越权复制文件的三种方法，我们得出一个推论：**对于explorer.exe(或是模拟成explorer.exe)，加载高权限的COM组件不会弹出UAC的对话框**
 
 那么，这个推论是否适用于其他COM组件呢？又有哪些COM组件可以利用呢？
 
@@ -204,7 +204,7 @@ https://msdn.microsoft.com/en-us/library/windows/desktop/dd339606
 ## 0x05 添加代码模拟进程explorer.exe
 ---
 
-这部分内容在之前的文章《通过COM组件IFileOperation越权复制文件》有过介绍，对应方法2，可供参考的代码：
+这部分内容在之前的文章[《通过COM组件IFileOperation越权复制文件》](https://3gstudent.github.io/3gstudent.github.io/%E9%80%9A%E8%BF%87COM%E7%BB%84%E4%BB%B6IFileOperation%E8%B6%8A%E6%9D%83%E5%A4%8D%E5%88%B6%E6%96%87%E4%BB%B6/)有过介绍，对应方法2，可供参考的代码：
 
 https://github.com/3gstudent/Use-COM-objects-to-bypass-UAC/blob/master/MasqueradePEB.cpp
 
