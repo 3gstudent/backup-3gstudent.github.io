@@ -55,9 +55,9 @@ CLR能够劫持当前cmd下所有.Net程序的启动
 
 之前的文章：
 
-《Use CLR to maintain persistence》
+[《Use CLR to maintain persistence》](https://3gstudent.github.io/3gstudent.github.io/Use-CLR-to-maintain-persistence/)
 
-《Use COM Object hijacking to maintain persistence——Hijack CAccPropServicesClass and MMDeviceEnumerator》
+[《Use COM Object hijacking to maintain persistence——Hijack CAccPropServicesClass and MMDeviceEnumerator》](https://3gstudent.github.io/3gstudent.github.io/Use-COM-Object-hijacking-to-maintain-persistence-Hijack-CAccPropServicesClass-and-MMDeviceEnumerator/)
 
 
 ## 0x01 简介
