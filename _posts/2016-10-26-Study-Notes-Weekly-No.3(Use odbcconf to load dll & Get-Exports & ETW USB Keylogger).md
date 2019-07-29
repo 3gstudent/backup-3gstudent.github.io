@@ -132,7 +132,7 @@ https://github.com/FuzzySecurity/PowerShell-Suite/blob/master/Get-Exports.ps1
 
 ### 简介
 
-在《Study-Notes-Weekly-No.1(Monitor-WMI-ExportsToC++-Use-DiskCleanup-bypass-UAC)》(文章链接：https://3gstudent.github.io/3gstudent.github.io/Study-Notes-Weekly-No.1(Monitor-WMI-ExportsToC++-Use-DiskCleanup-bypass-UAC)/)介绍过一款批量输出dll导出函数的工具——ExportsToC++ ，运行的前提是需要.NET Framework 2.0和安装Microsoft Visual Studio
+在[《Study-Notes-Weekly-No.1(Monitor-WMI-ExportsToC++-Use-DiskCleanup-bypass-UAC)》](https://3gstudent.github.io/3gstudent.github.io/Study-Notes-Weekly-No.1(Monitor-WMI-ExportsToC++-Use-DiskCleanup-bypass-UAC)/)介绍过一款批量输出dll导出函数的工具——ExportsToC++ ，运行的前提是需要.NET Framework 2.0和安装Microsoft Visual Studio
 
 b33f@FuzzySecurity对此作了改进，开源了powershell下的Get-Exports，特点是不再需要Microsoft Visual Studio的开发环境，更简便快捷，同时支持32位和64位的dll
 
