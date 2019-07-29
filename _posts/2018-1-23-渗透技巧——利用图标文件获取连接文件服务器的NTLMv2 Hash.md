@@ -107,9 +107,9 @@ IconFile指向伪造文件服务器，test.ico不存在
 
 具体破解方法可参考文章：
 
-《Windows下的密码hash——NTLM hash和Net-NTLM hash介绍》
+[《Windows下的密码hash——NTLM hash和Net-NTLM hash介绍》](https://3gstudent.github.io/3gstudent.github.io/Windows%E4%B8%8B%E7%9A%84%E5%AF%86%E7%A0%81hash-NTLM-hash%E5%92%8CNet-NTLM-hash%E4%BB%8B%E7%BB%8D/)
 
-《渗透技巧——利用netsh抓取连接文件服务器的NTLMv2 Hash》
+[《渗透技巧——利用netsh抓取连接文件服务器的NTLMv2 Hash》](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E5%88%A9%E7%94%A8netsh%E6%8A%93%E5%8F%96%E8%BF%9E%E6%8E%A5%E6%96%87%E4%BB%B6%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9A%84NTLMv2-Hash/)
 
 经过实际测试，我们可以看到，利用的关键是要在文件服务器上添加scf文件，等待用户访问
 
