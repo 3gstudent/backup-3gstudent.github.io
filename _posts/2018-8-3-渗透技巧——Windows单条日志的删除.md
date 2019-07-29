@@ -8,7 +8,7 @@ title: 渗透技巧——Windows单条日志的删除
 ## 0x00 前言
 ---
 
-在之前的文章《渗透技巧——Windows日志的删除与绕过》介绍了常见的Windows日志清除与绕过方法，但未提到单条日志的清除。
+在之前的文章[《渗透技巧——Windows日志的删除与绕过》](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Windows%E6%97%A5%E5%BF%97%E7%9A%84%E5%88%A0%E9%99%A4%E4%B8%8E%E7%BB%95%E8%BF%87/)介绍了常见的Windows日志清除与绕过方法，但未提到单条日志的清除。
 
 这一次将要结合刚刚完成的Windows XML Event Log (EVTX)单条日志清除系列文章，介绍在渗透测试中Windows XML Event Log (EVTX)单条日志清除的具体使用方法，同时结合利用思路给出防御建议
 
