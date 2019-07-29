@@ -7,7 +7,7 @@ title: 渗透技巧——利用netsh抓取连接文件服务器的NTLMv2 Hash
 ## 0x00 前言
 ---
 
-在上篇文章《Windows下的密码hash——NTLM hash和Net-NTLM hash介绍》比较了NTLM hash和Net-NTLM hash的区别，本文将继续对Net-NTLM hash在内网渗透中的应用作介绍，解决一个有趣的问题：
+在上篇文章[《Windows下的密码hash——NTLM hash和Net-NTLM hash介绍》](https://3gstudent.github.io/3gstudent.github.io/Windows%E4%B8%8B%E7%9A%84%E5%AF%86%E7%A0%81hash-NTLM-hash%E5%92%8CNet-NTLM-hash%E4%BB%8B%E7%BB%8D/)比较了NTLM hash和Net-NTLM hash的区别，本文将继续对Net-NTLM hash在内网渗透中的应用作介绍，解决一个有趣的问题：
 
 **如果获得了内网一个文件服务器的权限，如何获得更多用户的口令？**
 
@@ -26,7 +26,7 @@ title: 渗透技巧——利用netsh抓取连接文件服务器的NTLMv2 Hash
 ## 0x02 解决思路
 ---
 
-《Windows下的密码hash——NTLM hash和Net-NTLM hash介绍》中提到，客户端在连接文件服务器时，默认会将当前登录用户的密码Hash发送至服务器进行验证，如果验证失败，需要重新输入登录用户名和口令
+[《Windows下的密码hash——NTLM hash和Net-NTLM hash介绍》](https://3gstudent.github.io/3gstudent.github.io/Windows%E4%B8%8B%E7%9A%84%E5%AF%86%E7%A0%81hash-NTLM-hash%E5%92%8CNet-NTLM-hash%E4%BB%8B%E7%BB%8D/)中提到，客户端在连接文件服务器时，默认会将当前登录用户的密码Hash发送至服务器进行验证，如果验证失败，需要重新输入登录用户名和口令
 
 如果获得了内网一个文件服务器的权限，那么内网中的其他主机在使用界面尝试访问该服务器时，首先会将本机的密码Hash发送至服务器进行验证，在服务器端抓取数据包能够获得NTLM Response，对NTLM Response的格式进行解析，提取特定信息，使用Hashcat尝试字典破解或者暴力破解，就有可能还原出用户本机的明文口令
 
@@ -123,7 +123,7 @@ https://www.microsoft.com/en-us/download/confirmation.aspx?id=44226
 
 **注：**
 
-详细破解方法可参考文章《Windows下的密码hash——NTLM hash和Net-NTLM hash介绍》，本文不再演示
+详细破解方法可参考文章[《Windows下的密码hash——NTLM hash和Net-NTLM hash介绍》](https://3gstudent.github.io/3gstudent.github.io/Windows%E4%B8%8B%E7%9A%84%E5%AF%86%E7%A0%81hash-NTLM-hash%E5%92%8CNet-NTLM-hash%E4%BB%8B%E7%BB%8D/)，本文不再演示
 
 如果手动组装多个NTLM v2响应包，费事费力，所以需要编写程序自动解析数据包，提取出Hashcat可用的NTLM v2内容
 
