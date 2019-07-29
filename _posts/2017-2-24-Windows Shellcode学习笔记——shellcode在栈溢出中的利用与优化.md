@@ -7,7 +7,7 @@ title: Windows Shellcode学习笔记——shellcode在栈溢出中的利用与�
 ## 0x00 前言
 ---
 
-在《Windows Shellcode学习笔记——shellcode的提取与测试》中介绍了如何对shellcode作初步优化，动态获取Windows API地址并调用，并通过程序实现自动提取机器码作为shellcode并保存到文件中。
+在[《Windows Shellcode学习笔记——shellcode的提取与测试》](https://3gstudent.github.io/3gstudent.github.io/Windows-Shellcode%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-shellcode%E7%9A%84%E6%8F%90%E5%8F%96%E4%B8%8E%E6%B5%8B%E8%AF%95/)中介绍了如何对shellcode作初步优化，动态获取Windows API地址并调用，并通过程序实现自动提取机器码作为shellcode并保存到文件中。
 
 弹框实例shellcode的bin文件已上传至github，地址如下：
 
