@@ -6,7 +6,7 @@ title: Authenticode签名伪造——针对文件类型的签名伪造
 ## 0x00 前言
 ---
 
-在上篇文章《Authenticode签名伪造——PE文件的签名伪造与签名验证劫持》介绍了针对单一文件的Authenticode签名伪造，需要在文件尾部添加伪造的签名数据，这次将介绍另一种签名伪造方式：通过修改系统的签名获取机制，欺骗系统将正常文件识别为包含签名数据。
+在上篇文章[《Authenticode签名伪造——PE文件的签名伪造与签名验证劫持》](https://3gstudent.github.io/3gstudent.github.io/Authenticode%E7%AD%BE%E5%90%8D%E4%BC%AA%E9%80%A0-PE%E6%96%87%E4%BB%B6%E7%9A%84%E7%AD%BE%E5%90%8D%E4%BC%AA%E9%80%A0%E4%B8%8E%E7%AD%BE%E5%90%8D%E9%AA%8C%E8%AF%81%E5%8A%AB%E6%8C%81/)介绍了针对单一文件的Authenticode签名伪造，需要在文件尾部添加伪造的签名数据，这次将介绍另一种签名伪造方式：通过修改系统的签名获取机制，欺骗系统将正常文件识别为包含签名数据。
 
 **注：**
 
