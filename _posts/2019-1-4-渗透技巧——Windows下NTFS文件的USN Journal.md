@@ -7,7 +7,7 @@ title: 渗透技巧——Windows下NTFS文件的USN Journal
 ## 0x00 前言
 ---
 
-在上篇文章《渗透技巧——Windows下NTFS文件的时间属性》介绍了修改NTFS文件时间属性的方法和细节，以及取证上的建议。
+在上篇文章[《渗透技巧——Windows下NTFS文件的时间属性》](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Windows%E4%B8%8BNTFS%E6%96%87%E4%BB%B6%E7%9A%84%E6%97%B6%E9%97%B4%E5%B1%9E%E6%80%A7/)介绍了修改NTFS文件时间属性的方法和细节，以及取证上的建议。
 本文将要继续研究NTFS文件另一处记录文件修改时间的位置——USN Journal，同样是分析利用思路，给出取证上的建议。
 
 ## 0x01 简介
