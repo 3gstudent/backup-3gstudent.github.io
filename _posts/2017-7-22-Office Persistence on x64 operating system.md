@@ -6,7 +6,7 @@ title: Office Persistence on x64 operating system
 ## 0x00 前言
 ---
 
-在之前的文章《Use Office to maintain persistence》介绍了在Office
+在之前的文章[《Use Office to maintain persistence》](https://3gstudent.github.io/3gstudent.github.io/Use-Office-to-maintain-persistence/)介绍了在Office
 软件中植入后门的常用方法，但并不全面，缺少64位系统的测试。而对于64位操作系统，支持32位和64位两个版本的office软件，不同office版本的利用方法是否不同呢？本文将要给出答案。
 
 ## 0x01 简介
