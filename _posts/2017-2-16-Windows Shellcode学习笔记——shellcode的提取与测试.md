@@ -7,7 +7,7 @@ title: Windows Shellcode学习笔记——shellcode的提取与测试
 ## 0x00 前言
 ---
 
-之前在《Windows Shellcode学习笔记——通过VisualStudio生成shellcode》介绍了使用C++编写（不使用内联汇编），实现动态获取API地址并调用，对其反汇编提取shellcode的方法，并开源了测试代码。
+之前在[《Windows Shellcode学习笔记——通过VisualStudio生成shellcode》](https://3gstudent.github.io/3gstudent.github.io/Windows-Shellcode%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E9%80%9A%E8%BF%87VisualStudio%E7%94%9F%E6%88%90shellcode/)介绍了使用C++编写（不使用内联汇编），实现动态获取API地址并调用，对其反汇编提取shellcode的方法，并开源了测试代码。
 
 接下来在对shellcode进行提取的过程中，发现了当时开源代码的一些bug，所以本文着重解决测试代码的bug，并介绍使用C++开发shellcode需要考虑的一些问题。
 
