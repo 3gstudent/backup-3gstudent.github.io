@@ -7,7 +7,7 @@ title: 渗透技巧——利用PHP脚本从浏览器中获得Net-NTLM hash
 ## 0x00 前言
 ---
 
-在上篇文章《渗透技巧——通过HTTP协议获得Net-NTLM hash》介绍了通过HTTP协议获得客户端当前登录用户Net-NTLM hash的方法，侧重于介绍原理和思路，本文将要给出一个具体的实现方法，利用PHP脚本模拟Net-NTLM认证过程，提取出客户端的Net-NTLM hash
+在上篇文章[《渗透技巧——通过HTTP协议获得Net-NTLM hash》](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E9%80%9A%E8%BF%87HTTP%E5%8D%8F%E8%AE%AE%E8%8E%B7%E5%BE%97Net-NTLM-hash/)介绍了通过HTTP协议获得客户端当前登录用户Net-NTLM hash的方法，侧重于介绍原理和思路，本文将要给出一个具体的实现方法，利用PHP脚本模拟Net-NTLM认证过程，提取出客户端的Net-NTLM hash
 
 
 ## 0x01 简介
