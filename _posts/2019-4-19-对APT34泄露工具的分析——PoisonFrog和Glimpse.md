@@ -94,7 +94,7 @@ index.js为主体程序
 
 **注：**
 
-我在之前的文章《渗透测试中的Node.js——Downloader的实现》和《渗透测试中的Node.js——利用C++插件隐藏真实代码》曾介绍过Node.js的使用，Node.js的基础知识可以参考这两篇文章
+我在之前的文章[《渗透测试中的Node.js——Downloader的实现》](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B8%AD%E7%9A%84Node.js-Downloader%E7%9A%84%E5%AE%9E%E7%8E%B0/)和[《渗透测试中的Node.js——利用C++插件隐藏真实代码》](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B8%AD%E7%9A%84Node.js-%E5%88%A9%E7%94%A8C++%E6%8F%92%E4%BB%B6%E9%9A%90%E8%97%8F%E7%9C%9F%E5%AE%9E%E4%BB%A3%E7%A0%81/)曾介绍过Node.js的使用，Node.js的基础知识可以参考这两篇文章
 
 使用Node.js实现server side有以下优点：
 
