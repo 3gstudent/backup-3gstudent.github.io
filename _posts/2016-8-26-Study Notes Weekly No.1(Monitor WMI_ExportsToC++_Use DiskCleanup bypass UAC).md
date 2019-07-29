@@ -87,7 +87,7 @@ wmic /NAMESPACE:"\\root\subscription" PATH __FilterToConsumerBinding CREATE Filt
 
 **注：**
 
-代码具体含义在《WMI Attacks》、《WMI Backdoor》、《WMI Defense》、《Study Notes of WMI Persistence using wmic.exe》作过具体介绍，此处略
+代码具体含义在《WMI Attacks》、《WMI Backdoor》、《WMI Defense》、[《Study Notes of WMI Persistence using wmic.exe》](https://3gstudent.github.io/3gstudent.github.io/Study-Notes-of-WMI-Persistence-using-wmic.exe/)作过具体介绍，此处略
 
 **3、**查看系统日志
 
