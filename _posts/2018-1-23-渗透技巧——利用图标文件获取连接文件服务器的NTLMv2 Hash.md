@@ -6,7 +6,7 @@ title: 渗透技巧——利用图标文件获取连接文件服务器的NTLMv2 
 ## 0x00 前言
 ---
 
-在文章《渗透技巧——利用netsh抓取连接文件服务器的NTLMv2 Hash》介绍了在服务器上通过Windows命令行抓包获取连接文件服务器的NTLMv2 Hash的方法，解决了一个有趣的问题：
+在文章[《渗透技巧——利用netsh抓取连接文件服务器的NTLMv2 Hash》](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E5%88%A9%E7%94%A8netsh%E6%8A%93%E5%8F%96%E8%BF%9E%E6%8E%A5%E6%96%87%E4%BB%B6%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9A%84NTLMv2-Hash/)介绍了在服务器上通过Windows命令行抓包获取连接文件服务器的NTLMv2 Hash的方法，解决了一个有趣的问题：
 
 `如果获得了内网一个文件服务器的权限，如何获得更多用户的口令？`
 
