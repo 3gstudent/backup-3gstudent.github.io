@@ -7,7 +7,7 @@ title: 利用globalAPIhooks在Win7系统下隐藏进程
 ## 0x00 前言
 ---
 
-在之前的文章《Powershell tricks::Hide Process by kd.exe》介绍过通过kd.exe隐藏进程的技巧，最大的缺点是需要开启Local kernel debugging模式，等待重启才能生效
+在之前的文章[《Powershell tricks::Hide Process by kd.exe》](https://3gstudent.github.io/3gstudent.github.io/Powershell-tricks-Hide-Process-by-kd.exe/)介绍过通过kd.exe隐藏进程的技巧，最大的缺点是需要开启Local kernel debugging模式，等待重启才能生效
 这次介绍另外一个隐藏进程的方法——利用global API hooks
 优点是即时生效，不需要等待系统重启
 
