@@ -26,7 +26,7 @@ Windows Event Viewer Log (EVT)单条日志清除系列文章的第三篇，介�
 ## 0x02 XP系统下枚举系统所有句柄
 ---
 
-之前的文章《Windows单条日志清除（五）——通过DuplicateHandle获取日志文件句柄删除当前系统单条日志记录》介绍了Win8及以上系统的实现方法：
+之前的文章[《Windows单条日志清除（五）——通过DuplicateHandle获取日志文件句柄删除当前系统单条日志记录》](https://3gstudent.github.io/3gstudent.github.io/Windows-XML-Event-Log-(EVTX)%E5%8D%95%E6%9D%A1%E6%97%A5%E5%BF%97%E6%B8%85%E9%99%A4-%E4%BA%94-%E9%80%9A%E8%BF%87DuplicateHandle%E8%8E%B7%E5%8F%96%E6%97%A5%E5%BF%97%E6%96%87%E4%BB%B6%E5%8F%A5%E6%9F%84%E5%88%A0%E9%99%A4%E5%BD%93%E5%89%8D%E7%B3%BB%E7%BB%9F%E5%8D%95%E6%9D%A1%E6%97%A5%E5%BF%97%E8%AE%B0%E5%BD%95/)介绍了Win8及以上系统的实现方法：
 
 1. 利用NtQuerySystemInformation查询SystemHandleInformation能够获得所有进程的句柄信息
 2. 通过NtDuplicateObject获取句柄的名称和具体的数值信息
@@ -104,7 +104,7 @@ https://github.com/3gstudent/Homework-of-C-Language/blob/master/GetPIDandHandle(
 4. 调用函数FlushViewOfFile()，将内存数据写入磁盘
 5. 清除内存映射对象
 
-完整的实现过程可参考之前介绍删除evtx文件单条日志的文章《Windows XML Event Log (EVTX)单条日志清除（四）——通过注入获取日志文件句柄删除当前系统单条日志记录》
+完整的实现过程可参考之前介绍删除evtx文件单条日志的文章[《Windows XML Event Log (EVTX)单条日志清除（四）——通过注入获取日志文件句柄删除当前系统单条日志记录》](https://3gstudent.github.io/3gstudent.github.io/Windows-XML-Event-Log-(EVTX)%E5%8D%95%E6%9D%A1%E6%97%A5%E5%BF%97%E6%B8%85%E9%99%A4-%E5%9B%9B-%E9%80%9A%E8%BF%87%E6%B3%A8%E5%85%A5%E8%8E%B7%E5%8F%96%E6%97%A5%E5%BF%97%E6%96%87%E4%BB%B6%E5%8F%A5%E6%9F%84%E5%88%A0%E9%99%A4%E5%BD%93%E5%89%8D%E7%B3%BB%E7%BB%9F%E5%8D%95%E6%9D%A1%E6%97%A5%E5%BF%97%E8%AE%B0%E5%BD%95/)
 
 xp系统下无法使用NtCreateThreadEx + LdrLoadDll的方式注入dll，可以直接调用CreateRemoteThread
 
@@ -116,7 +116,7 @@ https://github.com/3gstudent/Homework-of-C-Language/blob/master/CreateRemoteThre
 ## 0x05 日志删除的实现方法2：通过DuplicateHandle获得句柄操作权限
 ---
 
-参考之前的文章《Windows XML Event Log (EVTX)单条日志清除（五）——通过DuplicateHandle获取日志文件句柄删除当前系统单条日志记录》
+参考之前的文章[《Windows XML Event Log (EVTX)单条日志清除（五）——通过DuplicateHandle获取日志文件句柄删除当前系统单条日志记录》](https://3gstudent.github.io/3gstudent.github.io/Windows-XML-Event-Log-(EVTX)%E5%8D%95%E6%9D%A1%E6%97%A5%E5%BF%97%E6%B8%85%E9%99%A4-%E4%BA%94-%E9%80%9A%E8%BF%87DuplicateHandle%E8%8E%B7%E5%8F%96%E6%97%A5%E5%BF%97%E6%96%87%E4%BB%B6%E5%8F%A5%E6%9F%84%E5%88%A0%E9%99%A4%E5%BD%93%E5%89%8D%E7%B3%BB%E7%BB%9F%E5%8D%95%E6%9D%A1%E6%97%A5%E5%BF%97%E8%AE%B0%E5%BD%95/)
 
 筛选出句柄后，再次调用NtDuplicateObject获得实句柄，对日志文件进行删除操作
 
@@ -128,7 +128,7 @@ https://github.com/3gstudent/Homework-of-C-Language/blob/master/CreateRemoteThre
 4. 调用函数FlushViewOfFile()，将内存数据写入磁盘
 5. 清除内存映射对象
 
-日志删除部分可参考之前的文章《Windows Event Viewer Log (EVT)单条日志清除（二）——程序实现删除evt文件指定时间段的日志记录》
+日志删除部分可参考之前的文章[《Windows Event Viewer Log (EVT)单条日志清除（二）——程序实现删除evt文件指定时间段的日志记录》](https://3gstudent.github.io/3gstudent.github.io/Windows-Event-Viewer-Log-(EVT)%E5%8D%95%E6%9D%A1%E6%97%A5%E5%BF%97%E6%B8%85%E9%99%A4-%E4%BA%8C-%E7%A8%8B%E5%BA%8F%E5%AE%9E%E7%8E%B0%E5%88%A0%E9%99%A4evt%E6%96%87%E4%BB%B6%E6%8C%87%E5%AE%9A%E6%97%B6%E9%97%B4%E6%AE%B5%E7%9A%84%E6%97%A5%E5%BF%97%E8%AE%B0%E5%BD%95/)
 
 这里给出一个完整的实现代码：
 
