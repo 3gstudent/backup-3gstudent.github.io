@@ -50,7 +50,7 @@ bat内容如下：
 ## 0x03 绕过360对通过wmi修改环境变量的拦截
 ---
 
-在之前的文章《Use CLR to maintain persistence》提到过使用wmic修改环境变量的方法
+在之前的文章[《Use CLR to maintain persistence》](https://3gstudent.github.io/3gstudent.github.io/Use-CLR-to-maintain-persistence/)提到过使用wmic修改环境变量的方法
 
 命令如下：
 
