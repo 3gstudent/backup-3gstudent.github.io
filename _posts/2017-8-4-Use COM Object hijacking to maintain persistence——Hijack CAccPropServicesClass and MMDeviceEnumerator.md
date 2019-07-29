@@ -8,6 +8,7 @@ title: Use COM Object hijacking to maintain persistence——Hijack CAccPropServ
 ---
 
 在之前的文章[《Use CLR to maintain persistence》](https://3gstudent.github.io/3gstudent.github.io/Use-msdtc-to-maintain-persistence/)介绍了通过CLR劫持所有.Net程序的方法，无需管理员权限，可用作后门。美中不足的是通过WMI添加环境变量需要重启系统。
+
 本文将继续介绍另一种后门的利用方法，原理类似，但优点是不需要重启系统，同样也不需要管理员权限。
 
 **注：**
