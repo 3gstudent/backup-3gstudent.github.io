@@ -54,9 +54,7 @@ $excel.RegisterXLL("C:\test\messagebox.dll")
 
 测试的messagebox.dll来自于：https://github.com/3gstudent/test/blob/master/msg.dll
 
-大小3kb，源代码及编译方法可参照文章《Use Office to maintain persistence》：
-
-https://3gstudent.github.io/3gstudent.github.io/Use-Office-to-maintain-persistence/
+大小3kb，源代码及编译方法可参照文章[《Use Office to maintain persistence》](https://3gstudent.github.io/3gstudent.github.io/Use-Office-to-maintain-persistence/)
 
 ## 0x03 添加功能
 ---
