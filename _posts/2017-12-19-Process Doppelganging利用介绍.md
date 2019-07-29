@@ -39,7 +39,7 @@ https://www.blackhat.com/docs/eu-17/materials/eu-17-Liberman-Lost-In-Transaction
 
 **注：**
 
-关于Process Hollowing的介绍，可参考之前的文章《傀儡进程的实现与检测》
+关于Process Hollowing的介绍，可参考之前的文章[《傀儡进程的实现与检测》](https://3gstudent.github.io/3gstudent.github.io/%E5%82%80%E5%84%A1%E8%BF%9B%E7%A8%8B%E7%9A%84%E5%AE%9E%E7%8E%B0%E4%B8%8E%E6%A3%80%E6%B5%8B/)
 
 ### 实现思路：
 
@@ -88,7 +88,7 @@ http://www.ntfs.com/transaction.htm
 
 当然，还涉及到payload的写入，申请内存、PE文件结构等，这里暂不介绍，可直接参考POC源码
 
-对于Native API的使用，可参考之前的文章《渗透技巧——"隐藏"注册表的创建》和《渗透技巧——"隐藏"注册表的更多测试》
+对于Native API的使用，可参考之前的文章[《渗透技巧——"隐藏"注册表的创建》](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E9%9A%90%E8%97%8F-%E6%B3%A8%E5%86%8C%E8%A1%A8%E7%9A%84%E5%88%9B%E5%BB%BA/)和[《渗透技巧——"隐藏"注册表的更多测试》](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E9%9A%90%E8%97%8F-%E6%B3%A8%E5%86%8C%E8%A1%A8%E7%9A%84%E6%9B%B4%E5%A4%9A%E6%B5%8B%E8%AF%95/)
 
 **注：**
 
