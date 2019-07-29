@@ -24,7 +24,7 @@ Windows单条日志清除系列文章的第五篇，介绍第三种删除当前�
 ## 0x02 利用分析
 ---
 
-上篇文章《Windows XML Event Log (EVTX)单条日志清除（四）——通过注入获取日志文件句柄删除当前系统单条日志记录》提到，某些条件下，高版本的Windows系统不允许注入保护进程svchost.exe，而我们又不想停掉日志服务，那么该怎么办呢？
+上篇文章[《Windows XML Event Log (EVTX)单条日志清除（四）——通过注入获取日志文件句柄删除当前系统单条日志记录》](https://3gstudent.github.io/3gstudent.github.io/Windows-XML-Event-Log-(EVTX)%E5%8D%95%E6%9D%A1%E6%97%A5%E5%BF%97%E6%B8%85%E9%99%A4-%E5%9B%9B-%E9%80%9A%E8%BF%87%E6%B3%A8%E5%85%A5%E8%8E%B7%E5%8F%96%E6%97%A5%E5%BF%97%E6%96%87%E4%BB%B6%E5%8F%A5%E6%9F%84%E5%88%A0%E9%99%A4%E5%BD%93%E5%89%8D%E7%B3%BB%E7%BB%9F%E5%8D%95%E6%9D%A1%E6%97%A5%E5%BF%97%E8%AE%B0%E5%BD%95/)提到，某些条件下，高版本的Windows系统不允许注入保护进程svchost.exe，而我们又不想停掉日志服务，那么该怎么办呢？
 
 我在之前的文章[《渗透技巧——Windows系统的文件恢复与删除》](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Windows%E7%B3%BB%E7%BB%9F%E7%9A%84%E6%96%87%E4%BB%B6%E6%81%A2%E5%A4%8D%E4%B8%8E%E5%88%A0%E9%99%A4/)曾涉及到解决方法，可以尝试通过DuplicateHandle复制句柄，将“伪句柄”转换成实句柄，获得日志文件的操作权限
 
