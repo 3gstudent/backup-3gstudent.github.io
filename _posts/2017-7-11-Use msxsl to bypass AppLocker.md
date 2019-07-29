@@ -98,7 +98,7 @@ script.xml:
 
 但是使用msxsl仍然能够执行JScript代码
 
-在之前的文章《利用JS加载.Net程序》介绍过利用JScript脚本加载.Net程序的方法，结合本文，可以得出推论：
+在之前的文章[《利用JS加载.Net程序》](https://3gstudent.github.io/3gstudent.github.io/%E5%88%A9%E7%94%A8JS%E5%8A%A0%E8%BD%BD.Net%E7%A8%8B%E5%BA%8F/)介绍过利用JScript脚本加载.Net程序的方法，结合本文，可以得出推论：
 
 **使用msxsl也能够执行c#代码**
 
@@ -124,11 +124,7 @@ https://github.com/3gstudent/Use-msxsl-to-bypass-AppLocker/blob/master/shellcode
 
 ![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2017-7-11/3-1.png)
 
-对于执行mimikatz和powershell脚本，思路可参照之前的文章《利用JS加载.Net程序》
-
-地址如下：
-
-https://3gstudent.github.io/3gstudent.github.io/%E5%88%A9%E7%94%A8JS%E5%8A%A0%E8%BD%BD.Net%E7%A8%8B%E5%BA%8F/
+对于执行mimikatz和powershell脚本，思路可参照之前的文章[《利用JS加载.Net程序》](https://3gstudent.github.io/3gstudent.github.io/%E5%88%A9%E7%94%A8JS%E5%8A%A0%E8%BD%BD.Net%E7%A8%8B%E5%BA%8F/)
 
 
 ## 0x03 脚本优化
