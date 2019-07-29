@@ -7,7 +7,7 @@ title: Windows Shellcode学习笔记——栈溢出中对jmp esp的利用与优�
 ## 0x00 前言
 ---
 
-在《Windows Shellcode学习笔记——shellcode在栈溢出中的利用与优化》中对栈溢出的利用做了介绍。通过将返回地址覆盖为shellcode在内存中的起始地址，实现对栈溢出的利用
+在[《Windows Shellcode学习笔记——shellcode在栈溢出中的利用与优化》](https://3gstudent.github.io/3gstudent.github.io/Windows-Shellcode%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-shellcode%E5%9C%A8%E6%A0%88%E6%BA%A2%E5%87%BA%E4%B8%AD%E7%9A%84%E5%88%A9%E7%94%A8%E4%B8%8E%E4%BC%98%E5%8C%96/)中对栈溢出的利用做了介绍。通过将返回地址覆盖为shellcode在内存中的起始地址，实现对栈溢出的利用
 
 但是shellcode在内存中的起始地址往往不固定，导致漏洞利用不一定成功，本文将通过jmp esp的方式来解决这个问题
 
