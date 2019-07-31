@@ -223,6 +223,17 @@ import-module ActiveDirectory
 get-aduser -filter {AdminCount -eq 1 -and (servicePrincipalName -ne 0)} -prop * |select name,whencreated,pwdlastset,lastlogon
 ```
 
+对于未安装Active Directory模块的系统，可以通过如下命令导入Active Directory模块：
+
+```
+import-module .\Microsoft.ActiveDirectory.Management.dll
+```
+
+Microsoft.ActiveDirectory.Management.dll在安装powershell模块Active Directory后生成，我已经提取出来并上传至github：
+
+https://github.com/3gstudent/test/blob/master/Microsoft.ActiveDirectory.Management.dll
+
+
 #### (2)使用PowerView
 
 https://github.com/PowerShellMafia/PowerSploit/blob/dev/Recon/PowerView.ps1
