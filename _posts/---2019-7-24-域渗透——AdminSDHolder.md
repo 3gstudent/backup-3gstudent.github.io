@@ -113,6 +113,16 @@ Import-Module ActiveDirectory
 Get-ADObject -LDAPFilter “(&(admincount=1)(|(objectcategory=person)(objectcategory=group)))” |select name
 ```
 
+对于未安装Active Directory模块的系统，可以通过如下命令导入Active Directory模块：
+
+```
+import-module .\Microsoft.ActiveDirectory.Management.dll
+```
+
+Microsoft.ActiveDirectory.Management.dll在安装powershell模块Active Directory后生成，我已经提取出来并上传至github：
+
+https://github.com/3gstudent/test/blob/master/Microsoft.ActiveDirectory.Management.dll
+
 **注：**
 
 该命令会列出受保护的AD账户和组
