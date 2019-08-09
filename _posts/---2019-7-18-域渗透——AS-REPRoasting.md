@@ -179,7 +179,7 @@ hashcat -m 18200 '$krb5asrep$23$testb@test.com:a128092441a3af80015554db2f3fe44e$
 ## 0x04 防御建议
 ---
 
-1.确保域名不存在开启"Do not require Kerberos preauthentication"的用户
+1.确保域内不存在开启"Do not require Kerberos preauthentication"的用户
 
 扫描方法(使用PowerView)：
 
