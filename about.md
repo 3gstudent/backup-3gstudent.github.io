@@ -65,7 +65,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(179/182)
+### Recent Posts(179/183)
 
 - 
  [An interesting way of bypassing Windows Attachment Manager](https://3gstudent.github.io/3gstudent.github.io/An-interesting-way-of-bypassing-Windows-Attachment-Manager/)
@@ -243,6 +243,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 - 
  [War3地图“漏洞”分析介绍](https://3gstudent.github.io/3gstudent.github.io/War3%E5%9C%B0%E5%9B%BE-%E6%BC%8F%E6%B4%9E-%E5%88%86%E6%9E%90%E4%BB%8B%E7%BB%8D/)
+ 
+- 
+ Webmin<=1.920-Unauthenticated_RCE(CVE-2019-15107)利用测试
  
 - 
  [Windows Lnk远程代码执行漏洞(CVE-2017-8464)利用测试](https://3gstudent.github.io/3gstudent.github.io/Windows-Lnk%E8%BF%9C%E7%A8%8B%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E6%BC%8F%E6%B4%9E(CVE-2017-8464)%E5%88%A9%E7%94%A8%E6%B5%8B%E8%AF%95/)
