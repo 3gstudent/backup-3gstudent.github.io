@@ -113,7 +113,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [Exchange Web Service(EWS)开发指南](https://3gstudent.github.io/3gstudent.github.io/Exchange-Web-Service(EWS)%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97/)
  
 - 
- GookitBankingTrojan中的后门利用分析
+ [GookitBankingTrojan中的后门利用分析](https://3gstudent.github.io/3gstudent.github.io/GookitBankingTrojan%E4%B8%AD%E7%9A%84%E5%90%8E%E9%97%A8%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90/)
  
 - 
  [Hidden Alternative Data Streams的进阶利用技巧](https://3gstudent.github.io/3gstudent.github.io/Hidden-Alternative-Data-Streams%E7%9A%84%E8%BF%9B%E9%98%B6%E5%88%A9%E7%94%A8%E6%8A%80%E5%B7%A7/)
@@ -128,7 +128,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [Linux下的密码Hash——加密方式与破解方法的技术整理](https://3gstudent.github.io/3gstudent.github.io/Linux%E4%B8%8B%E7%9A%84%E5%AF%86%E7%A0%81Hash-%E5%8A%A0%E5%AF%86%E6%96%B9%E5%BC%8F%E4%B8%8E%E7%A0%B4%E8%A7%A3%E6%96%B9%E6%B3%95%E7%9A%84%E6%8A%80%E6%9C%AF%E6%95%B4%E7%90%86/)
  
 - 
- 《MiniDumpWriteDump via COM+ Services DLL》的利用测试
+ [《MiniDumpWriteDump via COM+ Services DLL》的利用测试](https://3gstudent.github.io/3gstudent.github.io/MiniDumpWriteDump-via-COM+-Services-DLL-%E7%9A%84%E5%88%A9%E7%94%A8%E6%B5%8B%E8%AF%95/)
  
 -  
  [Netsh persistence](https://3gstudent.github.io/3gstudent.github.io/Netsh-persistence/)
