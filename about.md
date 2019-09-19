@@ -65,7 +65,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(183/185)
+### Recent Posts(185/186)
 
 - 
  [An interesting way of bypassing Windows Attachment Manager](https://3gstudent.github.io/3gstudent.github.io/An-interesting-way-of-bypassing-Windows-Attachment-Manager/)
@@ -159,6 +159,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  
 - 
  [Process Doppelganging利用介绍](https://3gstudent.github.io/3gstudent.github.io/Process-Doppelganging%E5%88%A9%E7%94%A8%E4%BB%8B%E7%BB%8D/)
+ 
+- 
+ SharpSniper利用分析
  
 - 
  [Shellcode生成工具Donut测试分析](https://3gstudent.github.io/3gstudent.github.io/Shellcode%E7%94%9F%E6%88%90%E5%B7%A5%E5%85%B7Donut%E6%B5%8B%E8%AF%95%E5%88%86%E6%9E%90/)
