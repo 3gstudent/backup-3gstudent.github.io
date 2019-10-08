@@ -65,7 +65,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(185/187)
+### Recent Posts(185/188)
 
 - 
  [An interesting way of bypassing Windows Attachment Manager](https://3gstudent.github.io/3gstudent.github.io/An-interesting-way-of-bypassing-Windows-Attachment-Manager/)
@@ -408,6 +408,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  
 - 
  [渗透测试中的Volume Shadow Copy](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B8%AD%E7%9A%84Volume-Shadow-Copy/) 
+ 
+- 
+ 渗透基础——从Exchange服务器上搜索和导出邮件
  
 - 
  [渗透基础——端口转发与代理](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E5%9F%BA%E7%A1%80-%E7%AB%AF%E5%8F%A3%E8%BD%AC%E5%8F%91%E4%B8%8E%E4%BB%A3%E7%90%86/)
