@@ -367,9 +367,9 @@ Donut能够将.NET程序集转换为shellcode
 
 Donut的利用思路：
 
-1.将.NET程序集转换为shellcode，例如配合SILENTTRINITY使用
-2.作为模块集成到其他工具中
-3.扩展功能：支持类似meterpreter的migrate功能
+1. 将.NET程序集转换为shellcode，例如配合SILENTTRINITY使用
+2. 作为模块集成到其他工具中
+3. 扩展功能：支持类似meterpreter的migrate功能
 
 为了更为隐蔽，可以先使用ProcessManager列举已经加载CLR的进程，对其进行注入
 
