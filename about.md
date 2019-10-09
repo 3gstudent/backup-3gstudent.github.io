@@ -626,7 +626,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [域渗透——利用SYSVOL还原组策略中保存的密码](https://3gstudent.github.io/3gstudent.github.io/%E5%9F%9F%E6%B8%97%E9%80%8F-%E5%88%A9%E7%94%A8SYSVOL%E8%BF%98%E5%8E%9F%E7%BB%84%E7%AD%96%E7%95%A5%E4%B8%AD%E4%BF%9D%E5%AD%98%E7%9A%84%E5%AF%86%E7%A0%81/)
 
 - 
- 域渗透——使用Exchange服务器中特定的ACL实现域提权
+ [域渗透——使用Exchange服务器中特定的ACL实现域提权](https://3gstudent.github.io/3gstudent.github.io/%E5%9F%9F%E6%B8%97%E9%80%8F-%E4%BD%BF%E7%94%A8Exchange%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%AD%E7%89%B9%E5%AE%9A%E7%9A%84ACL%E5%AE%9E%E7%8E%B0%E5%9F%9F%E6%8F%90%E6%9D%83/)
 
 - 
  [32位程序对64位进程的远程注入实现](https://3gstudent.github.io/3gstudent.github.io/32%E4%BD%8D%E7%A8%8B%E5%BA%8F%E5%AF%B964%E4%BD%8D%E8%BF%9B%E7%A8%8B%E7%9A%84%E8%BF%9C%E7%A8%8B%E6%B3%A8%E5%85%A5%E5%AE%9E%E7%8E%B0/)
