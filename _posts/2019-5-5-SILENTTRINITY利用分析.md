@@ -35,7 +35,6 @@ https://github.com/byt3bl33d3r/SILENTTRINITY
 ```
 git clone https://github.com/byt3bl33d3r/SILENTTRINITY.git
 cd SILENTTRINITY
-cd Server
 python3 -m pip install -r requirements.txt
 python3 st.py
 ```
