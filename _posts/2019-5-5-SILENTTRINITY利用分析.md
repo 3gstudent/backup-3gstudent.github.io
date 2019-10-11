@@ -39,6 +39,7 @@ python3 -m pip install -r requirements.txt
 python3 st.py
 ```
 
+~~
 ### 2、开启监听
 
 ```
@@ -47,6 +48,8 @@ use http
 options
 start
 ```
+~~
+
 
 ### 3、生成payload
 
