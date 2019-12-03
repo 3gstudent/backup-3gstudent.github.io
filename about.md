@@ -65,7 +65,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(193/195)
+### Recent Posts(193/196)
 
 - 
  [An interesting way of bypassing Windows Attachment Manager](https://3gstudent.github.io/3gstudent.github.io/An-interesting-way-of-bypassing-Windows-Attachment-Manager/)
@@ -99,6 +99,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  
 - 
  [CIA Vault7 RDB中的Windows后门利用方法分析](https://3gstudent.github.io/3gstudent.github.io/CIA-Vault7-RDB%E4%B8%AD%E7%9A%84Windows%E5%90%8E%E9%97%A8%E5%88%A9%E7%94%A8%E6%96%B9%E6%B3%95%E5%88%86%E6%9E%90/)
+ 
+- 
+ Cobalt Strike的blockdlls利用分析
  
 - 
  [Covenant利用分析](https://3gstudent.github.io/3gstudent.github.io/Covenant%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90/)
