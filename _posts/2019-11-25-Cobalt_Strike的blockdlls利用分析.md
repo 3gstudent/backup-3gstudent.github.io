@@ -207,8 +207,8 @@ https://github.com/3gstudent/Homework-of-C-Language/blob/master/SetProcessMitiga
 
 无法使用`NtSetInformationProcess()`修改远程进程的安全策略，报错提示`c000000d(STATUS_ILLEGAL_INSTRUCTION)`
 
-无法通过[Authenticode签名伪造——PE文件的签名伪造与签名验证劫持](https://3gstudent.github.io/3gstudent.github.io/Authenticode%E7%AD%BE%E5%90%8D%E4%BC%AA%E9%80%A0-PE%E6%96%87%E4%BB%B6%E7%9A%84%E7%AD%BE%E5%90%8D%E4%BC%AA%E9%80%A0%E4%B8%8E%E7%AD%BE%E5%90%8D%E9%AA%8C%E8%AF%81%E5%8A%AB%E6%8C%81/)
-和[Catalog签名伪造——Long UNC文件名欺骗](https://3gstudent.github.io/3gstudent.github.io/Catalog%E7%AD%BE%E5%90%8D%E4%BC%AA%E9%80%A0-Long-UNC%E6%96%87%E4%BB%B6%E5%90%8D%E6%AC%BA%E9%AA%97/)绕过blockdlls的保护
+无法通过[《Authenticode签名伪造——PE文件的签名伪造与签名验证劫持》](https://3gstudent.github.io/3gstudent.github.io/Authenticode%E7%AD%BE%E5%90%8D%E4%BC%AA%E9%80%A0-PE%E6%96%87%E4%BB%B6%E7%9A%84%E7%AD%BE%E5%90%8D%E4%BC%AA%E9%80%A0%E4%B8%8E%E7%AD%BE%E5%90%8D%E9%AA%8C%E8%AF%81%E5%8A%AB%E6%8C%81/)
+和[《Catalog签名伪造——Long UNC文件名欺骗》](https://3gstudent.github.io/3gstudent.github.io/Catalog%E7%AD%BE%E5%90%8D%E4%BC%AA%E9%80%A0-Long-UNC%E6%96%87%E4%BB%B6%E5%90%8D%E6%AC%BA%E9%AA%97/)绕过blockdlls的保护
 
 ## 0x06 小结
 ---
