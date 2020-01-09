@@ -71,11 +71,11 @@ https://sourceforge.net/projects/pywin32/files/pywin32/Build%20221/pywin32-221.w
 
 在shadowbroker-master\windows\下创建个listeningposts文件夹
 
-或者修改fb.py,修改好的文件可在如下链接下载：
+或者修改fb.py，修改好的文件可在如下链接下载：
 
 https://raw.githubusercontent.com/3gstudent/test/master/fb.py
 
-再次执行fb.py,成功
+再次执行fb.py，成功
 
 如图
 
