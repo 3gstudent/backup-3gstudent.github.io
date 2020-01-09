@@ -89,10 +89,12 @@ https://raw.githubusercontent.com/3gstudent/test/master/fb.py
 
 ### 4. 设置启动参数如下：
 
+```
 [?] Default Target IP Address [] : 
 [?] Default Callback IP Address [] : 
 [?] Use Redirection [yes] : 
 [?] Base Log directory [D:\logs] :
+```
 
 进入fb的shell后输入use，可获得支持的插件目录：
 
