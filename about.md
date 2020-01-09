@@ -65,7 +65,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(198/201)
+### Recent Posts(199/202)
 
 - 
  [An interesting way of bypassing Windows Attachment Manager](https://3gstudent.github.io/3gstudent.github.io/An-interesting-way-of-bypassing-Windows-Attachment-Manager/)
@@ -171,6 +171,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  
 - 
  [Process Doppelganging利用介绍](https://3gstudent.github.io/3gstudent.github.io/Process-Doppelganging%E5%88%A9%E7%94%A8%E4%BB%8B%E7%BB%8D/)
+ 
+- 
+ ProcessHider利用分析
  
 - 
  [SharpGen利用分析](https://3gstudent.github.io/3gstudent.github.io/SharpGen%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90/)
@@ -455,7 +458,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [渗透基础——选择一个合适的C2域名](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E5%9F%BA%E7%A1%80-%E9%80%89%E6%8B%A9%E4%B8%80%E4%B8%AA%E5%90%88%E9%80%82%E7%9A%84C2%E5%9F%9F%E5%90%8D/)
  
 - 
- 渗透基础——域内用户口令策略的获取
+ [渗透基础——域内用户口令策略的获取](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E5%9F%BA%E7%A1%80-%E5%9F%9F%E5%86%85%E7%94%A8%E6%88%B7%E5%8F%A3%E4%BB%A4%E7%AD%96%E7%95%A5%E7%9A%84%E8%8E%B7%E5%8F%96/)
  
 - 
  [渗透技巧——PPTP口令的获取与爆破](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-PPTP%E5%8F%A3%E4%BB%A4%E7%9A%84%E8%8E%B7%E5%8F%96%E4%B8%8E%E7%88%86%E7%A0%B4/) 
