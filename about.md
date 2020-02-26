@@ -65,7 +65,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(202/206)
+### Recent Posts(202/207)
 
 - 
  [An interesting way of bypassing Windows Attachment Manager](https://3gstudent.github.io/3gstudent.github.io/An-interesting-way-of-bypassing-Windows-Attachment-Manager/)
@@ -621,6 +621,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  
 - 
  [通过COM组件IARPUninstallStringLauncher绕过UAC](https://3gstudent.github.io/3gstudent.github.io/%E9%80%9A%E8%BF%87COM%E7%BB%84%E4%BB%B6IARPUninstallStringLauncher%E7%BB%95%E8%BF%87UAC/)
+ 
+- 
+ 通过Mono(跨平台.NET运行环境)执行shellcode
  
 - 
  通过Network Security Services导出Firefox浏览器中保存的密码
