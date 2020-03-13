@@ -7,7 +7,7 @@ title: 渗透技巧——通过Kerberos pre-auth进行用户枚举和口令爆�
 ## 0x00 前言
 ---
 
-在之前的文章《渗透基础——通过LDAP协议暴力破解域用户的口令》介绍了通过LDAP协议暴力破解域用户口令的方法，最大的特点是会产生日志(4625 - An account failed to log on)
+在之前的文章[《渗透基础——通过LDAP协议暴力破解域用户的口令》](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E5%9F%BA%E7%A1%80-%E9%80%9A%E8%BF%87LDAP%E5%8D%8F%E8%AE%AE%E6%9A%B4%E5%8A%9B%E7%A0%B4%E8%A7%A3%E5%9F%9F%E7%94%A8%E6%88%B7%E7%9A%84%E5%8F%A3%E4%BB%A4/)介绍了通过LDAP协议暴力破解域用户口令的方法，最大的特点是会产生日志(4625 - An account failed to log on)
 
 而使用[kerbrute](https://github.com/ropnop/kerbrute)通过Kerberos pre-auth进行暴力破解时不会产生日志(4625 - An account failed to log on)，于是我对[kerbrute](https://github.com/ropnop/kerbrute)做了进一步的研究，使用python实现了相同的功能，并且添加支持TCP协议和NTLM hash的验证。本文将要记录自己的研究过程和学习心得。
 
