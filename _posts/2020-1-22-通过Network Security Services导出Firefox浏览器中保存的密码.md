@@ -7,7 +7,7 @@ title: 通过Network Security Services导出Firefox浏览器中保存的密码
 ## 0x00 前言
 ---
 
-在上一篇文章《渗透技巧——导出Firefox浏览器中保存的密码》介绍了导出Firefox浏览器密码的常用方法，其中[firefox_decrypt.py](https://github.com/unode/firefox_decrypt)使用NSS(Network Security Services)进行解密，支持key3.db和key4.db的Master Password解密。本文将要对其涉及的原理进行介绍，编写测试代码，实现对Master Password的验证，分享脚本编写的细节
+在上一篇文章[《渗透技巧——导出Firefox浏览器中保存的密码》](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E5%AF%BC%E5%87%BAFirefox%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%AD%E4%BF%9D%E5%AD%98%E7%9A%84%E5%AF%86%E7%A0%81/)介绍了导出Firefox浏览器密码的常用方法，其中[firefox_decrypt.py](https://github.com/unode/firefox_decrypt)使用NSS(Network Security Services)进行解密，支持key3.db和key4.db的Master Password解密。本文将要对其涉及的原理进行介绍，编写测试代码，实现对Master Password的验证，分享脚本编写的细节
 
 ## 0x01 简介
 ---
