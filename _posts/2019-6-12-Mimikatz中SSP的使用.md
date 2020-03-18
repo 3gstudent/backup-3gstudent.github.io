@@ -239,6 +239,14 @@ https://gist.github.com/xpn/c7f6d15bf15750eae3ec349e7ec2380e
 
 添加成功
 
+注：
+
+XPN开源的代码如果编译成`在静态库中使用MFC`，需要添加如下代码：`#pragma comment(lib, "Rpcrt4.lib")`
+
+如果不再修改XPN开源的代码，调用的dll需要使用绝对路径(我截图中的代码做了修改，所以支持相对路径)
+
+返回`Error code 0x6c6 returned, which is expected if DLL load returns FALSE`代表dll加载成功
+
 这是一个很棒的方法，有以下优点：
 
 - 不需要写注册表
