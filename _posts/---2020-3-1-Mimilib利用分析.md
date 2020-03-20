@@ -163,7 +163,7 @@ EXPORTS
 对应的cmd命令如下：
 
 ```
-reg add HKLM\SYSTEM\CurrentControlSet\services\DNS\Parameters\、 /v ServerLevelPluginDll /t REG_SZ /d "mimilib.dll" /f
+reg add HKLM\SYSTEM\CurrentControlSet\services\DNS\Parameters /v ServerLevelPluginDll /t REG_SZ /d "mimilib.dll" /f
 ```
 
 重新启动系统
