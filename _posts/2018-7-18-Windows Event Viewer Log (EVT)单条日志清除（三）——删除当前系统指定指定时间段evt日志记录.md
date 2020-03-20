@@ -132,7 +132,7 @@ https://github.com/3gstudent/Homework-of-C-Language/blob/master/CreateRemoteThre
 
 这里给出一个完整的实现代码：
 
-https://github.com/3gstudent/Eventlogedit-evt--General/blob/master/evtDeleteRecordbyGetHandle.cpp
+`https://github.com/3gstudent/Eventlogedit-evt--General/blob/master/evtDeleteRecordbyGetHandle.cpp`
 
 代码实现了删除指定evt文件中，某一时间段的多条日志，并且生成调试文件sys2.evt和sys3.evt
 
@@ -205,13 +205,13 @@ GetNumberOfEventLogRecords.exe system
 
 日志查询的代码如下：
 
-https://github.com/3gstudent/Eventlogedit-evt--General/blob/master/evtQueryRecordbyGetHandle.cpp
+`https://github.com/3gstudent/Eventlogedit-evt--General/blob/master/evtQueryRecordbyGetHandle.cpp`
 
 代码实现了遍历日志，显示每个日志的信息
 
 日志修改的代码如下：
 
-https://github.com/3gstudent/Eventlogedit-evt--General/blob/master/evtModifyRecordbyGetHandle.cpp
+`https://github.com/3gstudent/Eventlogedit-evt--General/blob/master/evtModifyRecordbyGetHandle.cpp`
 
 代码实现了修改指定日志的信息
 
