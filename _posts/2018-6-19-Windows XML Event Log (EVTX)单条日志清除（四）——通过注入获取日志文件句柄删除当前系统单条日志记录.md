@@ -152,7 +152,7 @@ https://github.com/3gstudent/Homework-of-C-Language/blob/master/OpenFileMapping.
 
 删除的关键代码如下：
 
-https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/DeleteRecordofFile.cpp
+`https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/DeleteRecordofFile.cpp`
 
 代码实现了删除文件`c:\test\Setup.evtx`中的一条日志(EventRecordID=14)，新文件保存为`c:\test\SetupNew.evtx`
 
@@ -165,7 +165,7 @@ https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/DeleteReco
 
 代码地址：
 
-https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/Loader-rewriting.cpp
+`https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/Loader-rewriting.cpp`
 
 流程如下：
 
@@ -180,7 +180,7 @@ https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/Loader-rew
 
 代码地址：
 
-https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/Dll-rewriting.cpp
+`https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/Dll-rewriting.cpp`
 
 流程如下：
 
@@ -203,7 +203,7 @@ https://github.com/360-A-Team/EventCleaner/blob/master/EventCleaner/EventCleaner
 
 我按照这个思路写的代码：
 
-https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/DeleteRecordofFileEx.cpp
+`https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/DeleteRecordofFileEx.cpp`
 
 代码实现了调用Windows API EvtExportLog对日志文件进行筛选，去除指定日志后，将剩下的日志内容保存为新文件temp.evtx
 
@@ -217,7 +217,7 @@ https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/DeleteReco
 
 代码地址：
 
-https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/DeleteRecord-EvtExportLog.cpp
+`https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/DeleteRecord-EvtExportLog.cpp`
 
 流程如下：
 
@@ -228,7 +228,7 @@ https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/DeleteReco
 
 代码地址：
 
-https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/Loader-EvtExportLog.cpp
+`https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/Loader-EvtExportLog.cpp`
 
 流程如下：
 
@@ -243,7 +243,7 @@ https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/Loader-Evt
 
 代码地址：
 
-https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/Dll-EvtExportLog.cpp
+`https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/Dll-EvtExportLog.cpp`
 
 流程如下：
 
