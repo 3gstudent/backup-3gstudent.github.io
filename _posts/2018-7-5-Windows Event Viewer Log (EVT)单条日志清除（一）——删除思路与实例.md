@@ -165,7 +165,7 @@ https://github.com/libyal/libevt/blob/master/documentation/Windows%20Event%20Log
 
 sys1.evt已上传，下载地址：
 
-https://github.com/3gstudent/Eventlogedit-evt--General/blob/master/sys1.evt
+`https://github.com/3gstudent/Eventlogedit-evt--General/blob/master/sys1.evt`
 
 在eventvwr中打开该日志，Log Type选择`System`,成功打开
 
@@ -244,7 +244,7 @@ https://github.com/3gstudent/Eventlogedit-evt--General/blob/master/sys1.evt
 
 下载地址：
 
-https://github.com/3gstudent/Eventlogedit-evt--General/blob/master/sys2.evt
+`https://github.com/3gstudent/Eventlogedit-evt--General/blob/master/sys2.evt`
 
 成功删除第5条日志
 
