@@ -193,7 +193,7 @@ https://github.com/3gstudent/Homework-of-C-Language/blob/master/DeleteRecordbyTe
 
 可供参考的代码：
 
-https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/Loader-EvtExportLog.cpp
+`https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/Loader-EvtExportLog.cpp`
 
 #### (2)Dll
 
@@ -205,7 +205,7 @@ https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/Loader-Evt
 
 可供参考的代码：
 
-https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/Dll-EvtExportLog.cpp
+`https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/Dll-EvtExportLog.cpp`
 
 ### 3、通过DuplicateHandle
 
@@ -222,7 +222,7 @@ https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/Dll-EvtExp
 
 可供参考的代码：
 
-https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/DeleteRecordbyGetHandleEx.cpp
+`https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/DeleteRecordbyGetHandleEx.cpp`
 
 
 ## 0x05 完整实现流程
@@ -232,7 +232,7 @@ https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/DeleteReco
 
 可供参考的代码：
 
-https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/SuspendorResumeTid.cpp
+`https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/SuspendorResumeTid.cpp`
 
 代码支持三种操作，分别为suspend、resume和kill
 
@@ -256,7 +256,7 @@ https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/SuspendorR
 
 可供参考的代码：
 
-https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/DeleteRecordofFile.cpp
+`https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/DeleteRecordofFile.cpp`
 
 优点是不留痕迹
 
@@ -272,7 +272,7 @@ https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/DeleteReco
 
 可选择在日志重启后立即挂起线程，避免日志被记录，可供参考的代码：
 
-https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/SuspendorResumeTidEx.cpp
+`https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/SuspendorResumeTidEx.cpp`
 
 当日志进程不存在时，程序会一直等待
 
@@ -306,7 +306,7 @@ https://www.mdsec.co.uk/2018/06/exploring-powershell-amsi-and-logging-evasion/
 
 可供参考的代码：
 
-https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/SuspendorResumeTid.cpp
+`https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/SuspendorResumeTid.cpp`
 
 
 ## 0x06 防御建议
