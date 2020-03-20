@@ -228,7 +228,7 @@ https://github.com/fox-it/danderspritz-evtx
 
 下载地址：
 
-https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/System.evtx
+`https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/System.evtx`
 
 文件包含4条日志，下面演示如何删除第4条日志
 
@@ -365,7 +365,7 @@ Checksum为ElfChuk中0-120和128-512这些内容的CRC32校验和，结果为0x3
 
 下载地址：
 
-https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/System2.evtx
+`https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/System2.evtx`
 
 **注：**
 
