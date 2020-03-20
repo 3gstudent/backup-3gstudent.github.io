@@ -222,11 +222,11 @@ event records和end of file record的Last (newest) record number作减法，减�
 
 完整代码已开源，下载地址：
 
-https://github.com/3gstudent/Eventlogedit-evt--General/blob/master/evtDeleteRecordofFile.cpp
+`https://github.com/3gstudent/Eventlogedit-evt--General/blob/master/evtDeleteRecordofFile.cpp`
 
 sys1.evt下载地址：
 
-https://github.com/3gstudent/Eventlogedit-evt--General/blob/master/sys1.evt
+`https://github.com/3gstudent/Eventlogedit-evt--General/blob/master/sys1.evt`
 
 程序读取文件sys1.evt，删除指定时间`2018-7-16 17:46:17`至`2018-7-16 17:46:40`之间的日志，共4条
 
