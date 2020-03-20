@@ -377,7 +377,7 @@ BOOL CloseFileHandle(LPWSTR buf1, DWORD pid)
 
 代码参考地址：
 
-https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/DeleteRecordbyTerminateProcess.cpp
+`https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/DeleteRecordbyTerminateProcess.cpp`
 
 代码实现了自动获得日志服务的进程，结束进程，释放句柄，修改指定的系统日志文件内容，修改成功后重新启动日志服务
 
@@ -409,7 +409,7 @@ Security.evtx下面有10条日志，EventRecordID为1-10，通过EvtExportLog删
 
 所以，我在我的工程中也加入了利用EvtExportLog删除日志的方法，地址如下：
 
-https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/DeleteRecordbyTerminateProcessEx.cpp
+`https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/DeleteRecordbyTerminateProcessEx.cpp`
 
 代码实现了自动获得日志服务的进程，结束进程，释放句柄，利用EvtExportLog修改指定的系统日志文件内容，修改成功后重新启动日志服务
 
@@ -441,7 +441,7 @@ https://github.com/3gstudent/Windwos-EventLog-Bypass
 
 参考地址：
 
-https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/SuspendorResumeTid.cpp
+`https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/SuspendorResumeTid.cpp`
 
 代码支持挂起、恢复和结束日志服务的线程，可用来关闭和恢复日志记录功能
 
