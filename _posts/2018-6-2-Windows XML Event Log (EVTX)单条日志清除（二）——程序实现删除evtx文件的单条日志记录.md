@@ -233,7 +233,7 @@ https://github.com/libyal/libevtx/blob/master/documentation/Windows%20XML%20Even
 
 其他实现的细节见开源代码，地址如下：
 
-https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/DeleteRecordofFile.cpp
+`https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/DeleteRecordofFile.cpp`
 
 代码实现了读取指定日志文件`c:\\test\\Setup.evtx`，删除单条日志(EventRecordID=14)，并保存为新的日志文件`c:\\test\\SetupNew.evtx`
 
