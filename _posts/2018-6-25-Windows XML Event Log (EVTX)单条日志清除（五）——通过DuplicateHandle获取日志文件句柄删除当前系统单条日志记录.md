@@ -134,7 +134,7 @@ CreateFileMapping(dupHandle, NULL, PAGE_READWRITE, 0, 0, NULL);
 
 地址如下：
 
-https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/DeleteRecordbyGetHandle.cpp
+`https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/DeleteRecordbyGetHandle.cpp`
 
 代码实现了获得指定日志文件的句柄，通过该句柄获得日志文件的操作权限，能够删除指定evtx文件的单条日志
 
@@ -144,7 +144,7 @@ https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/DeleteReco
 
 ### 2、使用WinAPI EvtExportLog，过滤出想要删除的内容
 
-https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/DeleteRecordbyGetHandleEx.cpp
+`https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/DeleteRecordbyGetHandleEx.cpp`
 
 代码实现了读取指定路径下的日志文件内容，用来覆盖系统日志
 
@@ -154,11 +154,11 @@ https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/DeleteReco
 
 通常做法是先将日志线程挂起，使得系统无法继续收集日志，代码地址如下：
 
-https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/SuspendorResumeTid.cpp
+`https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/SuspendorResumeTid.cpp`
 
 接着读取系统日志内容，删除指定日志，将新日志保存，代码如下：
 
-https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/DeleteRecord-EvtExportLog.cpp
+`https://github.com/3gstudent/Eventlogedit-evtx--Evolution/blob/master/DeleteRecord-EvtExportLog.cpp`
 
 最后使用DeleteRecordbyGetHandleEx读取新日志，覆盖系统日志，实现日志删除
 
