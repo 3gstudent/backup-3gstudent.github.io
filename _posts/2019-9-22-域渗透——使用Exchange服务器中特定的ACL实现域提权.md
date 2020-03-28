@@ -110,7 +110,7 @@ https://github.com/3gstudent/test/blob/master/Microsoft.ActiveDirectory.Manageme
 cmd：
 
 ```
-runas /user:test\testa cmd
+echo 123456789 | runas /user:test\testa cmd
 ```
 
 如果在测试过程中，第一次将测试用户testa添加到`Exchange Trusted Subsystem`中，那么用户testa需要重新登录才能继承WriteDACL权限
@@ -269,7 +269,7 @@ net group "Exchange Trusted Subsystem" /domain
 cmd：
 
 ```
-runas /user:test\testb cmd
+echo 123456789 | runas /user:test\testb cmd
 ```
 
 #### 2.将用户testb添加到Exchange Trusted Subsystem
@@ -288,7 +288,7 @@ Add-ADGroupMember -Identity "Exchange Trusted Subsystem" -Members testb
 cmd：
 
 ```
-runas /user:test\testb cmd
+echo 123456789 | runas /user:test\testb cmd
 ```
 
 #### 4.使用mimikatz的DCSync功能导出用户krbtgt的hash
