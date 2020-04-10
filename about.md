@@ -65,7 +65,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(209/211)
+### Recent Posts(209/212)
 
 - 
  [An interesting way of bypassing Windows Attachment Manager](https://3gstudent.github.io/3gstudent.github.io/An-interesting-way-of-bypassing-Windows-Attachment-Manager/)
@@ -591,6 +591,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  
 - 
  [渗透技巧——模拟IE浏览器下载文件](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E6%A8%A1%E6%8B%9FIE%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8B%E8%BD%BD%E6%96%87%E4%BB%B6/)
+ 
+- 
+ 渗透技巧——使用Mimilib从dump文件中导出口令
  
 - 
  [渗透技巧——使用远程桌面协议建立通道](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E4%BD%BF%E7%94%A8%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2%E5%8D%8F%E8%AE%AE%E5%BB%BA%E7%AB%8B%E9%80%9A%E9%81%93/)
