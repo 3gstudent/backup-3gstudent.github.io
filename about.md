@@ -65,7 +65,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(210/213)
+### Recent Posts(210/214)
 
 - 
  [An interesting way of bypassing Windows Attachment Manager](https://3gstudent.github.io/3gstudent.github.io/An-interesting-way-of-bypassing-Windows-Attachment-Manager/)
@@ -177,6 +177,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  
 - 
  [ProcessHider利用分析](https://3gstudent.github.io/3gstudent.github.io/ProcessHider%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90/)
+ 
+- 
+ Pupy利用分析——Windows平台下的功能
  
 - 
  [SharpGen利用分析](https://3gstudent.github.io/3gstudent.github.io/SharpGen%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90/)
