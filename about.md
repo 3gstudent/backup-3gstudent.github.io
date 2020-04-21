@@ -65,7 +65,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(210/214)
+### Recent Posts(211/214)
 
 - 
  [An interesting way of bypassing Windows Attachment Manager](https://3gstudent.github.io/3gstudent.github.io/An-interesting-way-of-bypassing-Windows-Attachment-Manager/)
@@ -677,7 +677,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [域渗透——普通用户权限获得DNS记录](https://3gstudent.github.io/3gstudent.github.io/%E5%9F%9F%E6%B8%97%E9%80%8F-%E6%99%AE%E9%80%9A%E7%94%A8%E6%88%B7%E6%9D%83%E9%99%90%E8%8E%B7%E5%BE%97DNS%E8%AE%B0%E5%BD%95/)
 
 - 
- 域渗透——DNS记录与MachineAccount
+ [域渗透——DNS记录与MachineAccount](https://3gstudent.github.io/3gstudent.github.io/%E5%9F%9F%E6%B8%97%E9%80%8F-DNS%E8%AE%B0%E5%BD%95%E4%B8%8EMachineAccount/)
 
 - 
  [域渗透——Kerberoasting](https://3gstudent.github.io/3gstudent.github.io/%E5%9F%9F%E6%B8%97%E9%80%8F-Kerberoasting/)
