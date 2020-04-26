@@ -158,7 +158,7 @@ mimikatz从lsass进程提取出Master Key后，会自动将Master Key加入系�
 mimikatz:
 
 ```
-dpapi::blob /in test.txt
+dpapi::blob /in:test.txt
 ```
 
 成功获得明文，如下图
