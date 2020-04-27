@@ -115,7 +115,7 @@ return compress_encode_obfs(payload, main=True)
 
 **注：**
 
-Crypto包需要从http://www.voidspace.org.uk/python/modules.shtml#pycrypto处下载
+Crypto包需要从http://www.voidspace.org.uk/python/modules.shtml#pycrypto 处下载
 
 ### 3.pyinst
 
