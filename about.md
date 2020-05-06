@@ -65,7 +65,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(211/214)
+### Recent Posts(211/215)
 
 - 
  [An interesting way of bypassing Windows Attachment Manager](https://3gstudent.github.io/3gstudent.github.io/An-interesting-way-of-bypassing-Windows-Attachment-Manager/)
@@ -162,6 +162,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  
 -  
  [Office Persistence on x64 operating system](https://3gstudent.github.io/3gstudent.github.io/Office-Persistence-on-x64-operating-system/)
+
+-  
+ Outlook MAPI开发指南
 
 - 
  [Password Filter DLL在渗透测试中的应用](https://3gstudent.github.io/3gstudent.github.io/Password-Filter-DLL%E5%9C%A8%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8/)
