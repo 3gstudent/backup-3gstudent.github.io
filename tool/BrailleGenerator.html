@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+<TITLE>Braille Generator</TITLE>
+<META NAME="Reference" CONTENT="http://www.byronknoll.com/braille.html">
+</HEAD>
+<body bgcolor="#FFFFFF" style="font-family:sans-serif">
+
+<script language="JavaScript">
+function displayItem()
+{
+	result.innerHTML="";
+	var k=document.getElementById("searchtext").value;
+	var char_array=k.split("");
+	var part_num=0;
+	if (char_array.length == 0)
+	{
+		result.innerHTML="No text to translate...";
+	}
+	else 
+	{
+		while (part_num < char_array.length)
+		{
+			switch(char_array[part_num]) 
+			{
+				case "+": char_array[part_num] = "space"; break;
+				case " ": char_array[part_num] = "space"; break;
+				case "(": char_array[part_num] = "bracket"; break;
+				case ")": char_array[part_num] = "bracket"; break;
+				case ",": char_array[part_num] = "comma"; break;
+				case "!": char_array[part_num] = "exclamation"; break;
+				case "/": char_array[part_num] = "forward_slash"; break;
+				case "-": char_array[part_num] = "hyphen"; break;
+				case ".": char_array[part_num] = "period"; break;
+				case "?": char_array[part_num] = "question"; break;
+				case ";": char_array[part_num] = "semicolon"; break;
+				case "\"": char_array[part_num] = "quote_open"; break;
+				case "'": char_array[part_num] = "apostrophe"; break;
+				case "Â´": char_array[part_num] = "apostrophe"; break;
+				case "$": char_array[part_num] = "dollar"; break;
+			}
+			part_num+=1;
+		}
+		part_num=0;
+		char_array=k.split("");
+		while (part_num < char_array.length)
+		{
+			if (char_array[part_num] != char_array[part_num].toLowerCase()) 
+			{
+				result.innerHTML+="&#10272;";
+				char_array[part_num] = char_array[part_num].toLowerCase();
+			}
+			switch(char_array[part_num])
+			{
+				case "+": char_array[part_num] = " "; break;
+				case "a": char_array[part_num] = "&#10241;"; break;
+				case "b": char_array[part_num] = "&#10243;"; break;
+				case "c": char_array[part_num] = "&#10249;"; break;
+				case "d": char_array[part_num] = "&#10265;"; break;
+				case "e": char_array[part_num] = "&#10257;"; break;
+				case "f": char_array[part_num] = "&#10251;"; break;
+				case "g": char_array[part_num] = "&#10267;"; break;
+				case "h": char_array[part_num] = "&#10259;"; break;
+				case "i": char_array[part_num] = "&#10250;"; break;
+				case "j": char_array[part_num] = "&#10266;"; break;
+				case "k": char_array[part_num] = "&#10245;"; break;
+				case "l": char_array[part_num] = "&#10247;"; break;
+				case "m": char_array[part_num] = "&#10253;"; break;
+				case "n": char_array[part_num] = "&#10269;"; break;
+				case "o": char_array[part_num] = "&#10261;"; break;
+				case "p": char_array[part_num] = "&#10255;"; break;
+				case "q": char_array[part_num] = "&#10271;"; break;
+				case "r": char_array[part_num] = "&#10263;"; break;
+				case "s": char_array[part_num] = "&#10254;"; break;
+				case "t": char_array[part_num] = "&#10270;"; break;
+				case "u": char_array[part_num] = "&#10277;"; break;
+				case "v": char_array[part_num] = "&#10279;"; break;
+				case "w": char_array[part_num] = "&#10298;"; break;
+				case "x": char_array[part_num] = "&#10285;"; break;
+				case "y": char_array[part_num] = "&#10301;"; break;
+				case "z": char_array[part_num] = "&#10293;"; break;
+				case "1": char_array[part_num] = "&#10300;&#10241;"; break;
+				case "2": char_array[part_num] = "&#10300;&#10243;"; break;
+				case "3": char_array[part_num] = "&#10300;&#10249;"; break;
+				case "4": char_array[part_num] = "&#10300;&#10265;"; break;
+				case "5": char_array[part_num] = "&#10300;&#10257;"; break;
+				case "6": char_array[part_num] = "&#10300;&#10251;"; break;
+				case "7": char_array[part_num] = "&#10300;&#10267;"; break;
+				case "8": char_array[part_num] = "&#10300;&#10259;"; break;
+				case "9": char_array[part_num] = "&#10300;&#10250;"; break;
+				case "0": char_array[part_num] = "&#10300;&#10266;"; break;
+				case "(": char_array[part_num] = "&#10294;"; break;
+				case ")": char_array[part_num] = "&#10294;"; break;
+				case ",": char_array[part_num] = "&#10242;"; break;
+				case "!": char_array[part_num] = "&#10262;"; break;
+				case "/": char_array[part_num] = "&#10252;"; break;
+				case "-": char_array[part_num] = "&#10276;"; break;
+				case ".": char_array[part_num] = "&#10290;"; break;
+				case "?": char_array[part_num] = "&#10278;"; break;
+				case ";": char_array[part_num] = "&#10246;"; break;
+				case "\"": char_array[part_num] = "&#10278;"; break;
+				case "'": char_array[part_num] = "&#10244;"; break;
+				case "Â´": char_array[part_num] = "&#10290;"; break;
+				case "$": char_array[part_num] = "&#10290;"; break;
+			}
+			result.innerHTML+=char_array[part_num];
+			part_num+=1;
+		}
+		result.innerHTML+="<br><br>";
+	}
+//document.write(result.innerHTML)
+}
+</script>
+
+<input id="searchtext" style="width:500px;">
+
+<button type="button" onclick="displayItem()">Translate to Braille Patterns</button>
+<br><br>
+
+<table align="left" width="740" cellpadding="0" cellspacing="0" border="0" style="background-color: #cccccc;font-size:80%">
+<td>
+<div id=result></div>
+</td>
+</table>
+</body>
+</HTML>
