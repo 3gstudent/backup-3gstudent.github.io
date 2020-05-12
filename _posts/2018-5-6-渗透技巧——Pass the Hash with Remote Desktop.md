@@ -203,8 +203,11 @@ http://www.microsoft.com/en-us/download/details.aspx?id=36036
 ## 0x05 小结
 ---
 
-本文对Pass the Hash with Remote Desktop的方法进行了分析，找到了其中的限制条件（**Server需要开启Restricted Admin mode，Client需要支持Restricted Admin mode**），对Restricted Admin mode的关键部分进行了说明
+~~本文对Pass the Hash with Remote Desktop的方法进行了分析，找到了其中的限制条件（**Server需要开启Restricted Admin mode，Client需要支持Restricted Admin mode**），对Restricted Admin mode的关键部分进行了说明~~
 
+本文介绍了特定条件下(Server需要开启Restricted Admin mode，Client需要支持Restricted Admin mode)Pass the Hash with Remote Desktop的方法，对Restricted Admin mode的关键部分进行了说明。
+
+关于Pass the Hash with Remote Desktop的通用方法将在之后的文章进行介绍。
 
 ---
 
