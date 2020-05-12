@@ -512,7 +512,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [渗透技巧——Junction Folders和Library Files的后门利用](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Junction-Folders%E5%92%8CLibrary-Files%E7%9A%84%E5%90%8E%E9%97%A8%E5%88%A9%E7%94%A8/)
  
 - 
- [渗透技巧——Pass the Hash with Remote Desktop](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Pass-the-Hash-with-Remote-Desktop/)
+ [渗透技巧——Pass the Hash with Remote Desktop(Restricted Admin mode)](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Pass-the-Hash-with-Remote-Desktop(Restricted-Admin-mode)/)
  
 - 
  [渗透技巧——RecentFileCache.bcf和Amcache.hve单条记录的清除](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-RecentFileCache.bcf%E5%92%8CAmcache.hve%E5%8D%95%E6%9D%A1%E8%AE%B0%E5%BD%95%E7%9A%84%E6%B8%85%E9%99%A4/)
