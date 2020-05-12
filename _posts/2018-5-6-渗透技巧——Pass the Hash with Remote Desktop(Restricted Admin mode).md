@@ -1,12 +1,14 @@
 ---
 layout: post
-title: 渗透技巧——Pass the Hash with Remote Desktop
+title: 渗透技巧——Pass the Hash with Remote Desktop(Restricted Admin mode)
 ---
 
 ## 0x00 前言
 ---
 
-在渗透测试中，如果获得了某个用户的NTLM hash，我们可以尝试使用Pass the hash的方法对WMI和SMB服务进行登录，那么，Pass the hash能否用于远程桌面呢？这其中有什么限制条件呢？本文将要进行测试并总结。
+在渗透测试中，如果获得了某个用户的NTLM hash，我们可以尝试使用Pass the hash的方法对WMI和SMB服务进行登录，对于远程桌面服务同样可以进行利用。
+
+本文将要介绍开启`Restricted Admin mode`时，使用Pass the hash对远程桌面进行登录的方法
 
 关于Pass the hash的利用可参考之前的文章：
 
@@ -18,8 +20,7 @@ title: 渗透技巧——Pass the Hash with Remote Desktop
 本文将要介绍以下内容：
 
 - Restricted Admin mode介绍
-- Pass the Hash with Remote Desktop的适用条件
-- Pass the Hash with Remote Desktop的实现方法
+- Pass the Hash with Remote Desktop(Restricted Admin mode)的实现方法
 
 
 ## 0x02 Restricted Admin mode简介
@@ -91,18 +92,12 @@ mstsc.exe /restrictedadmin
 
 **注：**
 
-正是这项功能使得Pass the hash的利用有了可能
+Server开启Restricted Admin mode时，Client也需要支持Restricted Admin mode
 
-更进一步，Pass the Hash with Remote Desktop的前提就是系统支持Restricted Admin mode
-
-具体的说，Server需要开启Restricted Admin mode，Client需要支持Restricted Admin mode
-
-**注：**
-
-一些资料提到Pass the Hash with Remote Desktop适用于Windows 8.1和Windows Server 2012 R2，这个结论并不确切，准确的说，Windows 7和Windows Server 2008 R2安装补丁后同样适用
+一些资料提到Pass the Hash with Remote Desktop(Restricted Admin mode)适用于Windows 8.1和Windows Server 2012 R2，这个结论并不确切，准确的说，Windows 7和Windows Server 2008 R2安装补丁后同样适用
 
 
-## 0x03 Pass the Hash with Remote Desktop的实现方法
+## 0x03 Pass the Hash with Remote Desktop(Restricted Admin mode)的实现方法
 ---
 
 测试环境：
@@ -157,7 +152,9 @@ FreeRDP实现了远程桌面协议，支持传入hash
 
 https://github.com/FreeRDP/FreeRDP/wiki/PreBuilds
 
-linux下使用明文远程登录的参数：
+#### 实际测试：
+
+(1)linux下使用明文远程登录的参数：
 
 ```
 xfreerdp /u:administrator /p:test123! /v:192.168.62.136 /cert-ignore
@@ -165,7 +162,7 @@ xfreerdp /u:administrator /p:test123! /v:192.168.62.136 /cert-ignore
 
 测试成功
 
-linux下使用hash远程登录的参数：
+(2)linux下使用hash远程登录的参数：
 
 ```
 xfreerdp /u:administrator /pth:d25ecd13fddbb542d2e16da4f9e0333d /v:192.168.62.136 /cert-ignore
@@ -181,7 +178,7 @@ https://nullsec.us/rdp-sessions-with-xfreerdp-using-pth/
 
 https://twitter.com/egyp7/status/776053410231558148
 
-**补充：**
+#### 解决方法：
 
 包含pth功能的旧版FreeRDP的的下载地址：
 
@@ -202,8 +199,6 @@ http://www.microsoft.com/en-us/download/details.aspx?id=36036
 
 ## 0x05 小结
 ---
-
-~~本文对Pass the Hash with Remote Desktop的方法进行了分析，找到了其中的限制条件（**Server需要开启Restricted Admin mode，Client需要支持Restricted Admin mode**），对Restricted Admin mode的关键部分进行了说明~~
 
 本文介绍了特定条件下(Server需要开启Restricted Admin mode，Client需要支持Restricted Admin mode)Pass the Hash with Remote Desktop的方法，对Restricted Admin mode的关键部分进行了说明。
 
