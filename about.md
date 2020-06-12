@@ -65,7 +65,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(217/222)
+### Recent Posts(218/222)
 
 - 
  [An interesting way of bypassing Windows Attachment Manager](https://3gstudent.github.io/3gstudent.github.io/An-interesting-way-of-bypassing-Windows-Attachment-Manager/)
@@ -494,40 +494,19 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [渗透基础——域内用户口令策略的获取](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E5%9F%BA%E7%A1%80-%E5%9F%9F%E5%86%85%E7%94%A8%E6%88%B7%E5%8F%A3%E4%BB%A4%E7%AD%96%E7%95%A5%E7%9A%84%E8%8E%B7%E5%8F%96/)
  
 - 
- 渗透技巧——Pass the Hash with Exchange Web Service
- 
-- 
- [渗透技巧——PPTP口令的获取与爆破](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-PPTP%E5%8F%A3%E4%BB%A4%E7%9A%84%E8%8E%B7%E5%8F%96%E4%B8%8E%E7%88%86%E7%A0%B4/) 
- 
-- 
- [渗透技巧——Windows command line process auditing的绕过](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Windows-command-line-process-auditing%E7%9A%84%E7%BB%95%E8%BF%87/)
- 
-- 
- [渗透技巧——Windows Token九种权限的利用](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Windows-Token%E4%B9%9D%E7%A7%8D%E6%9D%83%E9%99%90%E7%9A%84%E5%88%A9%E7%94%A8/)
- 
-- 
- [渗透技巧——Windows下NTFS文件的时间属性](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Windows%E4%B8%8BNTFS%E6%96%87%E4%BB%B6%E7%9A%84%E6%97%B6%E9%97%B4%E5%B1%9E%E6%80%A7/)
- 
-- 
- [渗透技巧——Windows下NTFS文件的USN Journal](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Windows%E4%B8%8BNTFS%E6%96%87%E4%BB%B6%E7%9A%84USN-Journal/)
- 
-- 
- [渗透技巧——Windows下的Access Control List](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Windows%E4%B8%8B%E7%9A%84Access-Control-List/)
- 
-- 
- [渗透技巧——Windows下的Remote Registry](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Windows%E4%B8%8B%E7%9A%84Remote-Registry/)
- 
-- 
- [渗透技巧——Windows中net session的利用](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Windows%E4%B8%ADnet-session%E7%9A%84%E5%88%A9%E7%94%A8/)
- 
-- 
  [渗透技巧——Junction Folders和Library Files的后门利用](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Junction-Folders%E5%92%8CLibrary-Files%E7%9A%84%E5%90%8E%E9%97%A8%E5%88%A9%E7%94%A8/)
  
 - 
- 渗透技巧——Pass the Hash with Remote Desktop Protocol 
- 
+ 渗透技巧——Pass the Hash with Exchange Web Service
+  
+- 
+ [渗透技巧——Pass the Hash with Remote Desktop Protocol](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Pass-the-Hash-with-Remote-Desktop-Protocol/)
+
 - 
  [渗透技巧——Pass the Hash with Remote Desktop(Restricted Admin mode)](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Pass-the-Hash-with-Remote-Desktop(Restricted-Admin-mode)/)
+ 
+- 
+ [渗透技巧——PPTP口令的获取与爆破](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-PPTP%E5%8F%A3%E4%BB%A4%E7%9A%84%E8%8E%B7%E5%8F%96%E4%B8%8E%E7%88%86%E7%A0%B4/)  
  
 - 
  [渗透技巧——RecentFileCache.bcf和Amcache.hve单条记录的清除](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-RecentFileCache.bcf%E5%92%8CAmcache.hve%E5%8D%95%E6%9D%A1%E8%AE%B0%E5%BD%95%E7%9A%84%E6%B8%85%E9%99%A4/)
@@ -535,6 +514,12 @@ Github:   [3gstudent](https://github.com/3gstudent)
 - 
  [渗透技巧——Token窃取与利用](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Token%E7%AA%83%E5%8F%96%E4%B8%8E%E5%88%A9%E7%94%A8/)
 
+- 
+ [渗透技巧——Windows command line process auditing的绕过](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Windows-command-line-process-auditing%E7%9A%84%E7%BB%95%E8%BF%87/)
+
+- 
+ [渗透技巧——Windows Token九种权限的利用](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Windows-Token%E4%B9%9D%E7%A7%8D%E6%9D%83%E9%99%90%E7%9A%84%E5%88%A9%E7%94%A8/)
+ 
 - 
  [渗透技巧——Windows平台运行Masscan和Nmap](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Windows%E5%B9%B3%E5%8F%B0%E8%BF%90%E8%A1%8CMasscan%E5%92%8CNmap/)
  
@@ -554,8 +539,20 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [渗透技巧——Windows系统远程桌面的多用户登录](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Windows%E7%B3%BB%E7%BB%9F%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2%E7%9A%84%E5%A4%9A%E7%94%A8%E6%88%B7%E7%99%BB%E5%BD%95/)
  
 - 
- [渗透技巧——Windows下剪贴板的利用](https://3gstudent.github.io/3gstudent.github.io/Windows%E4%B8%8B%E5%89%AA%E8%B4%B4%E6%9D%BF%E7%9A%84%E5%88%A9%E7%94%A8/)
+ [渗透技巧——Windows下NTFS文件的时间属性](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Windows%E4%B8%8BNTFS%E6%96%87%E4%BB%B6%E7%9A%84%E6%97%B6%E9%97%B4%E5%B1%9E%E6%80%A7/)
  
+- 
+ [渗透技巧——Windows下NTFS文件的USN Journal](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Windows%E4%B8%8BNTFS%E6%96%87%E4%BB%B6%E7%9A%84USN-Journal/)
+ 
+- 
+ [渗透技巧——Windows下的Access Control List](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Windows%E4%B8%8B%E7%9A%84Access-Control-List/)
+ 
+- 
+ [渗透技巧——Windows下的Remote Registry](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Windows%E4%B8%8B%E7%9A%84Remote-Registry/) 
+ 
+- 
+ [渗透技巧——Windows下剪贴板的利用](https://3gstudent.github.io/3gstudent.github.io/Windows%E4%B8%8B%E5%89%AA%E8%B4%B4%E6%9D%BF%E7%9A%84%E5%88%A9%E7%94%A8/)
+   
 - 
  [渗透技巧——Windows远程协助的隐蔽执行](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Windows%E8%BF%9C%E7%A8%8B%E5%8D%8F%E5%8A%A9%E7%9A%84%E9%9A%90%E8%94%BD%E6%89%A7%E8%A1%8C/)
  
@@ -564,6 +561,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  
 - 
  [渗透技巧——Windows中Credential Manager的信息获取](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Windows%E4%B8%ADCredential-Manager%E7%9A%84%E4%BF%A1%E6%81%AF%E8%8E%B7%E5%8F%96/)
+ 
+- 
+ [渗透技巧——Windows中net session的利用](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Windows%E4%B8%ADnet-session%E7%9A%84%E5%88%A9%E7%94%A8/)
 
 - 
  [渗透技巧——程序的降权启动](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E7%A8%8B%E5%BA%8F%E7%9A%84%E9%99%8D%E6%9D%83%E5%90%AF%E5%8A%A8/)
