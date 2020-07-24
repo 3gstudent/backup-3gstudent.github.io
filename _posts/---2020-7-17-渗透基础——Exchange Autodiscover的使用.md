@@ -237,11 +237,81 @@ https://interoperability.blob.core.windows.net/files/MS-OXCMAPIHTTP/%5BMS-OXCMAP
 
 [ruler](https://github.com/sensepost/ruler)也支持MAPI OVER HTTP的部分功能，可以作为参考
 
-执行命令的流程：
+### 1.执行命令
+
+流程：
 
 1. connect
 2. execute
 3. disconnect
+
+### 2.通过Offline Address Book (OAB)读取GlobalAddressList
+
+使用[checkAutodiscover.py](https://github.com/3gstudent/Homework-of-Python/blob/master/checkAutodiscover.py)
+
+#### (1)通过Autodiscover获得OABUrl
+
+命令示例：
+
+```
+python checkAutodiscover.py 192.168.1.1 443 plaintext test1@test.com DomainUser123! checkautodiscover
+```
+
+结果如下图
+
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2020-7-17/3-1.png)
+
+获得OABUrl为`https://dc1.test.com/OAB/9e3fa457-ebf1-40e4-b265-21d09a62872b/`
+
+#### (2)访问OABUrl，从中找到Default Global Address对应的lzx文件名
+
+命令示例：
+
+```
+python checkAutodiscover.py 192.168.1.1 443 plaintext test1@test.com DomainUser123! checkoab
+```
+
+结果如下图
+
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2020-7-17/3-2.png)
+
+获得Default Global Address为`4667c322-5c08-4cda-844a-253ff36b4a6a-data-5.lzx`
+
+#### (3)下载lxz文件
+
+命令示例：
+
+```
+python checkAutodiscover.py 192.168.1.1 443 plaintext test1@test.com DomainUser123! downloadlzx
+```
+
+结果如下图
+
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2020-7-17/3-3.png)
+
+#### (4)对lxz文件进行解码
+
+使用工具[oabextract](https://github.com/kyz/libmspack)
+
+下载后需要进行安装
+
+编译好可在Kali下直接使用的版本下载地址：http://x2100.icecube.wisc.edu/downloads/python/python2.6.Linux-x86_64.gcc-4.4.4/bin/oabextract
+
+将lzx文件转换为oab文件的命令示例：
+
+```
+oabextract 4667c322-5c08-4cda-844a-253ff36b4a6a-data-5.lzx gal.oab
+```
+
+提取出GAL的命令示例：
+
+```
+strings gal.oab|grep SMTP
+```
+
+结果如图
+
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2020-7-11/3-2.png)
 
 ## 0x05 小结
 ---
