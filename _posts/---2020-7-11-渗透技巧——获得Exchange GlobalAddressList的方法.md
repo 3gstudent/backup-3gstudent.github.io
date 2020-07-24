@@ -57,13 +57,13 @@ https://docs.microsoft.com/en-us/dotnet/api/microsoft.exchange.webservices.data.
 
 搜索条件为任意两个字母的组合，例如aa、ab、ac....zz，总共搜索26*26=676次，一般情况下能够覆盖所有结果
 
-### 3.通过Outlook客户端使用的协议
+### 3.通过Outlook客户端使用的协议(MAPI OVER HTTP和RPC over HTTP)
 
 登录用户，选择`联系人`->`通讯簿`
 
 Outlook客户端通常使用的协议为RPC、RPC over HTTP(也称作Outlook Anywhere)和MAPI over HTTP
 
-使用[ruler](https://github.com/sensepost/ruler)能够通过MAPI OVER HTTP和RPC OVER HTTP(也称作Outlook Anywhere)读取GlobalAddressList
+使用[ruler](https://github.com/sensepost/ruler)能够通过MAPI OVER HTTP(暂不支持RPC over HTTP)读取GlobalAddressList
 
 **注：**
 
@@ -73,7 +73,95 @@ Exchange2013默认没有启用MAPI OVER HTTP，而是使用的RPC OVER HTTP，�
 
 Exchange2016默认启用MAPI OVER HTTP
 
-### 4.通过LDAP
+通过RPC over HTTP读取GlobalAddressList可使用ptswarm的[Exchanger.py](https://github.com/ptswarm/impacket)
+
+参考资料：
+
+https://swarm.ptsecurity.com/attacking-ms-exchange-web-interfaces/
+
+流程如下：
+
+#### (1)列出AddressList
+
+命令示例：
+
+```
+python exchanger.py 192.168.1.1/test1:DomainUser123!@test.com nspi list-tables
+```
+
+结果如下图
+
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2020-7-11/4-1.png)
+
+从图中可以获得`All Users`对应的guid为`5cb80229-e2b4-4447-b224-dc2c12098835`
+
+#### (2)读取AddressList
+
+命令示例：
+
+```
+python exchanger.py 192.168.1.1/test1:DomainUser123!@test.com nspi dump-tables -guid 5cb80229-e2b4-4447-b224-dc2c12098835
+```
+
+结果如下图
+
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2020-7-11/4-2.png)
+
+### 4.通过Offline Address Book (OAB)
+
+流程如下：
+
+#### (1)读取Autodiscover配置信息
+
+访问的URL：`https://<domain>/autodiscover/autodiscover.xml`
+
+**注：**
+
+需要发送特定的POST包，详情可参考文章《渗透基础——Exchange Autodiscover的使用》
+
+从配置信息中获得OABUrl
+
+#### (2)读取OAB文件列表
+
+访问的URL：`OABUrl/oab.xml`
+
+返回结果中包括多个OAB文件的列表，如下图
+
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2020-7-11/3-1.png)
+
+找到其中`Default Global Address List`对应的lzx文件名称，lzx文件名称为`4667c322-5c08-4cda-844a-253ff36b4a6a-data-5.lzx`
+
+#### (3)下载lzx文件
+
+访问的URL：`OABUrl/xx.lzx`
+
+对应上面的示例，lzx文件的下载地址为：`https://192.168.1.1/OAB/9e3fa457-ebf1-40e4-b265-21d09a62872b/4667c322-5c08-4cda-844a-253ff36b4a6a-data-5.lzx`
+
+#### (4)对lzx文件解码，还原出Default Global Address List
+
+这里需要使用工具[oabextract](https://github.com/kyz/libmspack)
+
+下载后需要进行安装
+
+编译好可在Kali下直接使用的版本下载地址：http://x2100.icecube.wisc.edu/downloads/python/python2.6.Linux-x86_64.gcc-4.4.4/bin/oabextract
+
+将lzx文件转换为oab文件的命令示例：
+
+```
+oabextract 4667c322-5c08-4cda-844a-253ff36b4a6a-data-5.lzx gal.oab
+```
+
+提取出GAL的命令示例：
+
+```
+strings gal.oab|grep SMTP
+```
+
+结果如下图
+
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2020-7-11/3-2.png)
+
+### 5.通过LDAP
 
 需要能够访问域控制器的LDAP服务(389端口)
 
