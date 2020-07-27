@@ -170,7 +170,9 @@ https://docs.microsoft.com/en-us/exchange/client-developer/web-service-reference
 
 ### 2.通过SOAP XML message实现
 
-添加访问权限，使用AddDelegate
+添加访问权限，使用AddDelegate或UpdateFolder
+
+#### 1.AddDelegate
 
 SOAP格式参考：
 
@@ -178,7 +180,7 @@ https://docs.microsoft.com/en-us/exchange/client-developer/web-service-reference
 
 **注：**
 
-支持以下文件夹：
+AddDelegate支持以下文件夹：
 
 - CalendarFolderPermissionLevel
 - TasksFolderPermissionLevel
@@ -186,6 +188,28 @@ https://docs.microsoft.com/en-us/exchange/client-developer/web-service-reference
 - ContactsFolderPermissionLevel
 - NotesFolderPermissionLevel
 - JournalFolderPermissionLevel
+
+**注：**
+
+AddDelegate只能对收件箱进行操作，不支持发件箱
+
+查看用户test1收件箱的访问权限，格式如下：
+
+```
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <t:RequestServerVersion Version="Exchange2013_SP1" />
+  </soap:Header>
+  <soap:Body>
+    <m:GetDelegate IncludePermissions="true">
+      <m:Mailbox>
+        <t:EmailAddress>test1@test.com</t:EmailAddress>
+      </m:Mailbox>
+    </m:GetDelegate>
+  </soap:Body>
+</soap:Envelope>
+```
 
 添加用户test2对用户test1收件箱的完全访问权限，格式如下：
 
@@ -284,6 +308,180 @@ https://docs.microsoft.com/en-us/exchange/client-developer/web-service-reference
 </soap:Envelope>
 ```
 
+#### 2.UpdateFolder
+
+UpdateFolder支持收件箱和发件箱
+
+参考资料：
+
+https://docs.microsoft.com/en-us/exchange/client-developer/exchange-web-services/how-to-set-folder-permissions-for-another-user-by-using-ews-in-exchange
+
+查看用户test1发件箱的访问权限，格式如下：
+
+```
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
+               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
+               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <t:RequestServerVersion Version="Exchange2013_SP1" />
+  </soap:Header>
+  <soap:Body>
+    <m:GetFolder>
+      <m:FolderShape>
+        <t:BaseShape>IdOnly</t:BaseShape>
+        <t:AdditionalProperties>
+          <t:FieldURI FieldURI="folder:PermissionSet"/>
+        </t:AdditionalProperties>
+      </m:FolderShape>
+      <m:FolderIds>
+        <t:DistinguishedFolderId Id="sentitems" />
+      </m:FolderIds>
+    </m:GetFolder>
+  </soap:Body>
+</soap:Envelope>
+```
+
+添加用户test2对用户test1发件箱的完全访问权限，格式如下：
+
+```
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
+               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
+               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <t:RequestServerVersion Version="Exchange2013_SP1" />
+  </soap:Header>
+  <soap:Body>
+    <m:UpdateFolder>
+      <m:FolderChanges>
+        <t:FolderChange>
+          <t:FolderId Id="{id}" ChangeKey="{key}" />
+          <t:Updates>
+            <t:SetFolderField>
+              <t:FieldURI FieldURI="folder:PermissionSet" />
+              <t:Folder>
+                <t:PermissionSet>
+                  <t:Permissions>
+
+                    <t:Permission>
+                      <t:UserId>
+                        <t:DistinguishedUser>Default</t:DistinguishedUser>
+                      </t:UserId>
+                      <t:CanCreateItems>false</t:CanCreateItems>
+                      <t:CanCreateSubFolders>false</t:CanCreateSubFolders>
+                      <t:IsFolderOwner>false</t:IsFolderOwner>
+                      <t:IsFolderVisible>false</t:IsFolderVisible>
+                      <t:IsFolderContact>false</t:IsFolderContact>
+                      <t:EditItems>None</t:EditItems>
+                      <t:DeleteItems>None</t:DeleteItems>
+                      <t:ReadItems>None</t:ReadItems>
+                      <t:PermissionLevel>None</t:PermissionLevel>
+                    </t:Permission>
+
+                    <t:Permission>
+                    <t:UserId>
+                      <t:DistinguishedUser>Anonymous</t:DistinguishedUser>
+                    </t:UserId>
+                    <t:CanCreateItems>false</t:CanCreateItems>
+                    <t:CanCreateSubFolders>false</t:CanCreateSubFolders>
+                    <t:IsFolderOwner>false</t:IsFolderOwner>
+                    <t:IsFolderVisible>false</t:IsFolderVisible>
+                    <t:IsFolderContact>false</t:IsFolderContact>
+                    <t:EditItems>None</t:EditItems>
+                    <t:DeleteItems>None</t:DeleteItems>
+                    <t:ReadItems>None</t:ReadItems>
+                    <t:PermissionLevel>None</t:PermissionLevel>
+                    </t:Permission>
+
+                    <t:Permission>
+                      <t:UserId>
+                        <t:PrimarySmtpAddress>test2@test.com</t:PrimarySmtpAddress>
+                      </t:UserId>
+                      <t:PermissionLevel>Editor</t:PermissionLevel>
+                    </t:Permission>
+
+                  </t:Permissions>
+                </t:PermissionSet>
+              </t:Folder>
+            </t:SetFolderField>
+          </t:Updates>
+        </t:FolderChange>
+      </m:FolderChanges>
+    </m:UpdateFolder>
+  </soap:Body>
+</soap:Envelope>
+```
+
+这里需要注意，UpdateFolder操作会覆盖原有的设置，所以删除操作等价于将权限配置信息还原
+
+移除用户test2对用户test1发件箱的访问权限，格式如下：
+
+```
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+               xmlns:m="http://schemas.microsoft.com/exchange/services/2006/messages" 
+               xmlns:t="http://schemas.microsoft.com/exchange/services/2006/types" 
+               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <t:RequestServerVersion Version="Exchange2013_SP1" />
+  </soap:Header>
+  <soap:Body>
+    <m:UpdateFolder>
+      <m:FolderChanges>
+        <t:FolderChange>
+          <t:FolderId Id="{id}" ChangeKey="{key}" />
+          <t:Updates>
+            <t:SetFolderField>
+              <t:FieldURI FieldURI="folder:PermissionSet" />
+              <t:Folder>
+                <t:PermissionSet>
+                  <t:Permissions>
+
+                    <t:Permission>
+                      <t:UserId>
+                        <t:DistinguishedUser>Default</t:DistinguishedUser>
+                      </t:UserId>
+                      <t:CanCreateItems>false</t:CanCreateItems>
+                      <t:CanCreateSubFolders>false</t:CanCreateSubFolders>
+                      <t:IsFolderOwner>false</t:IsFolderOwner>
+                      <t:IsFolderVisible>false</t:IsFolderVisible>
+                      <t:IsFolderContact>false</t:IsFolderContact>
+                      <t:EditItems>None</t:EditItems>
+                      <t:DeleteItems>None</t:DeleteItems>
+                      <t:ReadItems>None</t:ReadItems>
+                      <t:PermissionLevel>None</t:PermissionLevel>
+                    </t:Permission>
+
+                    <t:Permission>
+                    <t:UserId>
+                      <t:DistinguishedUser>Anonymous</t:DistinguishedUser>
+                    </t:UserId>
+                    <t:CanCreateItems>false</t:CanCreateItems>
+                    <t:CanCreateSubFolders>false</t:CanCreateSubFolders>
+                    <t:IsFolderOwner>false</t:IsFolderOwner>
+                    <t:IsFolderVisible>false</t:IsFolderVisible>
+                    <t:IsFolderContact>false</t:IsFolderContact>
+                    <t:EditItems>None</t:EditItems>
+                    <t:DeleteItems>None</t:DeleteItems>
+                    <t:ReadItems>None</t:ReadItems>
+                    <t:PermissionLevel>None</t:PermissionLevel>
+                    </t:Permission>
+
+                  </t:Permissions>
+                </t:PermissionSet>
+              </t:Folder>
+            </t:SetFolderField>
+          </t:Updates>
+        </t:FolderChange>
+      </m:FolderChanges>
+    </m:UpdateFolder>
+  </soap:Body>
+</soap:Envelope>
+```
+
 **注：**
 
 本文后半部分会介绍完整的实现代码
@@ -355,6 +553,9 @@ Set-Mailbox -Identity "test1" -ForwardingAddress "test2" -DeliverToMailboxAndFor
 - adddelegateofinbox
 - updatedelegateofinbox
 - removedelegateofinbox
+- getdelegateofsentitems
+- updatedelegateofsentitems
+- restoredelegateofsentitems
 - getinboxrules
 - updateinboxrules
 - removeinboxrules
