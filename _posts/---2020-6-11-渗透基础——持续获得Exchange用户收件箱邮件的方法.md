@@ -141,6 +141,10 @@ https://docs.microsoft.com/en-us/exchange/client-developer/web-service-reference
 ## 0x03 添加访问权限持续获得Exchange用户收件箱邮件的方法
 ---
 
+**注：**
+
+支持收件箱，不支持发件箱
+
 ### 1.通过owa添加收件箱的访问权限
 
 需要能够访问Outlook Web Access(OWA)
@@ -188,10 +192,6 @@ AddDelegate支持以下文件夹：
 - ContactsFolderPermissionLevel
 - NotesFolderPermissionLevel
 - JournalFolderPermissionLevel
-
-**注：**
-
-AddDelegate只能对收件箱进行操作，不支持发件箱
 
 查看用户test1收件箱的访问权限，格式如下：
 
@@ -310,13 +310,11 @@ https://docs.microsoft.com/en-us/exchange/client-developer/web-service-reference
 
 #### 2.UpdateFolder
 
-UpdateFolder支持收件箱和发件箱
-
 参考资料：
 
 https://docs.microsoft.com/en-us/exchange/client-developer/exchange-web-services/how-to-set-folder-permissions-for-another-user-by-using-ews-in-exchange
 
-查看用户test1发件箱的访问权限，格式如下：
+查看用户test1收件箱的访问权限，格式如下：
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -336,14 +334,14 @@ https://docs.microsoft.com/en-us/exchange/client-developer/exchange-web-services
         </t:AdditionalProperties>
       </m:FolderShape>
       <m:FolderIds>
-        <t:DistinguishedFolderId Id="sentitems" />
+        <t:DistinguishedFolderId Id="inbox" />
       </m:FolderIds>
     </m:GetFolder>
   </soap:Body>
 </soap:Envelope>
 ```
 
-添加用户test2对用户test1发件箱的完全访问权限，格式如下：
+添加用户test2对用户test1收件箱的完全访问权限，格式如下：
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -417,7 +415,7 @@ https://docs.microsoft.com/en-us/exchange/client-developer/exchange-web-services
 
 这里需要注意，UpdateFolder操作会覆盖原有的设置，所以删除操作等价于将权限配置信息还原
 
-移除用户test2对用户test1发件箱的访问权限，格式如下：
+移除用户test2对用户test1收件箱的访问权限，格式如下：
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
