@@ -267,7 +267,7 @@ XML格式示例：
   </soap:Header>
   <soap:Body>
       <m:FindPeople>
-         <m:IndexedPageItemView BasePoint="Beginning" MaxEntriesReturned="1000" Offset="0"/>
+         <m:IndexedPageItemView BasePoint="Beginning" MaxEntriesReturned="100" Offset="0"/>
          <m:ParentFolderId>
             <t:DistinguishedFolderId Id="directory"/>
          </m:ParentFolderId>
@@ -277,7 +277,7 @@ XML格式示例：
 </soap:Envelope>
 ```
 
-搜索字符串`test`，这里指定最大查询结果数量1000
+搜索字符串`test`，这里指定最大查询结果数量100
 
 为了能够覆盖所有结果，搜索字符串需要遍历26个字母a-z，获得返回结果后进行去重处理
 
