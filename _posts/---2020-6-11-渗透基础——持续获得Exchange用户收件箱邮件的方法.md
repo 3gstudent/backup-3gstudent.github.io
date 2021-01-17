@@ -484,6 +484,43 @@ https://docs.microsoft.com/en-us/exchange/client-developer/exchange-web-services
 
 本文后半部分会介绍完整的实现代码
 
+### 3.通过Powershell实现
+
+需要在Exchange服务器上执行管理邮件的命令
+
+首先需要添加依赖包：:
+
+```
+Add-PSSnapin Microsoft.Exchange.Management.PowerShell.SnapIn;
+```
+
+**注：**
+
+不同Exchange版本对应的管理单元名称不同：
+
+- Exchange 2007: Add-PSSnapin Microsoft.Exchange.Management.PowerShell.Admin;
+- Exchange 2010: Add-PSSnapin Microsoft.Exchange.Management.PowerShell.E2010;
+- Exchange 2013 & 2016: Add-PSSnapin Microsoft.Exchange.Management.PowerShell.SnapIn;
+
+查看用户test2收件箱的访问权限：
+
+```
+Get-MailboxFolderPermission -Identity test2@test.com:\Inbox|fl
+```
+
+添加用户test2对用户test1收件箱的读取权限：
+
+```
+Add-MailboxFolderPermission -Identity test1@test.com:\Inbox -User test2@test.com -AccessRights Owner
+```
+
+移除用户test2对用户test1收件箱的读取权限：
+
+```
+Remove-MailboxFolderPermission -Identity test1@test.com:\Inbox -User test2@test.com -Confirm:$false
+```
+
+
 ## 0x04 添加邮件功能持续获得Exchange用户收件箱邮件的方法
 ---
 
