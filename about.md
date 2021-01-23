@@ -65,7 +65,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(228/234)
+### Recent Posts(228/235)
 
 - 
  [An interesting way of bypassing Windows Attachment Manager](https://3gstudent.github.io/3gstudent.github.io/An-interesting-way-of-bypassing-Windows-Attachment-Manager/)
@@ -489,6 +489,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  
 - 
  [渗透基础——活动目录信息的获取](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E5%9F%BA%E7%A1%80-%E6%B4%BB%E5%8A%A8%E7%9B%AE%E5%BD%95%E4%BF%A1%E6%81%AF%E7%9A%84%E8%8E%B7%E5%8F%96/)
+ 
+- 
+ 渗透基础——活动目录信息的获取2:Bypass AV
  
 - 
  [渗透基础——利用Unicode编码混淆字符串](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E5%9F%BA%E7%A1%80-%E5%88%A9%E7%94%A8Unicode%E7%BC%96%E7%A0%81%E6%B7%B7%E6%B7%86%E5%AD%97%E7%AC%A6%E4%B8%B2/)
