@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 渗透技巧——Windows Token九种权限的利用
+title: 渗透技巧——Windows九种权限的利用
 ---
 
 
