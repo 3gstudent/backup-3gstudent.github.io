@@ -347,7 +347,7 @@ https://github.com/n1nj4sec/pupy/wiki/Get-Started#transport
 
 (2)获得当前权限，模块：getprivs
 
-关于权限的利用方法可以参考之前的文章[《渗透技巧——Windows Token九种权限的利用》](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Windows-Token%E4%B9%9D%E7%A7%8D%E6%9D%83%E9%99%90%E7%9A%84%E5%88%A9%E7%94%A8/)
+关于权限的利用方法可以参考之前的文章[《渗透技巧——Windows九种权限的利用》](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Windows%E4%B9%9D%E7%A7%8D%E6%9D%83%E9%99%90%E7%9A%84%E5%88%A9%E7%94%A8/)
 
 (3)获得当前进程的父进程，模块：getppid
 
