@@ -265,7 +265,7 @@ net use * /del /y
 
 **注：**
 
-之前的文章[《Windows本地提权工具Juicy Potato测试分析》](https://3gstudent.github.io/3gstudent.github.io/Windows%E6%9C%AC%E5%9C%B0%E6%8F%90%E6%9D%83%E5%B7%A5%E5%85%B7Juicy-Potato%E6%B5%8B%E8%AF%95%E5%88%86%E6%9E%90/)和[《渗透技巧——Windows Token九种权限的利用》](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Windows-Token%E4%B9%9D%E7%A7%8D%E6%9D%83%E9%99%90%E7%9A%84%E5%88%A9%E7%94%A8/)提到过这个方法
+之前的文章[《Windows本地提权工具Juicy Potato测试分析》](https://3gstudent.github.io/3gstudent.github.io/Windows%E6%9C%AC%E5%9C%B0%E6%8F%90%E6%9D%83%E5%B7%A5%E5%85%B7Juicy-Potato%E6%B5%8B%E8%AF%95%E5%88%86%E6%9E%90/)和[《渗透技巧——Windows九种权限的利用》](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Windows%E4%B9%9D%E7%A7%8D%E6%9D%83%E9%99%90%E7%9A%84%E5%88%A9%E7%94%A8/)提到过这个方法
 
 ### 2、域内渗透
 
