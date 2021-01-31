@@ -235,7 +235,7 @@ ProcessHacker以System权限执行，利用成功，如下图
 
 此时能够对注册表进行写操作，可以创建对应的注册表项，再利用AlwaysInstallElevated提权
 
-利用SeRestorePrivilege和SeTakeOwnershipPrivilege写注册表可参考之前的文章:[《渗透技巧——Windows Token九种权限的利用》](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Windows-Token%E4%B9%9D%E7%A7%8D%E6%9D%83%E9%99%90%E7%9A%84%E5%88%A9%E7%94%A8/)
+利用SeRestorePrivilege和SeTakeOwnershipPrivilege写注册表可参考之前的文章:[《渗透技巧——Windows九种权限的利用》](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Windows%E4%B9%9D%E7%A7%8D%E6%9D%83%E9%99%90%E7%9A%84%E5%88%A9%E7%94%A8/)
 
 ### 扩展思路2：
 
