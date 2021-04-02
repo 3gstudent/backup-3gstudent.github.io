@@ -337,7 +337,7 @@ https://github.com/3gstudent/Homework-of-C-Sharp/blob/master/SerializeXamlToView
 
 用来实现从Exchange文件读写权限到命令执行
 
-参照https://github.com/zcgonvh/CVE-2020-0688/blob/master/ExchangeCmd.cs的结构，将序列化xaml数据封装在数组中，使用validationkey和generator作为参数，对序列化xaml数据进行签名，组成最终的ViewState内容
+参照 https://github.com/zcgonvh/CVE-2020-0688/blob/master/ExchangeCmd.cs 的结构，将序列化xaml数据封装在数组中，使用validationkey和generator作为参数，对序列化xaml数据进行签名，组成最终的ViewState内容
 
 完整的实现代码已上传至github，地址如下：
 
